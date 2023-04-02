@@ -22,6 +22,8 @@ tail $library -n +3 | sponge $library
 # | sponge $library
 # 	echo "Added last 50 liked titles from spotify"
 
+cat $library | sort -bu | sponge $library
+
 # Re-add the tsv header & vim command
 printf "Artist\tTitle\n# vim: set tabstop=64 :\t.\n%s\n" "$(cat $library)" | sponge $library
 	echo "Added back the header"
