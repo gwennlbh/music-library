@@ -13,16 +13,14 @@ git pull --autostash
 tail $library -n +3 | sponge $library
 	echo "Trimmed header"
 
-# spt list --liked --limit 50 \
-# | sed 's/\s*(spotify:.*)$//' \
-# | sed -E 's/^(.*) - (.*)$/\2\t\1/' \
-# | sed -E 's/"(.*)"/“\1”/g' \
-# | cat - $library \
-# | sort -bu \
-# | sponge $library
-# 	echo "Added last 50 liked titles from spotify"
-
-cat $library | sort -bu | sponge $library
+spt list --liked --limit 50 \
+| sed 's/\s*(spotify:.*)$//' \
+| sed -E 's/^(.*) - (.*)$/\2\t\1/' \
+| sed -E 's/"(.*)"/“\1”/g' \
+| cat - $library \
+| sort -bu \
+| sponge $library
+	echo "Added last 50 liked titles from spotify"
 
 # Re-add the tsv header & vim command
 printf "Artist\tTitle\n# vim: set tabstop=64 :\t.\n%s\n" "$(cat $library)" | sponge $library
