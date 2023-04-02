@@ -1,0 +1,5 @@
+from: https://open.spotify.com/playlist/7MOlUnHE3vYKo6ryzadPlz?si=afafa2da14b84cc6
+name: 日本語
+
+titles:
+  contain: {set: japanese characters}

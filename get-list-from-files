@@ -1,0 +1,3 @@
+#!/usr/bin/fish
+
+ls -1 --color=never | grep '.mp3' | string replace '*' '' | string replace '"' "" | string replace "'" "" | string replace '.mp3' ''

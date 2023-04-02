@@ -1,0 +1,13 @@
+*.mp3
+*.flp
+*.webm
+*.part
+*.wav
+.spotify
+__pycache__
+niceartworks
+.liked_tracks
+.env
+.cache
+backup
+backup.py
