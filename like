@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-artist=$(echo $@ | cut -d/ -f1)
-title=$(echo $@ | cut -d/ -f2)
+DELIMITER=:
+artist=$(echo $@ | awk -F"$DELIMITER" '{print $1}' | sed 's/^\s*\|\s*$//g')
+title=$(echo $@ | awk -F"$DELIMITER" '{print $2}' | sed 's/^\s*\|\s*$//g')
 echo Saving $artist — $title to library...
 echo -e "$artist\t$title" >> $HOME/music/library.tsv
 $HOME/music/backup
