@@ -9,5 +9,4 @@ niceartworks
 .liked_tracks
 .env
 .cache
-backup
 backup.py
