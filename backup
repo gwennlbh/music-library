@@ -1,1 +1,34 @@
-/home/ewen/.dotfiles/music/backup
+#!/bin/bash
+
+realwd=$(pwd)
+cd $HOME/music
+library=$HOME/music/library.tsv
+	echo "Using $library"
+
+git pull --autostash
+	echo "Pulled new changes"
+
+# First, remove tsv header (Artist	Title	etc.) & vim set tabtop= command (first two lines)
+# We do this because sort -u would sort these lines and jumble them up into the rest
+tail $library -n +3 | sponge $library
+	echo "Trimmed header"
+
+# spt list --liked --limit 50 \
+# | sed 's/\s*(spotify:.*)$//' \
+# | sed -E 's/^(.*) - (.*)$/\2\t\1/' \
+# | sed -E 's/"(.*)"/“\1”/g' \
+# | cat - $library \
+# | sort -bu \
+# | sponge $library
+# 	echo "Added last 50 liked titles from spotify"
+
+# Re-add the tsv header & vim command
+printf "Artist\tTitle\n# vim: set tabstop=64 :\t.\n%s\n" "$(cat $library)" | sponge $library
+	echo "Added back the header"
+
+# Back up the scripts (including this one, so meta!!! to penrose)
+rclone copy --progress $HOME/music/ --include '*.py' --include backup --include '*.tsv' --include '**/*.m3u' penrose:music/
+git add .
+git commit -m "update"
+git push
+cd $realwd
