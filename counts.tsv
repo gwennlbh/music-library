@@ -5,8 +5,8 @@
 55	Max Cooper
 52	Rival Consoles
 39	trentemøller
+38	No Mana
 37	Rone
-37	No Mana
 34	C418
 29	Varsity Star
 29	Baths
@@ -42,6 +42,7 @@
 16	Android52
 15	Yunomi
 15	Tom Hodge
+15	Tinlicker
 15	Thom Yorke
 15	the peggies
 15	Stubborn Heart
@@ -49,7 +50,6 @@
 15	Clark
 14	Ólafur Arnalds
 14	Underbelly
-14	Tinlicker
 14	Sungazer
 14	Röyksopp
 14	Luke Abbott
@@ -59,13 +59,13 @@
 13	Worakls
 13	Vessels
 13	Porter Robinson
+13	Plini
 13	Kiasmos
 13	Jasper Tygner
 13	Grandbrothers
 13	Geotic
 13	Ekcle
 12	Synthion
-12	Plini
 12	Moe Shop
 12	Lane 8
 12	DVRST
@@ -163,12 +163,14 @@
  7	Flume
  7	Fine-Sir-1584660650
  7	False Noise
+ 7	EDDIE
  7	Disclosure
  7	Disasterpeace
  7	dark cat
  7	Apparat
  6	Ásgeir
  6	Yppah
+ 6	Wintergatan
  6	Telefon Tel Aviv
  6	Solomun
  6	Senbeï
@@ -186,7 +188,6 @@
  6	Gui Boratto
  6	Golden Vessel
  6	Four Tet
- 6	EDDIE
  6	Cö Shu Nie
  6	Booka Shade
  6	Billie Eilish
@@ -194,7 +195,6 @@
  6	AllttA
  5	キャロル&チューズデイ(Vo.Nai Br.XX&Celeina Ann)
  5	⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ
- 5	Wintergatan
  5	tricot
  5	Tourist
  5	The Micronaut
@@ -307,6 +307,7 @@
  3	Oxia
  3	Oolacile
  3	notsure
+ 3	Notaker
  3	North Sky
  3	Neil Cowley
  3	Murcof
@@ -362,6 +363,7 @@
  3	Bruce Brubaker
  3	Bibio
  3	Bakermat
+ 3	Bad Computer
  3	Autograf
  3	Au5
  3	Arthur Hnatek
@@ -402,6 +404,7 @@
  2	SWIMS
  2	Supernaive
  2	Sunda Arc
+ 2	Strawberry Girls
  2	Stessie
  2	Spencer Brown
  2	Son Lux
@@ -452,7 +455,6 @@
  2	Oliver Schories
  2	Olga Wojciechowska
  2	Nyarons
- 2	Notaker
  2	Noisia
  2	Nocturnal Sunshine
  2	No Spirit
@@ -583,7 +585,6 @@
  2	Bayonne
  2	Barrie
  2	Barclay Crenshaw
- 2	Bad Computer
  2	Baauer
  2	Aṣa
  2	Avishai Cohen
@@ -756,7 +757,6 @@
  1	Su Na
  1	Stupeflip
  1	Stuck Together
- 1	Strawberry Girls
  1	Stimming x Lambert
  1	Stil & Bense
  1	Steve Reich
@@ -793,11 +793,13 @@
  1	SLUMBERJACK
  1	Slowly Rolling Camera
  1	Slippy
+ 1	Sleepy Piano
  1	sleepmakeswaves
  1	Sleepermane
  1	Sleepdealer
  1	SL
  1	Skylar Grey
+ 1	Skyelle
  1	Skrillex
  1	Skope
  1	Skepta
@@ -1038,6 +1040,7 @@
  1	Mount Kimbie
  1	Mount Alaska
  1	MOTSA
+ 1	Motorcycle
  1	Moth Equals
  1	mossy.
  1	Moses Boyd
@@ -1207,6 +1210,7 @@
  1	Kimyan Law
  1	Kilter
  1	Kill The Noise
+ 1	KILL SCRIPT
  1	Kill Paris
  1	kiki vivi lily
  1	Kiiara
@@ -1277,6 +1281,7 @@
  1	Jessica Kion
  1	Jesse Mac Cormack
  1	Jesper Ryom
+ 1	Jerome Isma-Ae
  1	Jenni Potts
  1	Jehnny Beth
  1	Jean-Michel Jarre
@@ -1517,6 +1522,7 @@
  1	DEV
  1	Derek Martin
  1	Der Dritte Raum
+ 1	Deorro
  1	Denzel Curry
  1	Deniz Reno
  1	Delilah Holliday
@@ -1563,6 +1569,7 @@
  1	Cuushe
  1	Cult Of Luna
  1	Croquet Club
+ 1	Crooked Bangs
  1	Crocodile Scissor Cut
  1	Creeds
  1	Craven Faults
@@ -1707,6 +1714,7 @@
  1	Astrid S
  1	ASM
  1	Ashbringer
+ 1	Ash Nova
  1	Arvo Pärt
  1	Artyom Manukyan
  1	ARTY
@@ -1715,6 +1723,7 @@
  1	Arms and Sleepers
  1	Arkasia
  1	Ark Patrol
+ 1	Ariza
  1	Areni Aghbabian
  1	Arden Jones
  1	Arctic Lake
@@ -1764,6 +1773,7 @@
  1	Alex Aris
  1	Alessandro Cortini
  1	Aleksandir
+ 1	Alastor
  1	Akīn
  1	Aktive
  1	Akira Complex
