@@ -18,9 +18,9 @@ spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
 library_file = here / "library.tsv"
 library = [
-    t.replace("/", "⁄").split("\t", 2)
-    for t in library_file.read_text("UTF-8").splitlines()
-]
+        t.replace("/", "⁄").split("\t", 2)
+        for t in library_file.read_text("UTF-8").splitlines()
+        ]
 
 def tag_track(title: str, artists: set[str], file: Path) -> bool:
     """
@@ -49,19 +49,19 @@ def download(track: tuple[str, str]) -> bool:
     if not list(here.glob(f"{hash}*.mp3")):
         try:
             run(
-                [
-                    "yt-dlp",
-                    "-x",
-                    "--audio-format",
-                    "mp3",
-                    "--output",
-                    str(here / f"{hash}%(id)s.mp3"),
-                    f"ytsearch15:{artist} {title}",
-                    "--max-downloads=1",
-                    "--ignore-errors",
-                    "--age-limit=20" # to prevent download errors due to agewall
-                ]
-            )
+                    [
+                        "yt-dlp",
+                        "-x",
+                        "--audio-format",
+                        "mp3",
+                        "--output",
+                        str(here / f"{hash}%(id)s.mp3"),
+                        f"ytsearch15:{artist} {title}",
+                        "--max-downloads=1",
+                        "--ignore-errors",
+                        "--age-limit=20" # to prevent download errors due to agewall
+                        ]
+                    )
         except KeyboardInterrupt:
             print("Download skipped by user, continuing…")
             return 
@@ -71,7 +71,7 @@ def download(track: tuple[str, str]) -> bool:
         youtube_id = file.name.split('.')[0].replace(hash, "")
         try:
             tag_track(artists=artist.split(", "), title=title, file=file)
-            file.rename(here / f"{artist}\t{title.replace('/', '∕')}\t{youtube_id}.mp3")
+            file.rename(here / f"{artist}  {title.replace('/', '∕')}  {youtube_id}.mp3")
         except OSError as e:
             print(f"Couldn't rename file: {e}")
     except IndexError as e:
@@ -90,7 +90,7 @@ def main():
         already_downloaded = False
 
         for file in library_file.parent.iterdir():
-            if file.name.startswith("\t".join(track)):
+            if file.name.startswith(("\t".join(track), (" " * 2).join(track))):
                 already_downloaded = True
                 break
             # if file.name.startswith("⣎⡇ꉺლ"):

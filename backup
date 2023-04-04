@@ -26,9 +26,9 @@ spt list --liked --limit 50 \
 printf "Artist\tTitle\n# vim: set tabstop=64 :\t.\n%s\n" "$(cat $library)" | sponge $library
 	echo "Added back the header"
 
-# Back up the scripts (including this one, so meta!!! to penrose)
-rclone copy --progress $HOME/music/ --include '*.py' --include backup --include '*.tsv' --include '**/*.m3u' penrose:music/
 git add .
 git commit -m "update"
 git push
+# Back up the scripts (including this one, so meta!!! to penrose)
+rclone copy --progress $HOME/music/ --include '*.py' --include backup --include '*.tsv' --include '**/*.m3u' penrose:music/
 cd $realwd
