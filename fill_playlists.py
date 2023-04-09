@@ -40,10 +40,10 @@ class Track:
         self.artists = artists
         self.filepath = filepath
         self.artists = set(
-            self.artists or self.filepath.name.split("\t")[0].split(", ")
+            self.artists or self.filepath.name.split("  ")[0].split(", ")
         )
         self.youtube_source_video_id = (
-            youtube_source_video_id or self.filepath.name.split("\t")[2]
+            youtube_source_video_id or self.filepath.name.split("  ")[2]
         )
 
     @property
@@ -58,7 +58,7 @@ class Track:
 
 def find_file_of_track(library: Iterable[Path], artists: set[str], title: str) -> Path:
     for track in library:
-        t_artists_str, t_title, *_ = track.name.split("\t")
+        t_artists_str, t_title, *_ = track.name.split("  ")
         t_title = t_title.replace('∕', '/')
         t_artists = set(t_artists_str.split(', '))
         if title.strip() == t_title.strip():
@@ -276,7 +276,7 @@ def all_tracks() -> Iterable[Track]:
     for track in here.iterdir():
         if track.suffix != ".mp3":
             continue
-        if len(track.name.split("\t")) != 3:
+        if len(track.name.split("  ")) != 3:
             continue
         yield Track(filepath=track)
 

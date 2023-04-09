@@ -5,7 +5,7 @@ from mutagen.easyid3 import EasyID3
 here = Path(__file__).parent
 library_file = here / "library.tsv"
 library = [
-    t.replace("/", "⁄").split("\t", 2)
+    t.replace("/", "⁄").split("  ", 2)
     for t in library_file.read_text("UTF-8").splitlines()
 ]
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     for artists_str, title in library:
         artists = set(artists_str.split(", "))
         for file in library_file.parent.iterdir():
-            if file.name.startswith(f"{artists_str}\t{title}") and file.name.endswith(".mp3"):
+            if file.name.startswith(f"{artists_str}  {title}") and file.name.endswith(".mp3"):
                 tag_track(title, artists, file)
 
 

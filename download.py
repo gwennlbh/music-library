@@ -90,7 +90,7 @@ def main():
         already_downloaded = False
 
         for file in library_file.parent.iterdir():
-            if file.name.startswith(("\t".join(track), (" " * 2).join(track))):
+            if file.name.startswith((" " * 2).join(track)):
                 already_downloaded = True
                 break
             # if file.name.startswith("⣎⡇ꉺლ"):
@@ -127,7 +127,7 @@ def verify_durations():
     for track in here.iterdir():
         if track.suffix != ".mp3":
             continue
-        if len(parts := track.name.split("\t")) != 3:
+        if len(parts := track.name.split("  ")) != 3:
             continue
         artist, title, video_id = parts
 
