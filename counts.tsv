@@ -26,12 +26,13 @@
 21	Jon Hopkins
 21	Boards of Canada
 20	ヨルシカ
+20	Wednesday
 20	Uppermost
 19	French 79
 19	David Maxim Micic
 19	CharlestheFirst
 19	Aphex Twin
-18	Wednesday
+17	Sublab
 17	Ochre
 17	Daft Punk
 17	cleopatrick
@@ -40,6 +41,7 @@
 16	Tinlicker
 16	Rodriguez Jr.
 16	Jan Blomqvist
+16	Clark
 16	Android52
 15	Yunomi
 15	Tom Hodge
@@ -47,7 +49,6 @@
 15	the peggies
 15	Stubborn Heart
 15	Extrawelt
-15	Clark
 14	Ólafur Arnalds
 14	Underbelly
 14	Sungazer
@@ -60,6 +61,7 @@
 13	Vessels
 13	Porter Robinson
 13	Plini
+13	Nathan Fake
 13	Kiasmos
 13	Jasper Tygner
 13	Grandbrothers
@@ -75,7 +77,6 @@
 12	Beacon
 11	underscores
 11	The Smile
-11	Sublab
 11	Perturbator
 11	Moderat
 11	Mazde
@@ -88,10 +89,10 @@
 11	Cubicolor
 11	Alex Banks
 10	Stimming
+10	Robot Koch
 10	ODESZA
 10	Nils Frahm
 10	Never Get Used To People
-10	Nathan Fake
 10	Massive Attack
 10	Little People
 10	Josh Cohen
@@ -106,7 +107,6 @@
 10	Athletic Progression
  9	美波
  9	Swardy
- 9	Robot Koch
  9	Prague Radio Symphony Orchestra
  9	Non Square
  9	Milkoi
@@ -204,9 +204,11 @@
  5	Soleeman
  5	Sainte
  5	Rita J
+ 5	Point Point
  5	OVERWERK
  5	Ocoeur
  5	Nordic Pulse Ensemble
+ 5	Niklas Paschburg
  5	nicamoq
  5	Mord Fustang
  5	METRO MEW
@@ -240,7 +242,6 @@
  4	Rage Against The Machine
  4	Phuture Doom
  4	Nils Hoffmann
- 4	Niklas Paschburg
  4	Morgan Page
  4	meganeko
  4	LAO Experiment
@@ -304,6 +305,7 @@
  3	Power Glove
  3	Philip Glass
  3	Petit Biscuit
+ 3	Peter Broderick
  3	Oxia
  3	Oolacile
  3	notsure
@@ -390,6 +392,7 @@
  2	Totally Enormous Extinct Dinosaurs
  2	Tom Misch
  2	Tom Ashbrook
+ 2	TOKiMONSTA
  2	Thomas Schumacher
  2	Thomas Barrandon
  2	Theo Young
@@ -403,6 +406,7 @@
  2	Tame Impala
  2	SWIMS
  2	Supernaive
+ 2	Sunny Lax
  2	Sunda Arc
  2	Strawberry Girls
  2	Stessie
@@ -416,10 +420,12 @@
  2	Simon Phillips
  2	Shook
  2	Shlohmo
+ 2	Shingo Nakamura
  2	Seth Hills
  2	Serph
  2	Sebastian Mullaert
  2	Scratch Bandits Crew
+ 2	Savannah Jo Lack
  2	Sarah Rebecca
  2	San Holo
  2	Sabrepulse
@@ -442,10 +448,9 @@
  2	Protostar
  2	Posij
  2	Portico Quartet
- 2	Point Point
  2	Player Dave
  2	Pilotpriest
- 2	Peter Broderick
+ 2	Pedestrian Tactics
  2	Parra for Cuva
  2	Pantha Du Prince
  2	P3PPER
@@ -485,6 +490,7 @@
  2	Laxcity
  2	Lawrence Hart
  2	Laura Brehm
+ 2	Lambert
  2	Lala Lala
  2	Lake Turner
  2	La Fine Equipe
@@ -511,6 +517,7 @@
  2	Infected Mushroom
  2	In Embers
  2	IHF
+ 2	iamalex
  2	Hydelic
  2	Huminal
  2	Hudson Mohawke
@@ -545,6 +552,7 @@
  2	Eli & Fur
  2	Elektrochemie
  2	Electrocado
+ 2	Eekkoo
  2	Eastghost
  2	Eagle Eyed Tiger
  2	Dr. Dre
@@ -619,6 +627,7 @@
  1	Âme
  1	ZUN
  1	ZillaKami
+ 1	ZHU
  1	Zeu
  1	Zenpaku
  1	Zedd
@@ -642,6 +651,7 @@
  1	WRLD
  1	Woven
  1	Wolfgang Gartner
+ 1	Wizard Apprentice
  1	Wisp X
  1	Will Heard
  1	Whysp
@@ -687,6 +697,7 @@
  1	TrOLL3R
  1	Trikk
  1	Trifect
+ 1	ToyTree
  1	Tosin Abasi
  1	tortuganónima
  1	Tor
@@ -696,10 +707,11 @@
  1	Tom Wilson
  1	Tom Doolie
  1	Tom Adams
- 1	TOKiMONSTA
  1	Todd Baker
+ 1	Tisoki
  1	Tiny Leaves
  1	Timo Jahns
+ 1	Tima Dee
  1	Tima
  1	Tilla
  1	Tigerstyle
@@ -750,7 +762,6 @@
  1	Sushi Killer
  1	Susanne Sundfør
  1	Superstructure
- 1	Sunny Lax
  1	Sundial
  1	Sun Glitters
  1	Subtronics
@@ -767,6 +778,7 @@
  1	Stephan Zovsky
  1	Stavroz
  1	Starcadian
+ 1	standards
  1	SPEECHLESS
  1	Spazzkid
  1	Sparkee
@@ -841,7 +853,6 @@
  1	Scampi
  1	Savoi
  1	Save The Kid
- 1	Savannah Jo Lack
  1	sastruga
  1	Sasha
  1	Sarah Palu
@@ -927,6 +938,7 @@
  1	POLKADOT STINGRAY
  1	Pointy Features
  1	Pitch 92
+ 1	Pipa Moran
  1	Pigeon John
  1	Pig&Dan
  1	Photay
@@ -936,13 +948,14 @@
  1	Phlocalyst
  1	Philip Daniel
  1	Pharrell Williams
+ 1	Phantoms
  1	Phantogram
  1	pewdiepie
  1	Petite Noir
+ 1	Peter Sandberg
  1	Peter Groskreutz
  1	Pete Tong
  1	Peer Kusiv
- 1	Pedestrian Tactics
  1	Pavel Dovgal
  1	PAVANE
  1	Paul Williams
@@ -1022,7 +1035,9 @@
  1	Netik
  1	nervous_testpilot
  1	NERO
+ 1	NEFFEX
  1	Neat Beats
+ 1	Navie D
  1	Navaro
  1	Nato Medrado
  1	Nathaniel Timoney
@@ -1061,6 +1076,7 @@
  1	Monokle
  1	Monkey Safari
  1	Mondëna Quartet
+ 1	Mona San
  1	Moi7nneuse Batteuse
  1	Mohna
  1	Mogwai
@@ -1183,7 +1199,6 @@
  1	Late June
  1	Lastlings
  1	Lara Somogyi
- 1	Lambert
  1	Lali Puna
  1	Lakker
  1	La Mar
@@ -1241,6 +1256,7 @@
  1	Kalaido
  1	kai
  1	Kaho Matsui
+ 1	k?d
  1	JYOCHO
  1	JustJono
  1	Justina Maria Soto
@@ -1250,7 +1266,9 @@
  1	Juneau
  1	Jun Kuroda
  1	Jumo
+ 1	Julien Marchal
  1	Julie Christmas
+ 1	Julian Gray
  1	Julian Calor
  1	Jules Buckley
  1	JUICEB☮X
@@ -1278,6 +1296,7 @@
  1	jives
  1	Jim-E Stack
  1	Jim Wallis
+ 1	Jim Perkins
  1	Jessica Winter
  1	Jessica Kion
  1	Jesse Mac Cormack
@@ -1334,7 +1353,6 @@
  1	Icarus
  1	Ian Urbina
  1	iamamiwhoami
- 1	iamalex
  1	I Virtuosi Italiani
  1	I Built the Sky
  1	Hyroglifics
@@ -1345,6 +1363,7 @@
  1	Hugo Massien
  1	Hugar
  1	Honey B Larochelle
+ 1	Hofn
  1	Ho - Kago Tea Time
  1	Hicky & Kalo
  1	HI-LO
@@ -1353,7 +1372,9 @@
  1	Hentai Dude
  1	Henry Krinkle
  1	Henrik Lindstrand
+ 1	Hendy
  1	Helsloot
+ 1	Heimanu
  1	Headie One
  1	Hayley Stewart
  1	Hauschka
@@ -1451,6 +1472,7 @@
  1	Fickle Vibe
  1	FEYNMAN
  1	Ferdinand Dreyssig
+ 1	Felty
  1	Felix Rösch
  1	Felix Laband
  1	feeding | ear
@@ -1467,6 +1489,7 @@
  1	Ess2Mad
  1	Erol Sarp
  1	Erol Alkan
+ 1	Erkka
  1	Eric Prydz
  1	ERA C
  1	Enzo Bennet
@@ -1491,7 +1514,6 @@
  1	EGOIST
  1	ef
  1	eevee
- 1	Eekkoo
  1	EDOGA-SULLIVAN
  1	Ed Harrison
  1	DíSA
@@ -1524,6 +1546,7 @@
  1	Dillon
  1	Dillan Witherow
  1	diaphane
+ 1	Dezza
  1	Dexcell
  1	DEV
  1	Derek Martin
@@ -1554,6 +1577,7 @@
  1	DARGZ
  1	Daphni
  1	Dapayk solo
+ 1	Daoko
  1	Danyka Nadeau
  1	Daniel Joshua
  1	Daniel Hope
@@ -1603,6 +1627,7 @@
  1	CIOZ
  1	Chymera
  1	Chuck D
+ 1	Christopher Stephen Clark
  1	Christopher Dennis Coleman
  1	Chris Mazuera
  1	Chipzel
@@ -1614,6 +1639,7 @@
  1	Charlie Stacey
  1	Charles Oliver
  1	Chantier et Demoli7ion
+ 1	Cecilia Gault
  1	Caterina Barbieri
  1	Cate Downey
  1	Casually Here
@@ -1667,6 +1693,7 @@
  1	Bondi
  1	Blue Foundation
  1	BLUE ENCOUNT
+ 1	Blossum
  1	Blood Cultures
  1	BLOMMA
  1	Blitz The Ambassador
@@ -1695,10 +1722,12 @@
  1	Bearcubs
  1	Bea Miller
  1	bdrmm
+ 1	Bcalm
  1	Baxter Dury
  1	Bassnectar
  1	Bas
  1	barking continues
+ 1	Banks
  1	Balbina
  1	BAILE
  1	Bad Omens
@@ -1743,6 +1772,7 @@
  1	Anna Yvette
  1	Anna of the North
  1	Anna Meredith
+ 1	Anna De Bruin
  1	Anjulie
  1	Animal Trainer
  1	ANII
@@ -1758,6 +1788,7 @@
  1	Amy Winehouse
  1	Amy Millan
  1	Amtrac
+ 1	Amos Roddy
  1	Amine Farsi
  1	amies
  1	Ambyion
