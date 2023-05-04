@@ -11,7 +11,7 @@
 30	GoGo Penguin
 29	Varsity Star
 29	Baths
-27	Throwing Snow
+28	Throwing Snow
 25	Indian Wells
 24	The Flashbulb
 23	Reid Willis
@@ -32,9 +32,10 @@
 19	David Maxim Micic
 19	CharlestheFirst
 19	Aphex Twin
-17	Sublab
+18	Sublab
+18	Daft Punk
+18	Clark
 17	Ochre
-17	Daft Punk
 17	cleopatrick
 17	Brecon
 17	alt-J
@@ -42,7 +43,6 @@
 16	Rodriguez Jr.
 16	Jan Blomqvist
 16	Ekcle
-16	Clark
 16	Android52
 15	Yunomi
 15	Tom Hodge
@@ -62,17 +62,18 @@
 13	Vessels
 13	Porter Robinson
 13	Plini
+13	ODESZA
 13	Nathan Fake
 13	Moe Shop
 13	Kiasmos
 13	Jasper Tygner
 13	Grandbrothers
 13	Geotic
+13	Chrome Sparks
 12	Synthion
 12	Lane 8
 12	DVRST
 12	Culprate
-12	Chrome Sparks
 12	C2C
 12	Bonobo
 12	Beacon
@@ -82,6 +83,7 @@
 11	Moderat
 11	Mazde
 11	Mammal Hands
+11	Josh Cohen
 11	Floex
 11	Floating Points
 11	Eminem
@@ -90,12 +92,10 @@
 11	Alex Banks
 10	Stimming
 10	Robot Koch
-10	ODESZA
 10	Nils Frahm
 10	Never Get Used To People
 10	Massive Attack
 10	Little People
-10	Josh Cohen
 10	Inwards
 10	HoneyComeBear
 10	Digitalism
@@ -115,9 +115,11 @@
  9	Maribou State
  9	Haywyre
  9	Echo Map
+ 9	Catching Flies
  9	Ben Lukas Boysen
  9	Amon Tobin
  9	Ametsub
+ 9	Aiobahn
  8	Yosi Horikawa
  8	Vaetxh
  8	Plaid
@@ -139,12 +141,11 @@
  8	Cityfires
  8	Cinnamon Chasers
  8	Christian Löffler
- 8	Catching Flies
  8	Burial
  8	Azaleh
- 8	Aiobahn
  7	TORIENA
  7	Tomggg
+ 7	Sysdemes
  7	SBTRKT
  7	RY X
  7	Ron Flatter
@@ -196,10 +197,10 @@
  5	キャロル&チューズデイ(Vo.Nai Br.XX&Celeina Ann)
  5	⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ
  5	Virtual Riot
+ 5	Victor Ruiz
  5	tricot
  5	Tourist
  5	The Micronaut
- 5	Sysdemes
  5	Stereoclip
  5	Squarepusher
  5	Soleeman
@@ -228,6 +229,7 @@
  5	eliderp
  5	DjRUM
  5	Dior
+ 5	CloZee
  5	Cid Rim
  5	Boucle Infinie
  5	Barker
@@ -259,7 +261,6 @@
  4	fusq
  4	Fejká
  4	DEADLIFE
- 4	CloZee
  4	CloudNone
  4	Boss Axis
  4	Aoki Takamasa
@@ -281,7 +282,6 @@
  3	Vitalic
  3	Vindata
  3	Village
- 3	Victor Ruiz
  3	Vegyn
  3	Vanessa Wagner
  3	Twenty One Pilots
@@ -455,6 +455,7 @@
  2	Protostar
  2	Potions
  2	Posij
+ 2	Portugal. The Man
  2	Portico Quartet
  2	Pilotpriest
  2	Parra for Cuva
@@ -653,6 +654,7 @@
  1	Yes
  1	Yehezkel Raz
  1	Yannek Maunz
+ 1	yanaginagi
  1	YAKUSHIMARU Etsuko
  1	Yael Naim
  1	XIRA
@@ -820,6 +822,7 @@
  1	SL
  1	Skylar Grey
  1	Skyelle
+ 1	skxllflower
  1	Skrillex
  1	Skepta
  1	Sixten
@@ -934,7 +937,6 @@
  1	Prins Thomas
  1	Prequell
  1	premo
- 1	Portugal. The Man
  1	Pongo
  1	Pomplamoose
  1	Polyphia
@@ -1023,6 +1025,7 @@
  1	Noga Erez
  1	Noclu
  1	Noah Yorke
+ 1	Niven
  1	Nitro Fun
  1	Nirvana
  1	Nile Rodgers
@@ -1152,6 +1155,7 @@
  1	M. Byrd
  1	M4NDY
  1	líue
+ 1	Låpsley
  1	Lykke Li
  1	Luxe Laredo
  1	Luvli
@@ -1331,6 +1335,7 @@
  1	Jabberwocky
  1	J. Cole
  1	J. Albert
+ 1	Izzy Bizu
  1	Ivory Rasmus
  1	Israel Strom
  1	Ishmael Ensemble
@@ -1342,6 +1347,7 @@
  1	Insan3lik3
  1	INKY!
  1	inkwill
+ 1	Inconsistent Me
  1	In Love With a Ghost
  1	Imogen Heap
  1	iMeiden
@@ -1713,6 +1719,7 @@
  1	Billain
  1	Bill Laurance
  1	Bicep
+ 1	Bettye LaVette
  1	Betical
  1	Beshken
  1	Bernhoft
