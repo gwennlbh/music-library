@@ -5,7 +5,7 @@
 55	Max Cooper
 52	Rival Consoles
 39	trentemøller
-38	No Mana
+39	No Mana
 37	Rone
 34	C418
 31	Varsity Star
@@ -15,17 +15,17 @@
 25	Indian Wells
 24	The Flashbulb
 23	Reid Willis
+23	RADWIMPS
 23	Ichiko Aoba
 22	Tigran Hamasyan
 22	Stephan Bodzin
-22	RADWIMPS
 22	Purity Ring
 22	NTO
 22	20syl
+21	ヨルシカ
 21	Rob Clouth
 21	Jon Hopkins
 21	Boards of Canada
-20	ヨルシカ
 20	Wednesday
 20	Uppermost
 19	French 79
@@ -35,11 +35,11 @@
 18	Sublab
 18	Daft Punk
 18	Clark
+17	Tinlicker
 17	Ochre
 17	cleopatrick
 17	Brecon
 17	alt-J
-16	Tinlicker
 16	Rodriguez Jr.
 16	Jan Blomqvist
 16	Ekcle
@@ -49,6 +49,7 @@
 15	Thom Yorke
 15	the peggies
 15	Stubborn Heart
+15	Flume
 15	Extrawelt
 14	Ólafur Arnalds
 14	Underbelly
@@ -57,7 +58,6 @@
 14	Luke Abbott
 14	Kubbi
 14	ibi
-14	Flume
 14	Chrome Sparks
 13	中村佳穂
 13	Worakls
@@ -160,6 +160,7 @@
  7	Parcels
  7	Mat Zo
  7	Lilly Legit
+ 7	Lena Raine
  7	Klangkarussell
  7	Kaskade
  7	Just Jack
@@ -176,6 +177,7 @@
  6	Ásgeir
  6	Yppah
  6	Wintergatan
+ 6	Tourist
  6	Telefon Tel Aviv
  6	Solomun
  6	Senbeï
@@ -184,7 +186,6 @@
  6	Marc Romboy
  6	Lorn
  6	Llyr
- 6	Lena Raine
  6	Kyle Dixon & Michael Stein
  6	KOAN Sound
  6	Kelpe
@@ -205,7 +206,6 @@
  5	Virtual Riot
  5	Victor Ruiz
  5	tricot
- 5	Tourist
  5	The Micronaut
  5	Stereoclip
  5	Squarepusher
@@ -405,6 +405,7 @@
  2	Tom Misch
  2	Tom Ashbrook
  2	TOKiMONSTA
+ 2	Tisoki
  2	Thomas Schumacher
  2	Thomas Barrandon
  2	Theo Young
@@ -634,6 +635,8 @@
  1	日南結里
  1	憂鬱
  1	久石 譲 アンサンブル
+ 1	ロクデナシ
+ 1	ちゅーたん(CV:早見沙織)
  1	△▃△▓
  1	Лисса
  1	КРИСПИ
@@ -685,6 +688,7 @@
  1	VOISART
  1	Vladimir Lalić
  1	Virtual Self
+ 1	Virgin Miri
  1	Vin
  1	Viktor Orri Árnason
  1	Veyko
@@ -730,7 +734,7 @@
  1	Tom Doolie
  1	Tom Adams
  1	Todd Baker
- 1	Tisoki
+ 1	Toaka
  1	Tiny Leaves
  1	Timo Jahns
  1	Tima Dee
@@ -741,6 +745,7 @@
  1	Tides From Nebula
  1	Thrupence
  1	Three Trapped Tigers
+ 1	Three Thieves
  1	thomfjord
  1	Thomas Bergersen
  1	The Virus and Antidote
@@ -773,6 +778,7 @@
  1	Tails
  1	Ta-ku
  1	T-Pain
+ 1	T3NZU
  1	Szjerdene
  1	System Of A Down
  1	Syncretia
@@ -981,6 +987,7 @@
  1	Peer Kusiv
  1	Pavel Dovgal
  1	PAVANE
+ 1	Pauline Herr
  1	Paul Williams
  1	Paul White
  1	Paul Frick
@@ -1013,6 +1020,7 @@
  1	Only Child Tyrant
  1	Oneeva
  1	Olivier Day Soul
+ 1	Olivera
  1	Oliver Smith
  1	Ole Biege
  1	Okapi
@@ -1369,6 +1377,7 @@
  1	Inüit
  1	Intervals
  1	INTERCOM
+ 1	insaneintherain
  1	Insan3lik3
  1	INKY!
  1	inkwill
@@ -1396,6 +1405,7 @@
  1	Husky
  1	Hugo Massien
  1	Hugar
+ 1	HoneyWorks
  1	Honey B Larochelle
  1	Hofn
  1	Ho - Kago Tea Time
@@ -1680,6 +1690,7 @@
  1	Cate Downey
  1	Casually Here
  1	Cartoon Theory
+ 1	Caroline Polachek
  1	carolesdaughter
  1	Carmine Lauri
  1	Carlo Whale
@@ -1818,6 +1829,7 @@
  1	Anjulie
  1	Animal Trainer
  1	ANII
+ 1	Aniah Alves
  1	Angelica Bess
  1	Angara
  1	Andrew Bayer
