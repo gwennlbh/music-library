@@ -7,7 +7,7 @@
 39	trentemøller
 39	No Mana
 37	Rone
-34	C418
+36	C418
 31	Varsity Star
 30	GoGo Penguin
 29	Baths
@@ -94,6 +94,7 @@
 11	Alex Banks
 10	Stimming
 10	Robot Koch
+10	Petit Biscuit
 10	Nils Frahm
 10	Never Get Used To People
 10	Massive Attack
@@ -113,7 +114,6 @@
  9	Woulg
  9	Swardy
  9	Prague Radio Symphony Orchestra
- 9	Petit Biscuit
  9	Non Square
  9	Milkoi
  9	Marley Carroll
@@ -265,6 +265,7 @@
  4	Iglooghost
  4	fusq
  4	Fejká
+ 4	Elderbrook
  4	edapollo
  4	Duskus
  4	DROELOE
@@ -366,7 +367,6 @@
  3	Ewen-lbh
  3	Esseks
  3	Eprom
- 3	Elderbrook
  3	Dominik Eulberg
  3	Danger
  3	Daktyl
@@ -477,6 +477,7 @@
  2	No Spirit
  2	Niels Broos
  2	M|O|O|N
+ 2	Mura Masa
  2	Morcheeba
  2	Monuman
  2	Monma
@@ -503,6 +504,7 @@
  2	Liquid Stranger
  2	Laxcity
  2	Lawrence Hart
+ 2	Laura Shigihara
  2	Laura Brehm
  2	Lambert
  2	Lala Lala
@@ -623,6 +625,7 @@
  2	Anomalie
  2	Andreya Triana
  2	Anamanaguchi
+ 2	Amtrac
  2	Alydian
  2	Alle Farben
  2	Aleksandra Djelmas
@@ -663,11 +666,13 @@
  1	Yoshihiko Ishizaka
  1	Yes
  1	Yehezkel Raz
+ 1	Yedgar
  1	Yannek Maunz
  1	yanaginagi
  1	YAKUSHIMARU Etsuko
  1	Yael Naim
  1	XIRA
+ 1	Wyclef Jean
  1	WRLD
  1	Woven
  1	Wolfgang Gartner
@@ -720,6 +725,7 @@
  1	Trikk
  1	Trifect
  1	TREGS
+ 1	TRAILS
  1	ToyTree
  1	Tosin Abasi
  1	tortuganónima
@@ -759,6 +765,7 @@
  1	The Chick Corea New Trio
  1	The Chain Gang Of 1974
  1	The Cataracs
+ 1	The Blaze
  1	The Avalanches
  1	The Animal Spirits
  1	The Acid
@@ -959,6 +966,7 @@
  1	Prins Thomas
  1	Prequell
  1	premo
+ 1	Pras
  1	Pongo
  1	Pomplamoose
  1	Polyphia
@@ -1017,6 +1025,7 @@
  1	Osirus Jack
  1	Ornette
  1	Orbital
+ 1	onumi
  1	Only Child Tyrant
  1	Oneeva
  1	Olivier Day Soul
@@ -1075,6 +1084,7 @@
  1	Nato Medrado
  1	Nathaniel Timoney
  1	Nas
+ 1	Nao
  1	Naibu
  1	NAGGA
  1	Møme
@@ -1082,8 +1092,8 @@
  1	Mx3
  1	Mux Mool
  1	Murtagh
- 1	Mura Masa
  1	MTNS
+ 1	Ms. Lauryn Hill
  1	Mr.Kitty
  1	Mr. Carmack
  1	Move 78
@@ -1412,6 +1422,7 @@
  1	Hicky & Kalo
  1	HI-LO
  1	HEZEN
+ 1	Hex Cougar
  1	Hero Baldwin
  1	Hentai Dude
  1	Henry Krinkle
@@ -1482,6 +1493,7 @@
  1	Future
  1	Fukuhara Haruka
  1	Fuka Lata
+ 1	Fugees
  1	FROZT
  1	From Ashes to New
  1	Fried Dough
@@ -1546,6 +1558,7 @@
  1	Emerson Leif
  1	Emancipator
  1	Elskavon
+ 1	Else
  1	Elodin
  1	elmo
  1	Elijah Lee
@@ -1650,6 +1663,7 @@
  1	Crocodile Scissor Cut
  1	Creeds
  1	Craven Faults
+ 1	Cozmoe
  1	Couros
  1	Cosmicosmo
  1	Corinne Bailey Rae
@@ -1842,7 +1856,6 @@
  1	Analogue Dear
  1	Amy Winehouse
  1	Amy Millan
- 1	Amtrac
  1	Amos Roddy
  1	Amine Farsi
  1	amies
@@ -1853,6 +1866,7 @@
  1	AlunaGeorge
  1	Alstroemeria
  1	Alps 2
+ 1	Alora
  1	Alon Mor
  1	Aloboi
  1	Allthingslost
