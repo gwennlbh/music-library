@@ -34,13 +34,13 @@
 19	Aphex Twin
 18	Sublab
 18	Daft Punk
+18	cleopatrick
 18	Clark
 17	Tinlicker
+17	Rodriguez Jr.
 17	Ochre
-17	cleopatrick
 17	Brecon
 17	alt-J
-16	Rodriguez Jr.
 16	Jan Blomqvist
 16	Ekcle
 16	Android52
@@ -71,6 +71,7 @@
 13	Jasper Tygner
 13	Grandbrothers
 13	Geotic
+12	Woulg
 12	Synthion
 12	Lane 8
 12	DVRST
@@ -111,7 +112,6 @@
 10	ATTLAS
 10	Athletic Progression
  9	美波
- 9	Woulg
  9	Swardy
  9	Prague Radio Symphony Orchestra
  9	Non Square
@@ -230,6 +230,7 @@
  5	Feist
  5	Epic Mountain
  5	eliderp
+ 5	DROELOE
  5	DjRUM
  5	Dior
  5	CloZee
@@ -249,6 +250,8 @@
  4	Siriusmo
  4	Secede
  4	Rage Against The Machine
+ 4	PrototypeRaptor
+ 4	Player Dave
  4	Phuture Doom
  4	Nils Hoffmann
  4	Neil Cowley
@@ -268,7 +271,6 @@
  4	Elderbrook
  4	edapollo
  4	Duskus
- 4	DROELOE
  4	DEADLIFE
  4	CloudNone
  4	Boss Axis
@@ -318,9 +320,7 @@
  3	Rauschhaus
  3	PYLOT
  3	Py
- 3	PrototypeRaptor
  3	Power Glove
- 3	Player Dave
  3	Philip Glass
  3	Peter Broderick
  3	Pedestrian Tactics
@@ -353,6 +353,7 @@
  3	Jake Chudnow
  3	Jacques Greene
  3	Interpol
+ 3	IHF
  3	i_o
  3	Holly Walker
  3	Hiromi
@@ -534,7 +535,6 @@
  2	Isaac Delusion
  2	Infected Mushroom
  2	In Embers
- 2	IHF
  2	iamalex
  2	Hydelic
  2	Huminal
@@ -564,6 +564,7 @@
  2	Fabrik
  2	F.O.O.L
  2	Exist Strategy
+ 2	Evan Duffy
  2	Ethan Bortnick
  2	Eliza Doolittle
  2	Eli & Fur
@@ -735,6 +736,7 @@
  1	Tonebox
  1	TommyMuzzic
  1	Tommy Trash
+ 1	Tomasz Dolski
  1	Tomas Barfod
  1	Tom Wilson
  1	Tom Doolie
@@ -793,12 +795,14 @@
  1	Syberlilly
  1	Sweet William
  1	Sweet Trip
+ 1	Sweeps
  1	Sven Helbig
  1	Sushi Killer
  1	Susanne Sundfør
  1	Superstructure
  1	Sundial
  1	Sun Glitters
+ 1	sumthin sumthin
  1	Subtronics
  1	SubDocta
  1	Su Na
@@ -850,6 +854,7 @@
  1	Skyelle
  1	skxllflower
  1	Skrillex
+ 1	Skream
  1	Skepta
  1	Sixten
  1	Sitting Duck
@@ -922,6 +927,7 @@
  1	Rogue
  1	Rodg
  1	Rocco Palladino
+ 1	Robotaki
  1	Robin Schulz
  1	Robin Adams
  1	Robert Parker
@@ -1268,6 +1274,7 @@
  1	kLL sMTH
  1	KJ Sawka
  1	Kizuna AI
+ 1	KISLO
  1	KIRARA
  1	Kindrid
  1	Kimyan Law
@@ -1395,6 +1402,7 @@
  1	In Love With a Ghost
  1	Imogen Heap
  1	iMeiden
+ 1	IMANU
  1	imallryt
  1	imagiro
  1	ill-esha
@@ -1503,6 +1511,7 @@
  1	François-Xavier Roth
  1	Frank Ocean
  1	Frank Carter & The Rattlesnakes
+ 1	Franc Moody
  1	Fractures
  1	Fracture
  1	Fox Stevenson
