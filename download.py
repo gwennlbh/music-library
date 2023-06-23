@@ -46,7 +46,8 @@ def download(track: tuple[str, str]) -> bool:
     # Use a MD5 hash to prevent youtube-dl from choking on weird file names.
     hash = md5(bytes(artist + title, "utf-8")).hexdigest()
 
-    if not list(here.glob(f"{hash}*.mp3")):
+    candidates = list(here.glob(f"{hash}*.mp3"))
+    if not len(candidates):
         try:
             run(
                     [
@@ -66,8 +67,13 @@ def download(track: tuple[str, str]) -> bool:
             print("Download skipped by user, continuing…")
             return 
 
+    candidates = list(here.glob(f"{hash}*.mp3"))
+    if not candidates:
+        print("\tNot found on YouTube.")
+        return
+
+    file = candidates[0]
     try:
-        file = list(here.glob(f'{hash}*.mp3'))[0]
         youtube_id = file.name.split('.')[0].replace(hash, "")
         try:
             tag_track(artists=artist.split(", "), title=title, file=file)
