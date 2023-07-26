@@ -18,7 +18,7 @@ spt list --liked --limit 50 \
 | sed -E 's/^(.*) - (.*)$/\2\t\1/' \
 | sed -E 's/"(.*)"/“\1”/g' \
 | cat - $library \
-| sort -bu \
+| LC_ALL=C sort -bu \
 | sponge $library
 	echo "Added last 50 liked titles from spotify"
 
