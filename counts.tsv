@@ -15,7 +15,7 @@
 28	Throwing Snow
 25	Indian Wells
 24	The Flashbulb
-23	Sublab
+24	Sublab
 23	RADWIMPS
 23	NTO
 23	Ichiko Aoba
@@ -38,10 +38,10 @@
 19	CharlestheFirst
 18	Rodriguez Jr.
 18	cleopatrick
+18	Brecon
 17	Tinlicker
 17	Ochre
 17	Jan Blomqvist
-17	Brecon
 17	alt-J
 16	Yunomi
 16	Jasper Tygner
@@ -53,6 +53,7 @@
 15	the peggies
 15	Stubborn Heart
 15	Röyksopp
+15	Lane 8
 15	Flume
 15	Extrawelt
 14	underscores
@@ -62,7 +63,6 @@
 14	ODESZA
 14	Moe Shop
 14	Luke Abbott
-14	Lane 8
 14	Kubbi
 14	ibi
 14	Grandbrothers
@@ -112,6 +112,7 @@
 10	Little People
 10	HoneyComeBear
 10	Geoxor
+10	Direct
 10	Digitalism
 10	cute girls doing cute things
 10	Blumen
@@ -125,8 +126,9 @@
  9	Non Square
  9	Marley Carroll
  9	Haywyre
+ 9	EDDIE
  9	DROELOE
- 9	Direct
+ 9	Cinnamon Chasers
  9	Christian Löffler
  9	Catching Flies
  9	Ben Lukas Boysen
@@ -134,6 +136,7 @@
  9	Ametsub
  8	Yosi Horikawa
  8	Vaetxh
+ 8	RY X
  8	Point Point
  8	Plaid
  8	Panda Eyes
@@ -150,18 +153,15 @@
  8	GHOST DATA
  8	fusq
  8	edIT
- 8	EDDIE
  8	Disclosure
  8	clammbon
  8	Cityfires
- 8	Cinnamon Chasers
  8	Burial
  7	Yedgar
  7	TORIENA
  7	Tomggg
  7	Stessie
  7	SBTRKT
- 7	RY X
  7	Popof
  7	Polynation
  7	Parcels
@@ -173,6 +173,7 @@
  7	Just Jack
  7	Jeremy Blake
  7	HVOB
+ 7	Gui Boratto
  7	Groundislava
  7	Frank Wiedemann
  7	Fine-Sir-1584660650
@@ -186,6 +187,7 @@
  6	Wintergatan
  6	Tourist
  6	Telefon Tel Aviv
+ 6	Stereoclip
  6	Solomun
  6	Senbeï
  6	Sampha
@@ -199,7 +201,6 @@
  6	Joe Ford
  6	ill.gates
  6	Howling
- 6	Gui Boratto
  6	Golden Vessel
  6	Four Tet
  6	ford.
@@ -215,7 +216,6 @@
  5	Victor Ruiz
  5	tricot
  5	The Micronaut
- 5	Stereoclip
  5	Squarepusher
  5	Soleeman
  5	Siriusmo
@@ -247,6 +247,7 @@
  5	Cid Rim
  5	Boucle Infinie
  5	Barker
+ 5	Bad Computer
  5	Andrew Huang
  5	AK
  4	What So Not
@@ -287,7 +288,6 @@
  4	DEADLIFE
  4	CloudNone
  4	Boss Axis
- 4	Bad Computer
  4	Aoki Takamasa
  4	Ambassadeurs
  4	Alexa Melo
@@ -313,6 +313,7 @@
  3	tsvaci
  3	Tricky
  3	Tony Anderson
+ 3	Tom Misch
  3	Tokyo Machine
  3	Tipper
  3	Thylacine
@@ -401,6 +402,7 @@
  3	anifi
  3	Alpha Wann
  3	Aimer
+ 3	Adriatique
  3	A.L.I.S.O.N
  2	佐咲紗花
  2	エミリア(CV:高橋李依)
@@ -420,7 +422,6 @@
  2	TrySail
  2	Trifonic
  2	Totally Enormous Extinct Dinosaurs
- 2	Tom Misch
  2	Tom Ashbrook
  2	TOKiMONSTA
  2	Tisoki
@@ -485,6 +486,7 @@
  2	Portugal. The Man
  2	Portico Quartet
  2	Pilotpriest
+ 2	Pig&Dan
  2	Parra for Cuva
  2	Pantha Du Prince
  2	P3PPER
@@ -528,6 +530,7 @@
  2	Lissie
  2	Lisa Mitchell
  2	Liquid Stranger
+ 2	Lights
  2	Les Siècles
  2	Laxcity
  2	Lawrence Hart
@@ -668,7 +671,6 @@
  2	Alle Farben
  2	Aleksandra Djelmas
  2	AIGEL
- 2	Adriatique
  2	admo
  2	7calibur
  2	4lienetic
@@ -688,6 +690,7 @@
  1	Лисса
  1	КРИСПИ
  1	ÜHÜ
+ 1	Øneheart
  1	Ö
  1	Âme
  1	ZUN
@@ -724,6 +727,7 @@
  1	Wisp X
  1	Will Heard
  1	Whysp
+ 1	WhoMadeWho
  1	Whethan
  1	Wenzl McGowen
  1	WEDNESDAY CAMPANELLA
@@ -854,6 +858,7 @@
  1	Sushi Killer
  1	Susanne Sundfør
  1	Superstructure
+ 1	Supershy
  1	Sundial
  1	Sun Glitters
  1	sumthin sumthin
@@ -933,6 +938,7 @@
  1	SihAlex
  1	Signum
  1	sign crushes motorist
+ 1	Siavash
  1	Shuta Hasunuma
  1	Shurk
  1	Shubh Saran
@@ -1057,7 +1063,6 @@
  1	Pipa Moran
  1	PINES
  1	Pigeon John
- 1	Pig&Dan
  1	Photay
  1	Phoria
  1	Phonte
@@ -1132,6 +1137,7 @@
  1	NUEQ
  1	Nu Aspect
  1	Nowfeel
+ 1	Notre Dame
  1	Nothingtosay
  1	Nordfold
  1	Noordpool Orchestra
@@ -1330,7 +1336,6 @@
  1	Lindstrøm
  1	Lina Tullgren
  1	Lilia
- 1	Lights
  1	Lido
  1	LICK
  1	LibraLibra
@@ -1346,6 +1351,7 @@
  1	Leat'eq
  1	leah julia
  1	League of Legends
+ 1	Le Youth
  1	Late June
  1	Lastlings
  1	Lara Somogyi
@@ -1421,6 +1427,7 @@
  1	Kaho Matsui
  1	k?d
  1	JYOCHO
+ 1	Jyll
  1	Justina Maria Soto
  1	Justice
  1	Jura7Park
@@ -1549,6 +1556,7 @@
  1	Heimanu
  1	Headie One
  1	Hayley Stewart
+ 1	Hayden James
  1	Hauschka
  1	Hasegawa
  1	Harrison
@@ -1771,6 +1779,7 @@
  1	Daoko
  1	Danyka Nadeau
  1	Danny Dwyer
+ 1	Danni Carra
  1	danjerr
  1	Daniel Thrasher
  1	Daniel Joshua
@@ -1909,6 +1918,7 @@
  1	Billain
  1	Bill Laurance
  1	Bicep
+ 1	Bianca
  1	Bettye LaVette
  1	Betical
  1	Beshken
@@ -1978,6 +1988,7 @@
  1	Arctic Lake
  1	Arcane
  1	Arandel
+ 1	AR/CO
  1	April
  1	Anzo
  1	Anup Sastry
