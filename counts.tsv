@@ -42,11 +42,11 @@
 18	cleopatrick
 17	Tinlicker
 17	Ochre
+17	CRi
 17	alt-J
 16	Yunomi
 16	Jasper Tygner
 16	Ekcle
-16	CRi
 16	Android52
 15	Ólafur Arnalds
 15	Tom Hodge
@@ -56,6 +56,7 @@
 15	Röyksopp
 15	Moe Shop
 15	Lane 8
+15	Geoxor
 15	Flume
 15	Extrawelt
 15	Beacon
@@ -98,7 +99,6 @@
 11	Mammal Hands
 11	Lusine
 11	Josh Cohen
-11	Geoxor
 11	Floex
 11	Floating Points
 11	Eminem
@@ -141,6 +141,7 @@
  9	Ametsub
  8	Vaetxh
  8	RY X
+ 8	Polynation
  8	Point Point
  8	Parcels
  8	Panda Eyes
@@ -167,7 +168,6 @@
  7	SBTRKT
  7	San Holo
  7	Popof
- 7	Polynation
  7	Mat Zo
  7	Lilly Legit
  7	KOAN Sound
@@ -228,12 +228,14 @@
  5	Rita J
  5	Ocoeur
  5	Nordic Pulse Ensemble
+ 5	Nils Hoffmann
  5	Niklas Paschburg
  5	nicamoq
  5	Mord Fustang
  5	METRO MEW
  5	meganeko
  5	Mac Miller
+ 5	Louf
  5	Little Simz
  5	Lapalux
  5	Kettel
@@ -271,11 +273,9 @@
  4	Player Dave
  4	Phuture Doom
  4	Pedestrian Tactics
- 4	Nils Hoffmann
  4	Neil Cowley
  4	Morgan Page
  4	Mild Minds
- 4	Louf
  4	LAO Experiment
  4	Kyle Preston
  4	Kristjan Järvi
@@ -353,6 +353,7 @@
  3	notsure
  3	Notaker
  3	North Sky
+ 3	Nora En Pure
  3	Murcof
  3	Monolink
  3	Minnesota
@@ -406,6 +407,7 @@
  3	Bruce Brubaker
  3	Brandt Brauer Frick
  3	Bibio
+ 3	Baril
  3	Autograf
  3	Au5
  3	Arthur Hnatek
@@ -511,6 +513,7 @@
  2	Olga Wojciechowska
  2	Odd Mob
  2	Nyarons
+ 2	Nuage
  2	Noisia
  2	Nocturnal Sunshine
  2	No Spirit
@@ -560,6 +563,7 @@
  2	Konvex & The Shadow
  2	kokoro
  2	KLOUD
+ 2	Kizuna AI
  2	Kimyan Law
  2	Karma Fields
  2	Karen Harding
@@ -589,6 +593,7 @@
  2	Hydelic
  2	Huminal
  2	Hudson Mohawke
+ 2	Hotel Pools
  2	Home
  2	High Priest
  2	Hidden Orchestra
@@ -599,6 +604,7 @@
  2	Hania Rani
  2	HANA
  2	halca
+ 2	HAELIUM
  2	Grimes
  2	Gesu No Kiwami Otome
  2	Georgia
@@ -610,6 +616,7 @@
  2	François-Xavier Roth
  2	fox capture plan
  2	Former
+ 2	Forhill
  2	Flux Pavilion
  2	Fiona Sally Miller
  2	Fhin
@@ -671,7 +678,6 @@
  2	Beat Vince
  2	Bayonne
  2	Barrie
- 2	Baril
  2	Barclay Crenshaw
  2	Baauer
  2	Aṣa
@@ -759,6 +765,7 @@
  1	VØJ
  1	Vorso
  1	Von Sell
+ 1	Volor Flex
  1	VOLO
  1	Voka Gentle
  1	VOISART
@@ -779,6 +786,7 @@
  1	Vajra
  1	Urbangarde
  1	Urban Cone
+ 1	Unusual Cosmic Process
  1	Unlovable
  1	Unique Repeat
  1	U-zhaan
@@ -1063,6 +1071,7 @@
  1	Puppet
  1	Puniden
  1	Psychemagik
+ 1	Protocols
  1	Protocol Lab
  1	Proem
  1	Private Agenda
@@ -1161,7 +1170,6 @@
  1	numeral
  1	Nujabes
  1	NUEQ
- 1	Nuage
  1	Nu Aspect
  1	Noé
  1	Nowfeel
@@ -1169,7 +1177,6 @@
  1	Nothingtosay
  1	North Downs
  1	Nordfold
- 1	Nora En Pure
  1	Noordpool Orchestra
  1	None Like Joshua
  1	Nokiaa
@@ -1417,7 +1424,6 @@
  1	Knapsack
  1	kLL sMTH
  1	KJ Sawka
- 1	Kizuna AI
  1	KISLO
  1	Kirikoukiri
  1	KIRARA
@@ -1435,6 +1441,7 @@
  1	Kieran Brunt
  1	Kidkanevil
  1	Kid A
+ 1	Kick Bong
  1	Khruangbin
  1	Khary
  1	KH
@@ -1573,7 +1580,6 @@
  1	Husky
  1	Hugo Massien
  1	Hugar
- 1	Hotel Pools
  1	HoneyWorks
  1	Honey B Larochelle
  1	Hofn
@@ -1600,7 +1606,6 @@
  1	Half Moon Run
  1	Hainbach
  1	Haider
- 1	HAELIUM
  1	Haddadi Von Engst
  1	Habstrakt
  1	haak
@@ -1679,7 +1684,6 @@
  1	Foster The People
  1	Fort Romeau
  1	Former Hero
- 1	Forhill
  1	Forester
  1	Forest Knot
  1	Fontaines D.C.
@@ -2002,6 +2006,7 @@
  1	Autechre
  1	Audioslave
  1	Audien
+ 1	Audialist
  1	Audego
  1	Atrip
  1	ATRIP
@@ -2010,6 +2015,7 @@
  1	Atlantic Chill
  1	Atelier
  1	ATB
+ 1	AstroPilot
  1	Astrid S
  1	ASM
  1	Asher Postman
