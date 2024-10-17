@@ -29,18 +29,19 @@
 23	Daft Punk
 23	Brecon
 22	ヨルシカ
+22	Lane 8
 22	Jon Hopkins
 22	CRi
 22	cleopatrick
 21	Uppermost
 21	Rob Clouth
-21	Lane 8
 21	Jasper Tygner
 21	French 79
 21	Boards of Canada
 21	Aphex Twin
 20	Wednesday
 20	Tom VR
+20	Porter Robinson
 20	Nils Frahm
 20	DROELOE
 20	CharlestheFirst
@@ -51,7 +52,6 @@
 19	David Maxim Micic
 18	Yunomi
 18	Röyksopp
-18	Porter Robinson
 18	Ochre
 18	clammbon
 18	Android52
@@ -87,6 +87,7 @@
 14	ibi
 14	Grandbrothers
 14	Dark Sky
+14	Aiobahn
 13	Worakls
 13	Vessels
 13	Tomggg
@@ -103,7 +104,6 @@
 13	C2C
 13	Bonobo
 13	Bloc Party
-13	Aiobahn
 13	Aimer
 12	Woulg
 12	Sysdemes
@@ -119,6 +119,7 @@
 11	Perturbator
 11	Ocean Alley
 11	Milkoi
+11	Mild Minds
 11	Mazde
 11	Lilly Legit
 11	Lena Raine
@@ -140,7 +141,6 @@
 10	Ron Flatter
 10	Non Square
 10	Never Get Used To People
-10	Mild Minds
 10	Marley Carroll
 10	Little People
 10	Klangkarussell
@@ -179,6 +179,7 @@
  8	Yedgar
  8	Vaetxh
  8	TORIENA
+ 8	Senbeï
  8	Sainté
  8	Popof
  8	Polynation
@@ -193,6 +194,7 @@
  8	Kelpe
  8	Just Jack
  8	juniorodeo
+ 8	Jordan Rakei
  8	Joachim Pastor
  8	Jim-E Stack
  8	James Holden
@@ -210,14 +212,12 @@
  8	Arthur Hnatek
  8	AK
  7	Zyra
- 7	Senbeï
  7	SBTRKT
  7	Sampha
  7	OVERWERK
  7	Nils Hoffmann
  7	Misc.Inc
  7	Man Is Not a Bird
- 7	Jordan Rakei
  7	Joe Ford
  7	Jeremy Blake
  7	Holly Walker
@@ -231,6 +231,7 @@
  7	Disasterpeace
  7	dark cat
  7	CloZee
+ 7	Charli xcx
  7	Booka Shade
  7	Apparat
  7	Ambassadeurs
@@ -304,7 +305,6 @@
  5	demotapes
  5	Cosmicosmo
  5	Cid Rim
- 5	Charli xcx
  5	Boucle Infinie
  5	Bibio
  5	Barker
@@ -332,6 +332,7 @@
  4	Serph
  4	Secede
  4	SawanoHiroyuki[nZk]
+ 4	Sakuraburst
  4	Ryan Davis
  4	Robotaki
  4	Rage Against The Machine
@@ -447,6 +448,7 @@
  3	Rauschhaus
  3	Pyramid
  3	PYLOT
+ 3	projektbau
  3	Power Glove
  3	Portugal. The Man
  3	pluko
@@ -498,6 +500,7 @@
  3	Jacana People
  3	Ital Tek
  3	Interpol
+ 3	il:lo
  3	iamalex
  3	i_o
  3	Hudson Lee
@@ -611,6 +614,7 @@
  2	Simian Mobile Disco
  2	Silence
  2	Siinamota
+ 2	Sideluv
  2	Shook
  2	Shingo Nakamura
  2	Shing02
@@ -646,7 +650,6 @@
  2	Qrion
  2	puulse
  2	Protostar
- 2	projektbau
  2	Poté
  2	Potions
  2	Posij
@@ -681,6 +684,7 @@
  2	New Road
  2	Netik
  2	Natsunose
+ 2	Møme
  2	M|O|O|N
  2	MYLK
  2	Mura Masa
@@ -790,7 +794,6 @@
  2	Infected Mushroom
  2	In Embers
  2	Imogen Heap
- 2	il:lo
  2	Hydelic
  2	HUS
  2	Huminal
@@ -821,6 +824,7 @@
  2	Freddy Todd
  2	François-Xavier Roth
  2	Fractures
+ 2	Former Hero
  2	Former
  2	Forhill
  2	Flux Pavilion
@@ -927,6 +931,7 @@
  2	AURORA
  2	ATRIP
  2	ASHE
+ 2	Art School Girlfriend
  2	aon
  2	anubhab
  2	Anthony Jackson
@@ -953,6 +958,7 @@
  1	黒鉄たま (CV: 秋奈)
  1	鹿乃子のこ (CV.潘めぐみ)
  1	馬車芽めめ (CV.和泉風花)
+ 1	長瀬有花
  1	虎視餡子 (CV.田辺留依)
  1	虎視虎子 (CV.藤田 咲)
  1	茅原実里
@@ -1070,6 +1076,7 @@
  1	Veridis Project
  1	Vera Blue
  1	Venna
+ 1	Venjent
  1	veneris
  1	Veda
  1	vbnd
@@ -1117,6 +1124,7 @@
  1	Toro y Moi
  1	TORN
  1	Tori Romo
+ 1	Tora
  1	Tor
  1	Tony Romera
  1	Tonnerre
@@ -1136,6 +1144,7 @@
  1	Todd Baker
  1	Tinzo
  1	Tiny Leaves
+ 1	Tinashe
  1	Timo Jahns
  1	Tima Dee
  1	Tima
@@ -1303,6 +1312,7 @@
  1	SneakyFreak
  1	Snakehips
  1	Snackbox
+ 1	Slyleaf
  1	SLUMBERJACK
  1	Slowly Rolling Camera
  1	Slow Shudder
@@ -1336,7 +1346,6 @@
  1	SihAlex
  1	Signum
  1	sign crushes motorist
- 1	Sideluv
  1	Siavash
  1	Shuta Hasunuma
  1	Shurk
@@ -1401,7 +1410,6 @@
  1	salyu × salyu
  1	Salvo
  1	salute
- 1	Sakuraburst
  1	Saiya Tiaw
  1	Sainte Vie
  1	Said The Sky
@@ -1555,6 +1563,7 @@
  1	Paul White
  1	Paul Frick
  1	Patrick Leonard
+ 1	Pat's Soundhouse
  1	Pat Carroll
  1	Pase Rock
  1	Party in Backyard
@@ -1602,6 +1611,7 @@
  1	Olivera
  1	Oliver Smith
  1	Ole Biege
+ 1	Oktae
  1	Okapi
  1	OKADA
  1	Oh Hiroshima
@@ -1675,7 +1685,7 @@
  1	NANAOAKARI
  1	Naibu
  1	NAGGA
- 1	Møme
+ 1	MÒZÂMBÎQÚE
  1	Måneskin
  1	MYTH & ROID
  1	MysDiggi
@@ -1685,6 +1695,7 @@
  1	Mux Mool
  1	Muse
  1	Murtagh
+ 1	Munan
  1	MTNS
  1	Ms. Lauryn Hill
  1	Mr.Kitty
@@ -1788,6 +1799,7 @@
  1	Maurissa Rose
  1	Matt Fax
  1	Mathilde Chevrel
+ 1	Mat Hours
  1	MASS OF THE FERMENTING DREGS
  1	Mason Talbot
  1	Masego
@@ -1862,6 +1874,7 @@
  1	Lully
  1	Luke Martin
  1	Luisa Gerstein
+ 1	Lugovskiy
  1	LudoWic
  1	Lucy Dacus
  1	Lucles
@@ -1877,6 +1890,7 @@
  1	Low Roar
  1	Low
  1	lovemikai
+ 1	Love,Shaun
  1	Louisahhh
  1	Louis & Clark
  1	Lou Rhodes
@@ -1889,7 +1903,9 @@
  1	Lomelda
  1	Logan Kane
  1	Lofigo
+ 1	lofi cassette
  1	Living Room
+ 1	livetune
  1	LITE
  1	Liset Alea
  1	Lisbet Fritze
@@ -1911,6 +1927,7 @@
  1	Levex
  1	Lethr
  1	Les keke-boys
+ 1	Leopold
  1	Leonz
  1	Leonell Cassio
  1	leon chang
@@ -1949,6 +1966,7 @@
  1	Kungs
  1	Kuna Maze
  1	Kuma
+ 1	Kronol
  1	Krono
  1	Kronan
  1	Krewella
@@ -1993,6 +2011,7 @@
  1	kiki vivi lily
  1	Kiiara
  1	Kierxn
+ 1	Kieran Hemming
  1	Kieran Brunt
  1	Kidkanevil
  1	Kid A
@@ -2113,6 +2132,7 @@
  1	Jakub Zytecki
  1	Jake Bowen
  1	Jai Wolf
+ 1	Jai Piccone
  1	Jahrund
  1	JAE SOTO
  1	Jade Cicada
@@ -2208,6 +2228,7 @@
  1	Hava
  1	Hauschka
  1	Hatti Vatti
+ 1	Hatsune Miku
  1	Hasegawa
  1	harvo
  1	Harry Hayes
@@ -2284,6 +2305,7 @@
  1	Garrett Lodge
  1	GANZ
  1	GameChops
+ 1	Galshi Revolution
  1	Galdive
  1	Gabriela Robin
  1	G over
@@ -2320,7 +2342,6 @@
  1	Fourge
  1	Foster The People
  1	Fort Romeau
- 1	Former Hero
  1	Forester
  1	Forest Knot
  1	Fontaines D.C.
@@ -2437,6 +2458,7 @@
  1	Drake
  1	Dot Prime
  1	Dosem
+ 1	Dorothea
  1	Donmoyer
  1	Dolphin Machine
  1	Dolor
@@ -2682,6 +2704,7 @@
  1	bong
  1	Bondi
  1	Bon-Psy
+ 1	Bon Iver
  1	bomull
  1	Boh Doran
  1	Bobbing
@@ -2765,6 +2788,7 @@
  1	Audien
  1	Audialist
  1	Audego
+ 1	Attic Beats
  1	Atrip
  1	ATOEM
  1	Atli Örvarsson
@@ -2785,7 +2809,6 @@
  1	Artist
  1	Arthur Yoria
  1	Artec
- 1	Art School Girlfriend
  1	Arms and Sleepers
  1	Arlo Parks
  1	Arlo
@@ -2863,6 +2886,7 @@
  1	Alexandre Trotel
  1	alex martian
  1	Alex G
+ 1	Alex Banin
  1	Alex Aris
  1	Alessandro Cortini
  1	Alesda!
@@ -2872,6 +2896,7 @@
  1	Alan Walker
  1	Alan Braxe
  1	Alaina Pamela
+ 1	Al'Tarba
  1	Akīn
  1	Akurei
  1	Aktive
