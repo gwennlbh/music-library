@@ -26,6 +26,8 @@ spt list --liked --limit 50 \
 printf "Artist\tTitle\n# vim: set tabstop=64 :\t.\n%s\n" "$(cat $library)" | sponge $library
 	echo "Added back the header"
 
+python update-artist-counts.py
+
 git add .
 git commit -m "update"
 git push
