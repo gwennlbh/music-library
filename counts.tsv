@@ -96,6 +96,7 @@
 13	Vessels
 13	Tomggg
 13	Synthion
+13	Robot Koch
 13	Pretty Girl
 13	Plini
 13	Moderat
@@ -111,11 +112,11 @@
 12	Woulg
 12	The Smile
 12	Sysdemes
-12	Robot Koch
 12	Petit Biscuit
 12	Panda Eyes
 12	Milkoi
 12	Mild Minds
+12	Kaskade
 12	Glass Museum
 12	Eminem
 12	Echo Map
@@ -127,7 +128,6 @@
 11	Mazde
 11	Lilly Legit
 11	Lena Raine
-11	Kaskade
 11	Josh Cohen
 11	IMANU
 11	GHOST DATA
@@ -557,6 +557,7 @@
  3	Anderson .Paak
  3	Anamanaguchi
  3	Amtrac
+ 3	Aloboi
  3	Adriatique
  3	A.L.I.S.O.N
  3	3LAU
@@ -578,6 +579,7 @@
  2	Veyko
  2	Veronika Redd
  2	Venetian Snares
+ 2	Veela
  2	Vaundy
  2	Vajra
  2	Unfound
@@ -675,6 +677,7 @@
  2	Potions
  2	Posij
  2	Portico Quartet
+ 2	Poppy Baskcomb
  2	PinkPantheress
  2	Pilotpriest
  2	Pig&Dan
@@ -856,6 +859,7 @@
  2	Former Hero
  2	Former
  2	Forhill
+ 2	Foam and Sand
  2	Flux Pavilion
  2	Fhin
  2	Few Nolder
@@ -973,7 +977,6 @@
  2	Alydian
  2	Alvvays
  2	Alora Farenweh
- 2	Aloboi
  2	Alle Farben
  2	Alfonso Peduto
  2	Aleksandra Djelmas
@@ -1092,6 +1095,7 @@
  1	VØJ
  1	VØ
  1	vyrval
+ 1	Vylet Pony
  1	Vundabar
  1	Vorso
  1	Vooo
@@ -1115,7 +1119,6 @@
  1	Venna
  1	Venjent
  1	veneris
- 1	Veela
  1	Veda
  1	vbnd
  1	Vayre
@@ -1473,6 +1476,7 @@
  1	Royal & the Serpent
  1	Rounhaa
  1	ROUND TABLE featuring Nino
+ 1	ROSÉ
  1	Roses Gabor
  1	Rosa Walton
  1	Roo Panes
@@ -1535,9 +1539,11 @@
  1	Pye Corner Audio
  1	PUSSYKILLER
  1	Purple Cloud
+ 1	Purity Filter
  1	Puppet
  1	Punzmann
  1	Puniden
+ 1	Punctual
  1	Psychemagik
  1	Proximo
  1	Protocols
@@ -1553,7 +1559,6 @@
  1	Pras
  1	Powfu
  1	Power Druid
- 1	Poppy Baskcomb
  1	Pongo
  1	Ponette
  1	Pomplamoose
@@ -1691,6 +1696,7 @@
  1	Nordfold
  1	Noordpool Orchestra
  1	None Like Joshua
+ 1	Nokotan
  1	Nokiaa
  1	Nokae
  1	Noga Erez
@@ -2028,6 +2034,7 @@
  1	Kuraine
  1	Kungs
  1	Kuna Maze
+ 1	Kumo 99
  1	Kuma
  1	Kronol
  1	Krono
@@ -2116,6 +2123,7 @@
  1	Justina Maria Soto
  1	Justin Hawkes
  1	Justice Der
+ 1	JUST JAMES
  1	Jura7Park
  1	Jungle
  1	Juneau
@@ -2323,6 +2331,7 @@
  1	Gunna
  1	Gudo Rewinds
  1	GRZZAK
+ 1	Groupthink
  1	Groove Dealers
  1	GROJ
  1	Grizzly Bear
@@ -2350,6 +2359,7 @@
  1	GoldFish
  1	golda may
  1	Gold Panda
+ 1	GnB Chili
  1	Gnarls Barkley
  1	GLO
  1	Glimlip
@@ -2420,10 +2430,10 @@
  1	Fontaines D.C.
  1	Fokushi
  1	Foehn Trio
- 1	Foam and Sand
  1	Foals
  1	Flynn Hendry
  1	FlukeLuke
+ 1	FlowerBoyDeMii
  1	Flowdan
  1	Florida Skyline
  1	Floriane Le Pottier
@@ -2576,6 +2586,7 @@
  1	Der Dritte Raum
  1	Denzel Curry
  1	Deniz Reno
+ 1	Delhia De France
  1	delay_ok
  1	Delac
  1	DEL-30
@@ -2746,6 +2757,7 @@
  1	Cadillac
  1	Cab Canavaral
  1	C.H.A.Y.
+ 1	c678924
  1	C4FF31N3
  1	BYNX
  1	Bwoy De Bhajan
@@ -2757,6 +2769,7 @@
  1	BT
  1	bsd.u
  1	BRUX
+ 1	Bruno Mars
  1	Brothertiger
  1	Brooks
  1	BROODS
@@ -2803,6 +2816,7 @@
  1	Blossum
  1	BLOND:ISH
  1	BLOMMA
+ 1	Blksmiith
  1	Blitz The Ambassador
  1	blink-182
  1	Bleerd Cleabs
@@ -2995,6 +3009,7 @@
  1	Aktive
  1	Akirasdad
  1	Akira Complex
+ 1	AKIBA
  1	Airelle Besson
  1	AINO
  1	Aiming for Enrike
