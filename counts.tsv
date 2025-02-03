@@ -196,6 +196,7 @@
  8	Popof
  8	Polynation
  8	Nujabes
+ 8	nimino
  8	Mr. J. Medeiros
  8	Mid-Air Thief
  8	Microtrauma
@@ -226,10 +227,10 @@
  7	Sampha
  7	OVERWERK
  7	Ninajirachi
- 7	nimino
  7	Nils Hoffmann
  7	Misc.Inc
  7	Man Is Not a Bird
+ 7	Kettel
  7	Joe Ford
  7	Jeremy Blake
  7	Groundislava
@@ -261,7 +262,6 @@
  6	Mac Miller
  6	Llyr
  6	Kyle Dixon & Michael Stein
- 6	Kettel
  6	Jai Paul
  6	ill.gates
  6	Iglooghost
@@ -295,6 +295,7 @@
  5	Robotaki
  5	Rita J
  5	pluko
+ 5	Paris Paloma
  5	Ocoeur
  5	Nordic Pulse Ensemble
  5	Niklas Paschburg
@@ -466,11 +467,13 @@
  3	projektbau
  3	Power Glove
  3	Portugal. The Man
+ 3	PinkPantheress
  3	Philip Glass
  3	Peter Broderick
  3	Parra for Cuva
  3	Oxia
  3	Oolacile
+ 3	Népal
  3	Nyarons
  3	notsure
  3	North Sky
@@ -489,6 +492,7 @@
  3	Madeon
  3	Mad Zach
  3	M83
+ 3	Luther
  3	Lifeformed
  3	League of Legends
  3	Le Matos
@@ -558,6 +562,7 @@
  3	azula
  3	Avishai Cohen
  3	Autograf
+ 3	AURORA
  3	Aparde
  3	Antenna Girl
  3	anifi
@@ -687,7 +692,6 @@
  2	Posij
  2	Portico Quartet
  2	Poppy Baskcomb
- 2	PinkPantheress
  2	Pilotpriest
  2	Pig&Dan
  2	phritz
@@ -760,7 +764,6 @@
  2	M.A.N.D.Y.
  2	LÜNE
  2	luvbyrd
- 2	Luther
  2	Luna Semara
  2	Ludovico Einaudi
  2	Louis Futon
@@ -826,6 +829,7 @@
  2	James Yorkston
  2	Jake Weary
  2	Jai Wolf
+ 2	Jahrund
  2	Jadu Heart
  2	Jacal
  2	ivri
@@ -953,8 +957,10 @@
  2	Blue Mora
  2	Blood Cultures
  2	Blonde Redhead
+ 2	Blksmiith
  2	blink-182
  2	Black Country
+ 2	Birocratic
  2	Binkbeats
  2	Billain
  2	Biicla
@@ -975,7 +981,6 @@
  2	Avionics
  2	Avicii
  2	AVAION
- 2	AURORA
  2	ATRIP
  2	ASHE
  2	Art School Girlfriend
@@ -1132,6 +1137,7 @@
  1	Virgin Miri
  1	VIOLENT VIRA
  1	Vin
+ 1	Villager
  1	Viktor Orri Árnason
  1	Vicetone
  1	Via Luna
@@ -1337,6 +1343,7 @@
  1	Stack Effect
  1	St. Barbe
  1	Square Perception
+ 1	SPXRXT
  1	SPLYXER
  1	Split Chain
  1	Spektrem
@@ -1346,6 +1353,7 @@
  1	Sparkee
  1	Spacey Koala
  1	Space Jesus
+ 1	Space Dimension Controller
  1	South Arcade
  1	soupandreas
  1	Sound of Fractures
@@ -1359,8 +1367,10 @@
  1	Sophie Hunger
  1	Sony
  1	Sonny Side Up
+ 1	Sonny Fodera
  1	Sonnee
  1	Sonic Boom
+ 1	Songer
  1	Sonambient
  1	somunia
  1	Somatoast
@@ -1648,7 +1658,6 @@
  1	Pase Rock
  1	Party in Backyard
  1	Party Favor
- 1	Paris Paloma
  1	Paradis
  1	Papadosio
  1	Panda Bear
@@ -1709,7 +1718,6 @@
  1	OBu
  1	O'Flynn
  1	Nömak
- 1	Népal
  1	N²
  1	Nyaruach
  1	Nutrition
@@ -2154,6 +2162,7 @@
  1	kai
  1	Kaho Matsui
  1	k?d
+ 1	K Motionz
  1	k0d4m4
  1	JYOCHO
  1	Jyll
@@ -2229,6 +2238,7 @@
  1	Jeroen Antoine
  1	Jehnny Beth
  1	Jean-Michel Jarre
+ 1	Jean-Michel Blais
  1	Jaytech
  1	JAWNY
  1	Javeon
@@ -2248,7 +2258,6 @@
  1	Jakub Zytecki
  1	Jake Bowen
  1	Jai Piccone
- 1	Jahrund
  1	JAE SOTO
  1	Jade Cicada
  1	Jacob Pavek
@@ -2300,6 +2309,7 @@
  1	ID Labs
  1	Ichiro Yamaguchi
  1	Ichika Nito
+ 1	Ice Spice
  1	Icarus
  1	Ian Urbina
  1	Ian Carey Project
@@ -2589,6 +2599,7 @@
  1	Dresage
  1	DRAMA
  1	Drake
+ 1	Dotlights
  1	Dot Prime
  1	Dosem
  1	Dorothea
@@ -2629,6 +2640,7 @@
  1	Dexcell
  1	DEV
  1	Desmond Cheese
+ 1	Desired
  1	Derek Martin
  1	Der Dritte Raum
  1	Denzel Curry
@@ -2773,6 +2785,7 @@
  1	Chantier et Demoli7ion
  1	Chancla
  1	Champion
+ 1	CFCF
  1	Cecilia Gault
  1	Cayenne
  1	Caterina Barbieri
@@ -2860,6 +2873,7 @@
  1	bomull
  1	Boh Doran
  1	Bobbing
+ 1	blythe
  1	Blur
  1	BluntOne
  1	Blue Foundation
@@ -2868,7 +2882,6 @@
  1	Blossum
  1	BLOND:ISH
  1	BLOMMA
- 1	Blksmiith
  1	Blitz The Ambassador
  1	Bleerd Cleabs
  1	BlankFor.ms
@@ -2877,7 +2890,7 @@
  1	Bladee
  1	Blackbird Blackbird
  1	Black Gryph0n
- 1	Birocratic
+ 1	black balloons
  1	Bipolar Sunshine
  1	binki
  1	BilliumMoto
@@ -3103,7 +3116,9 @@
  1	&ME
  1	$stdout
  1	8485
+ 1	3010
  1	2045
+ 1	1991
  1	65daysofstatic
  1	49th & Main
  1	21 Savage
