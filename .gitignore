@@ -9,4 +9,4 @@ niceartworks
 .liked_tracks
 .env
 .cache
-backup.py
+secrets.json
