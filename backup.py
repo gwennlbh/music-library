@@ -11,10 +11,11 @@ from spotipy import Spotify, SpotifyOAuth
 from subprocess import run
 from pathlib import Path
 import sys
+import json
 
 here = Path(__file__).parent
 
-tokens = json.loads(here / "tokens.json")
+tokens = json.loads((here / "secrets.json").read_text())
 
 # Initial setup
 library = here / "library.tsv"
@@ -38,21 +39,22 @@ del results
 print(tracks)
 
 # Boil them down to (artists, title, album)
-new_tracks = [
+new_tracks = {
     '\t'.join([
         ", ".join(a["name"] for a in t["track"].get("artists", [])),
         t["track"].get("name", None),
         # t["track"]["album"]["name"],
     ])
     for t in tracks
-]
+}
 
 # Get whole library
 lib = list(library.read_text('utf8').splitlines())
-tracks, header = lib[1:], lib[0]
+tracks, header = set(lib[1:]), lib[0]
 # Add our tracks
-tracks.extend(new_tracks)
+tracks |= new_tracks
 # Sort
+tracks = list(tracks)
 tracks.sort()
 # Write back library
 library.write_text('\n'.join([header] + tracks), encoding='utf8')
