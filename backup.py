@@ -1,6 +1,7 @@
 # /// script
 # requires-python = ">=3.12"
 # dependencies = [
+#     "rich",
 #     "spotipy",
 # ]
 # ///
@@ -12,6 +13,9 @@ from subprocess import run
 from pathlib import Path
 import sys
 import json
+from rich import print
+from rich.console import Console
+from rich.table import Table
 
 here = Path(__file__).parent
 
@@ -29,14 +33,14 @@ spotify = Spotify(
 )
 
 # Get tracks from API
-results = spotify.current_user_saved_tracks()
-tracks = results["items"]
+results = spotify.current_user_saved_tracks()['items']
 # while results["next"]:
 #    results = spotify.next(results)
 #    tracks.extend(results["items"])
-del results
 
-print(tracks)
+# Get whole library
+lib = list(library.read_text('utf8').splitlines())
+tracks, header = set(lib[1:]), lib[0]
 
 # Boil them down to (artists, title, album)
 new_tracks = {
@@ -45,12 +49,25 @@ new_tracks = {
         t["track"].get("name", None),
         # t["track"]["album"]["name"],
     ])
-    for t in tracks
-}
+    for t in results
+} - tracks
 
-# Get whole library
-lib = list(library.read_text('utf8').splitlines())
-tracks, header = set(lib[1:]), lib[0]
+if new_tracks:
+    print(f"⋆𐙚₊˚⊹♡ I got [bold][cyan]{len(new_tracks)}[reset] new tracks for ya 💖 ⋆౨ৎ˚⟡˖ ࣪")
+
+    table = Table.grid(padding=(0, 2))
+    table.add_column(style="bold dim")
+    table.add_column()
+    for new_track in new_tracks:
+        artist, title = new_track.split('\t')
+        table.add_row(artist, title)
+    Console().print(table)
+else:
+    print(f"⋆𐙚₊˚⊹♡ Nyathing new to add. Go listen to sum new music :3 ⋆౨ৎ˚⟡˖ ࣪")
+    sys.exit()
+
+print("")
+
 # Add our tracks
 tracks |= new_tracks
 # Sort
@@ -59,6 +76,7 @@ tracks.sort()
 # Write back library
 library.write_text('\n'.join([header] + tracks), encoding='utf8')
 # Git add commti and push
-run(["git", "add", library])
-run(["git", "commit", "-m", "update"])
-run(["git", "push"])
+print(f"⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
+run(["git", "add", library], capture_output=True)
+run(["git", "commit", "-m", "update"], capture_output=True)
+run(["git", "push"], capture_output=True)
