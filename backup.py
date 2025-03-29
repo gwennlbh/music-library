@@ -11,6 +11,7 @@
 from spotipy import Spotify, SpotifyOAuth
 from subprocess import run
 from pathlib import Path
+import re
 import sys
 import json
 from rich import print
@@ -33,14 +34,23 @@ spotify = Spotify(
 )
 
 # Get tracks from API
-results = spotify.current_user_saved_tracks()['items']
-# while results["next"]:
-#    results = spotify.next(results)
-#    tracks.extend(results["items"])
+results = spotify.current_user_saved_tracks()
+""" Uncomment to fetch whole playlist (useful if it hasnt been synced up for a while)
+tracks = results['items']
+while results["next"]:
+   results = spotify.next(results)
+   tracks.extend(results["items"])
+"""
+
+# Fix quoting
+def fix_quoting(tracks):
+    return { re.sub(r'"([^"]+)"', r'“\1”', track) for track in tracks }
+
 
 # Get whole library
 lib = list(library.read_text('utf8').splitlines())
 tracks, header = set(lib[1:]), lib[0]
+tracks = fix_quoting(tracks)
 
 # Boil them down to (artists, title, album)
 new_tracks = {
@@ -49,8 +59,11 @@ new_tracks = {
         t["track"].get("name", None),
         # t["track"]["album"]["name"],
     ])
-    for t in results
+    for t in results['items']
 } - tracks
+
+new_tracks = fix_quoting(new_tracks)
+
 
 if new_tracks:
     print(f"⋆𐙚₊˚⊹♡ I got [bold][cyan]{len(new_tracks)}[reset] new tracks for ya 💖 ⋆౨ৎ˚⟡˖ ࣪")
