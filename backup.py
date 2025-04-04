@@ -3,17 +3,20 @@
 # dependencies = [
 #     "rich",
 #     "spotipy",
+#     "PyYAML",
 # ]
 # ///
 
 #!/usr/bin/env python3
 
+from typing import Literal
 from spotipy import Spotify, SpotifyOAuth
 from subprocess import run
 from pathlib import Path
 import re
 import sys
 import json
+import yaml
 from rich import print
 from rich.console import Console
 from rich.table import Table
@@ -22,8 +25,9 @@ here = Path(__file__).parent
 
 tokens = json.loads((here / "secrets.json").read_text())
 
+get_all = False
+
 # Initial setup
-library = here / "library.tsv"
 spotify = Spotify(
     auth_manager=SpotifyOAuth(
         scope=["user-follow-modify", "user-library-read"],
@@ -33,64 +37,95 @@ spotify = Spotify(
     )
 )
 
+
+def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
+    # Fix quoting
+    def fix_quoting(tracks):
+        return {re.sub(r'"([^"]+)"', r"“\1”", track) for track in tracks}
+
+    if not target.exists():
+        print(f"⋆𐙚₊˚⊹♡ Creating [bold][magenta]{target}[reset] ⋆౨ৎ˚⟡˖ ࣪")
+        target.write_text("Artist\tTitle\n", encoding="utf8")
+
+    # Get whole library
+    lib = list(target.read_text("utf8").splitlines())
+    tracks, header = set(lib[1:]), lib[0]
+    tracks = fix_quoting(tracks)
+
+    # Boil them down to (artists, title, album)
+    new_tracks = (
+        fix_quoting(
+            {
+                "\t".join(
+                    [
+                        ", ".join(a["name"] for a in t["track"].get("artists", [])),
+                        t["track"].get("name", None),
+                        # t["track"]["album"]["name"],
+                    ]
+                )
+                for t in results["items"]
+            }
+        )
+        - tracks
+    )
+
+    if new_tracks:
+        print(
+            f"⋆𐙚₊˚⊹♡ I got [bold][cyan]{len(new_tracks)}[reset] new tracks for ya in [bold][magenta]{target}[reset] 💖 ⋆౨ৎ˚⟡˖ ࣪"
+        )
+
+        table = Table.grid(padding=(0, 2))
+        table.add_column(style="bold dim")
+        table.add_column()
+        for new_track in new_tracks:
+            artist, title = new_track.split("\t")
+            table.add_row(artist, title)
+        Console().print(table)
+    else:
+        print(
+            f"⋆𐙚₊˚⊹♡ Nyathing new to add to [magenta][bold]{target}[reset]. Go listen to sum new music :3 ⋆౨ৎ˚⟡˖ ࣪"
+        )
+        return
+
+    print("")
+
+    # Add our tracks
+    tracks |= new_tracks
+    # Sort
+    tracks = list(tracks)
+    tracks.sort()
+    # Write back library
+    target.write_text("\n".join([header] + tracks), encoding="utf8")
+
+    run(["git", "add", target], capture_output=True)
+
+
 # Get tracks from API
 results = spotify.current_user_saved_tracks()
-""" Uncomment to fetch whole playlist (useful if it hasnt been synced up for a while)
-tracks = results['items']
-while results["next"]:
-   results = spotify.next(results)
-   tracks.extend(results["items"])
-"""
 
-# Fix quoting
-def fix_quoting(tracks):
-    return { re.sub(r'"([^"]+)"', r'“\1”', track) for track in tracks }
+sync_tsv_file(results, here / "library.tsv")
 
+for playlist_definition_file in here.glob("**/autofill.yaml"):
+    definition = yaml.safe_load(playlist_definition_file.read_text())
+    if not definition.get("from", "").startswith("https://open.spotify.com/playlist/"):
+        continue
 
-# Get whole library
-lib = list(library.read_text('utf8').splitlines())
-tracks, header = set(lib[1:]), lib[0]
-tracks = fix_quoting(tracks)
+    results = spotify.playlist_tracks(
+        definition["from"],
+        limit=100,
+    )
+    tracks = results["items"]
+    while get_all and results["next"]:
+        results = spotify.next(results)
+        tracks.extend(results["items"])
 
-# Boil them down to (artists, title, album)
-new_tracks = {
-    '\t'.join([
-        ", ".join(a["name"] for a in t["track"].get("artists", [])),
-        t["track"].get("name", None),
-        # t["track"]["album"]["name"],
-    ])
-    for t in results['items']
-} - tracks
+    sync_tsv_file(
+        {"items": tracks},
+        here / "tracklist.tsv",
+    )
 
-new_tracks = fix_quoting(new_tracks)
-
-
-if new_tracks:
-    print(f"⋆𐙚₊˚⊹♡ I got [bold][cyan]{len(new_tracks)}[reset] new tracks for ya 💖 ⋆౨ৎ˚⟡˖ ࣪")
-
-    table = Table.grid(padding=(0, 2))
-    table.add_column(style="bold dim")
-    table.add_column()
-    for new_track in new_tracks:
-        artist, title = new_track.split('\t')
-        table.add_row(artist, title)
-    Console().print(table)
-else:
-    print(f"⋆𐙚₊˚⊹♡ Nyathing new to add. Go listen to sum new music :3 ⋆౨ৎ˚⟡˖ ࣪")
-    sys.exit()
-
-print("")
-
-# Add our tracks
-tracks |= new_tracks
-# Sort
-tracks = list(tracks)
-tracks.sort()
-# Write back library
-library.write_text('\n'.join([header] + tracks), encoding='utf8')
 # Git add commti and push
-print(f"⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
-run(["git", "add", library], capture_output=True)
+print("⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
 run(["git", "commit", "-m", "update"], capture_output=True)
 run(["git", "pull", "--autostash"], capture_output=True)
 run(["git", "push"], capture_output=True)
