@@ -121,7 +121,7 @@ for playlist_definition_file in here.glob("**/autofill.yaml"):
 
     sync_tsv_file(
         {"items": tracks},
-        here / "tracklist.tsv",
+        playlist_definition_file.parent / "tracklist.tsv",
     )
 
 # Git add commti and push

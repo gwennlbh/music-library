@@ -1,5 +1,24 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "rich",
+#     "spotipy",
+#     "mutagen",
+#     "beautifulsoup4",
+#     "docopt",
+#     "python-dotenv",
+# ]
+# ///
+
+"""
+Usage: download.py [<library-file>]
+
+Where library-file is a TSV file with the following format:
+Artist    Title
+"""
+
 #!/usr/bin/env python
-from sys import exit
+from sys import argv, exit
 from pathlib import Path
 from subprocess import run
 import requests
@@ -8,19 +27,24 @@ from bs4 import BeautifulSoup
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from mutagen.easyid3 import EasyID3
-from rich import print 
-from dotenv import load_dotenv 
+from rich import print
+from dotenv import load_dotenv
 from hashlib import md5
+from docopt import docopt
+
+args = docopt(__doc__)
 
 here = Path(__file__).parent
 load_dotenv(here / ".env")
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
-library_file = here / "library.tsv"
+library_file = Path(args["<library-file>"]) or here / "library.tsv"
+print(f"Using library file: {library_file}")
 library = [
-        t.replace("/", "⁄").split("\t", 2)
-        for t in library_file.read_text("UTF-8").splitlines()
-        ]
+    t.replace("/", "⁄").split("\t", 2)
+    for t in library_file.read_text("UTF-8").splitlines()
+]
+
 
 def tag_track(title: str, artists: set[str], file: Path) -> bool:
     """
@@ -38,6 +62,7 @@ def tag_track(title: str, artists: set[str], file: Path) -> bool:
     print(f"Tagged {file.name!r} as {', '.join(artists)} — {title}")
     return True
 
+
 def download(track: tuple[str, str]) -> bool:
     """
     Returns True if the download succeeded False otherwise
@@ -46,38 +71,38 @@ def download(track: tuple[str, str]) -> bool:
     # Use a MD5 hash to prevent youtube-dl from choking on weird file names.
     hash = md5(bytes(artist + title, "utf-8")).hexdigest()
 
-    candidates = list(here.glob(f"{hash}*.mp3"))
+    candidates = list(library_file.parent.glob(f"{hash}*.mp3"))
     if not len(candidates):
         try:
             run(
-                    [
-                        "yt-dlp",
-                        "-x",
-                        "--audio-format",
-                        "mp3",
-                        "--output",
-                        str(here / f"{hash}%(id)s.mp3"),
-                        f"ytsearch15:{artist} {title}",
-                        "--max-downloads=1",
-                        "--ignore-errors",
-                        "--age-limit=20" # to prevent download errors due to agewall
-                        ]
-                    )
+                [
+                    "yt-dlp",
+                    "-x",
+                    "--audio-format",
+                    "mp3",
+                    "--output",
+                    str(library_file.parent / f"{hash}%(id)s.mp3"),
+                    f"ytsearch15:{artist} {title}",
+                    "--max-downloads=1",
+                    "--ignore-errors",
+                    "--age-limit=20",  # to prevent download errors due to agewall
+                ]
+            )
         except KeyboardInterrupt:
             print("Download skipped by user, continuing…")
-            return 
+            return
 
-    candidates = list(here.glob(f"{hash}*.mp3"))
+    candidates = list(library_file.parent.glob(f"{hash}*.mp3"))
     if not candidates:
         print("\tNot found on YouTube.")
         return
 
     file = candidates[0]
     try:
-        youtube_id = file.name.split('.')[0].replace(hash, "")
+        youtube_id = file.name.split(".")[0].replace(hash, "")
         try:
             tag_track(artists=artist.split(", "), title=title, file=file)
-            file.rename(here / f"{artist}  {title.replace('/', '∕')}  {youtube_id}.mp3")
+            file.rename(library_file.parent / f"{artist}  {title.replace('/', '∕')}  {youtube_id}.mp3")
         except OSError as e:
             print(f"Couldn't rename file: {e}")
     except IndexError as e:
@@ -130,7 +155,7 @@ def duration_delta_acceptable(artist: str, title: str, video_id: str) -> bool:
 
 
 def verify_durations():
-    for track in here.iterdir():
+    for track in library_file.parent.iterdir():
         if track.suffix != ".mp3":
             continue
         if len(parts := track.name.split("  ")) != 3:
