@@ -25,6 +25,15 @@ here = Path(__file__).parent
 
 tokens = json.loads((here / "secrets.json").read_text())
 
+gitignore = Path(".gitignore")
+
+# ensure secrets.json is gitignored
+if not gitignore.exists() or "\nsecrets.json\n" not in gitignore.read_text():
+    gitignore.write_text(
+        (gitignore.read_text() if gitignore.exists() else "") + "\nsecrets.json\n",
+        encoding="utf8",
+    )
+
 
 # Initial setup
 spotify = Spotify(
@@ -154,7 +163,9 @@ for spotifyurl in autocreate_playlists:
     print(f"⋆𐙚₊˚⊹♡ Creating playlist [bold][magenta]{name}[reset] ⋆౨ৎ˚⟡˖ ࣪")
     try:
         Path(here, name).mkdir(exist_ok=True, parents=True)
-        Path(here, name, "autofill.yaml").write_text(f"from: {spotifyurl}", encoding="utf8")
+        Path(here, name, "autofill.yaml").write_text(
+            f"from: {spotifyurl}", encoding="utf8"
+        )
         run(["git", "add", str(Path(here, name))], capture_output=True)
     except Exception as e:
         print(f"\tCouldn't create playlist: {e}")
