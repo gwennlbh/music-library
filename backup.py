@@ -25,7 +25,6 @@ here = Path(__file__).parent
 
 tokens = json.loads((here / "secrets.json").read_text())
 
-get_all = False
 
 # Initial setup
 spotify = Spotify(
@@ -100,6 +99,23 @@ def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
     run(["git", "add", target], capture_output=True)
 
 
+# Get playlists defined on Spotify by user
+playlists_resp = spotify.current_user_playlists()
+playlists = playlists_resp["items"]
+while playlists_resp["next"]:
+    playlists_resp = spotify.next(playlists_resp)
+    playlists.extend(playlists_resp["items"])
+
+# Store IDs of playlists we have to autocreate
+autocreate_playlists = set(
+    [
+        playlist["external_urls"]["spotify"]
+        for playlist in playlists
+        if playlist["owner"]["id"] == spotify.current_user()["id"]
+    ]
+)
+
+
 # Get tracks from API
 results = spotify.current_user_saved_tracks()
 
@@ -110,11 +126,15 @@ for playlist_definition_file in here.glob("**/autofill.yaml"):
     if not definition.get("from", "").startswith("https://open.spotify.com/playlist/"):
         continue
 
+    autocreate_playlists.discard(definition["from"])
+
     results = spotify.playlist_tracks(
         definition["from"],
         limit=100,
     )
     tracks = results["items"]
+    get_all = not Path("tracklist.tsv").exists()
+    get_all = True
     while get_all and results["next"]:
         results = spotify.next(results)
         tracks.extend(results["items"])
@@ -123,6 +143,22 @@ for playlist_definition_file in here.glob("**/autofill.yaml"):
         {"items": tracks},
         playlist_definition_file.parent / "tracklist.tsv",
     )
+
+# Create playlists we have to create
+for spotifyurl in autocreate_playlists:
+    name = next(
+        playlist["name"]
+        for playlist in playlists
+        if playlist["external_urls"]["spotify"] == spotifyurl
+    )
+    print(f"⋆𐙚₊˚⊹♡ Creating playlist [bold][magenta]{name}[reset] ⋆౨ৎ˚⟡˖ ࣪")
+    try:
+        Path(here, name).mkdir(exist_ok=True, parents=True)
+        Path(here, name, "autofill.yaml").write_text(f"from: {spotifyurl}", encoding="utf8")
+        run(["git", "add", str(Path(here, name))], capture_output=True)
+    except Exception as e:
+        print(f"\tCouldn't create playlist: {e}")
+
 
 # Git add commti and push
 print("⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
