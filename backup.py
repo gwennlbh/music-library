@@ -10,7 +10,7 @@
 #!/usr/bin/env python3
 
 from typing import Literal
-from spotipy import Spotify, SpotifyOAuth
+from spotipy import Spotify, SpotifyOAuth, MemoryCacheHandler
 from subprocess import run
 from pathlib import Path
 import re
@@ -42,6 +42,7 @@ spotify = Spotify(
         client_id=tokens["id"],
         client_secret=tokens["secret"],
         redirect_uri="http://localhost:8080",
+        cache_handler=MemoryCacheHandler()
     )
 )
 
