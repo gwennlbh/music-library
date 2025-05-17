@@ -1,0 +1,22 @@
+name: Update niceartworks/
+
+on:
+  workflow_dispatch: {}
+  schedule: 
+    - cron: 0 0 * * 0
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: astral-sh/setup-uv@v6
+      - run: sh download-niceartworks
+        env:
+          SPOTIPY_CLIENT_ID: "${{ secrets.SPOTIPY_CLIENT_ID }}"
+          SPOTIPY_CLIENT_SECRET: "${{ secrets.SPOTIPY_CLIENT_SECRET }}"
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with: { commit_message: update niceartworks }

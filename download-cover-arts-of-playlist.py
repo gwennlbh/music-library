@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+# /// script
+# dependencies = ["docopt", "python-slugify", "requests", "helium", "spotipy", "python-dotenv", "rich"]
+# ///
 
 """
 Usage:
