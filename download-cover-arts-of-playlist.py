@@ -69,4 +69,7 @@ for track in tracks:
     album = track["album"]["name"]
     artist = track["album"]["artists"][0]["name"]
 
-    download_artwork(f"{artist} {album}", save_into)
+    try:
+        download_artwork(f"{artist} {album}", save_into)
+    except:
+        print("[red] track failed")
