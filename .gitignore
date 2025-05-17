@@ -5,7 +5,6 @@
 *.wav
 .spotify
 __pycache__
-niceartworks
 .liked_tracks
 .env
 .cache
