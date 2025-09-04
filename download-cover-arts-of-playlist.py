@@ -32,7 +32,7 @@ def download_artwork(query, save_into):
     if save_as.exists():
         print(f"Skipping {save_as}, which is already downloaded")
         return
-    print(f"Downloading: {query}", end=" ")
+    print(f"Downloading: {query} (slugified to {save_as.with_suffix('').stem})", end=" ")
     start_chrome("https://bendodson.com/projects/itunes-artwork-finder/", headless=True)
     link = None
     try:
