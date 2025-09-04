@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-uv run --script download-cover-arts-of-playlist.py "https://open.spotify.com/playlist/1GWt5QdQge4u7t0IW5h9KX" niceartworks/
+uv run --script download_cover_arts_of_playlist.py "https://open.spotify.com/playlist/1GWt5QdQge4u7t0IW5h9KX" niceartworks/

@@ -4,6 +4,11 @@
 #     "rich",
 #     "spotipy",
 #     "PyYAML",
+#     "docopt", 
+#     "python-slugify", 
+#     "requests", 
+#     "helium", 
+#     "python-dotenv", 
 # ]
 # ///
 
@@ -20,6 +25,7 @@ import yaml
 from rich import print
 from rich.console import Console
 from rich.table import Table
+from download_cover_arts_of_playlist import download_artworks
 
 here = Path(__file__).parent
 
@@ -153,6 +159,11 @@ for playlist_definition_file in here.glob("**/autofill.yaml"):
         {"items": tracks},
         playlist_definition_file.parent / "tracklist.tsv",
     )
+
+    if playlist_definition_file.parent.stem == "niceartworks":
+        download_artworks(definition["from"], here / "niceartworks")
+        run(["git", "add", "niceartworks/"])
+
 
 # Create playlists we have to create
 for spotifyurl in autocreate_playlists:

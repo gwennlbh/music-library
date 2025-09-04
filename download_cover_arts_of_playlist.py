@@ -19,13 +19,9 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from rich import print 
 from dotenv import load_dotenv 
 
-args = docopt(__doc__)
-playlist_url = args["SPOTIFY_PLAYLIST_URL"]
 here = Path(__file__).parent
 load_dotenv(here / ".env")
-save_into = here / args["SAVE_INTO"]
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
-tracks = [t["track"] for t in spotify.playlist_tracks(playlist_url)["items"]]
 
 def download_artwork(query, save_into):
     save_as = save_into / (slugify(query) + ".png")
@@ -65,11 +61,19 @@ def download_artwork(query, save_into):
         with open(str(save_as), "wb") as image_file:
             image_file.write(image_response.content)
 
-for track in tracks:
-    album = track["album"]["name"]
-    artist = track["album"]["artists"][0]["name"]
+def download_artworks(playlist_url, save_into):
+    tracks = [t["track"] for t in spotify.playlist_tracks(playlist_url)["items"]]
+    for track in tracks:
+        album = track["album"]["name"]
+        artist = track["album"]["artists"][0]["name"]
 
-    try:
-        download_artwork(f"{artist} {album}", save_into)
-    except:
-        print("[red] track failed")
+        try:
+            download_artwork(f"{artist} {album}", save_into)
+        except Exception as e:
+            print(f"[red] {artist} - {album} failed: {e}")
+
+if __name__ == "__main__":
+    args = docopt(__doc__)
+    save_into = here / args["SAVE_INTO"]
+    playlist_url = args["SPOTIFY_PLAYLIST_URL"]
+    download_artworks(playlist_url, save_into)
