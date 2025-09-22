@@ -10,10 +10,10 @@ def natsort(s):
     return [int(t) if t.isdigit() else t.lower() for t in re.split(r"(\d+)", s.strip())]
 
 
-if __name__ == "__main__":
+def update_artist_counts(silent=True):
     print("counting artists")
     # datasource = map(lambda t: t.name, here.iterdir())
-    datasource = (here / "library.tsv").read_text().splitlines()
+    datasource = (here / "library.tsv").read_text("utf8").splitlines()
     print(f"using library with {len(datasource)} lines")
     tracks = [
         t.split("\t")[0]
@@ -32,8 +32,13 @@ if __name__ == "__main__":
     (here / "counts.tsv").write_text(
         "\n".join(
             reversed(sorted((f"{v:2}\t{k}" for k, v in counts.items()), key=natsort))
-        )
+        ),
+        encoding="utf8",
     )
 
-    if len(argv) < 2 or argv[1] != "--silent":
-        print((here / "counts.tsv").read_text())
+    if not silent:
+        print((here / "counts.tsv").read_text("utf8"))
+
+
+if __name__ == "__main__":
+    update_artist_counts(slient=len(argv) < 2 or argv[1] != "--silent")

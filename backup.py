@@ -26,6 +26,7 @@ from rich import print
 from rich.console import Console
 from rich.table import Table
 from download_cover_arts_of_playlist import download_artworks
+from update_artist_counts import update_artist_counts
 
 here = Path(__file__).parent
 
@@ -203,6 +204,8 @@ Path("followed_artists.txt").write_text(
 
 run(["git", "add", "followed_artists.txt"], capture_output=True)
 
+update_artist_counts()
+run(["git", "add", "counts.tsv"], capture_output=True)
 
 # Git add commit and push
 print("⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
