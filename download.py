@@ -38,7 +38,7 @@ here = Path(__file__).parent
 load_dotenv(here / ".env")
 spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 
-library_file = Path(args["<library-file>"]) or here / "library.tsv"
+library_file = Path(args["<library-file>"] or here / "library.tsv")
 print(f"Using library file: {library_file}")
 library = [
     t.replace("/", "⁄").split("\t", 2)
