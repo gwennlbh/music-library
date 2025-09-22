@@ -44,7 +44,7 @@ if not gitignore.exists() or "\nsecrets.json\n" not in gitignore.read_text():
 # Initial setup
 spotify = Spotify(
     auth_manager=SpotifyOAuth(
-        scope=["user-follow-modify", "user-library-read"],
+        scope=["user-follow-modify", "user-library-read", "user-follow-read"],
         client_id=tokens["id"],
         client_secret=tokens["secret"],
         redirect_uri="http://localhost:8080",
@@ -182,8 +182,23 @@ for spotifyurl in autocreate_playlists:
     except Exception as e:
         print(f"\tCouldn't create playlist: {e}")
 
+# Get all followed artists
+get_all = False
+results = spotify.current_user_followed_artists(limit=50)
+artists = results["artists"]["items"]
+while get_all and results["artists"]["next"]:
+    results = spotify.next(results["artists"])
+    artists.extend(results["artists"]["items"])
 
-# Git add commti and push
+# Write artists to followed_artists.txt
+Path("followed_artists.txt").write_text(
+    "\n".join(sorted(a["name"] for a in artists)), encoding="utf8"
+    )
+
+run(["git", "add", "followed_artists.txt"], capture_output=True)
+
+
+# Git add commit and push
 print("⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
 run(["git", "commit", "-m", "update"], capture_output=True)
 run(["git", "pull", "--autostash"], capture_output=True)
