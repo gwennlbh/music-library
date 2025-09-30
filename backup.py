@@ -15,6 +15,7 @@
 #!/usr/bin/env python3
 
 from typing import Literal
+from datetime import datetime, timedelta
 from spotipy import Spotify, SpotifyOAuth, MemoryCacheHandler
 from subprocess import run
 from pathlib import Path
@@ -28,9 +29,19 @@ from rich.table import Table
 from download_cover_arts_of_playlist import download_artworks
 from update_artist_counts import update_artist_counts
 
+MAX_UPDATE_AGE = timedelta(hours=4)
+
 here = Path(__file__).parent
 
 tokens = json.loads((here / "secrets.json").read_text())
+
+if "last_run" in tokens:
+    if datetime.fromtimestamp(tokens["last_run"]) + MAX_UPDATE_AGE > datetime.now():
+        print(f"⋆𐙚₊˚⊹♡ Backup ran recently (less than {MAX_UPDATE_AGE} ago), skipping ⋆౨ৎ˚⟡˖ ࣪")
+        sys.exit(0)
+
+tokens["last_run"] = datetime.now().timestamp()
+(here / "secrets.json").write_text(json.dumps(tokens), encoding="utf8")
 
 gitignore = Path(".gitignore")
 
@@ -45,13 +56,17 @@ if not gitignore.exists() or "\nsecrets.json\n" not in gitignore.read_text():
 # Initial setup
 spotify = Spotify(
     auth_manager=SpotifyOAuth(
-        scope=["user-follow-modify", "user-library-read", "user-follow-read"],
+        scope=["user-follow-modify", "user-library-read", "user-library-modify", "user-follow-read", "playlist-modify-public", "playlist-modify-private", "user-read-playback-state"],
         client_id=tokens["id"],
         client_secret=tokens["secret"],
         redirect_uri="http://localhost:8080",
         cache_handler=MemoryCacheHandler(),
     )
 )
+
+tokens["access_token"] = spotify.auth_manager.get_access_token(as_dict=False)
+tokens["scopes"] = spotify.auth_manager.scope
+(here / "secrets.json").write_text(json.dumps(tokens), encoding="utf8")
 
 
 def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
