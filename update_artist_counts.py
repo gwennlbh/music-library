@@ -29,7 +29,10 @@ def update_artist_counts(silent=True):
 
     counts = {artist: artists.count(artist) for artist in artists}
 
+    total = sum(counts.values())
+
     (here / "counts.tsv").write_text(
+        f"{total}\t\n" +
         "\n".join(
             reversed(sorted((f"{v:2}\t{k}" for k, v in counts.items()), key=natsort))
         ),
