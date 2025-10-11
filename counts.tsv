@@ -1,4 +1,4 @@
-11239	
+11254	
 97	deadmau5
 95	Mr. Bill
 75	Radiohead
@@ -87,6 +87,7 @@
 19	Flawed Mangoes
 19	Direct
 19	clammbon
+19	Catching Flies
 19	Android52
 18	Ross from Friends
 18	Petit Biscuit
@@ -97,7 +98,6 @@
 18	Freeze corleone
 18	Echo Map
 18	Culprate
-18	Catching Flies
 17	Sysdemes
 17	Mammal Hands
 17	Inwards
@@ -120,6 +120,7 @@
 16	BICEP
 16	Beacon
 15	Weval
+15	Tourist
 15	Tom Hodge
 15	the peggies
 15	Sungazer
@@ -133,7 +134,6 @@
 15	Cavetown
 15	Bad Computer
 14	Yussef Dayes
-14	Tourist
 14	Moderat
 14	Magdalena Bay
 14	Luke Abbott
@@ -172,6 +172,7 @@
 12	Woulg
 12	the olllam
 12	South Arcade
+12	Senbeï
 12	S1RENA
 12	RÜFÜS DU SOL
 12	Panda Eyes
@@ -189,7 +190,6 @@
 11	wes mills
 11	The Grogans
 11	Solomun
-11	Senbeï
 11	Sampha
 11	RY X
 11	predawka
@@ -258,10 +258,12 @@
  9	HVOB
  9	Frank Wiedemann
  9	Foehn Trio
+ 9	DJ Seinfeld
  9	Disasterpeace
  9	Cameo Blush
  9	Ametsub
  9	Aloboi
+ 8	⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ
  8	Ásgeir
  8	Yppah
  8	Yedgar
@@ -295,7 +297,6 @@
  8	Feed Me
  8	False Noise
  8	Dorian Concept
- 8	DJ Seinfeld
  8	Dior
  8	dark cat
  8	Cö shu Nie
@@ -303,17 +304,18 @@
  8	Cityfires
  8	Boss Axis
  8	Apparat
- 7	⣎⡇ꉺლ༽இ•̛)ྀ◞ ༎ຶ ༽ৣৢ؞ৢ؞ؖ ꉺლ
  7	Wavedash
  7	Victor Ruiz
  7	Vegyn
  7	TV Girl
  7	Tsundere Twintails
+ 7	Tsu Nami
  7	Tricky
  7	Switch Angel
  7	Squarepusher
  7	Robotaki
  7	RetroVision
+ 7	PinkPantheress
  7	Phoenix
  7	OVERWERK
  7	Nils Hoffmann
@@ -343,7 +345,6 @@
  6	WRLD
  6	Wintergatan
  6	Whethan
- 6	Tsu Nami
  6	Tennyson
  6	Teminite
  6	Swimming Paul
@@ -353,13 +354,14 @@
  6	ryscu
  6	Rita J
  6	Reol
- 6	PinkPantheress
+ 6	Player Dave
  6	Pearly Drops
  6	Ocoeur
  6	Nowfeel
  6	No Spirit
  6	NewJeans
  6	Marc Romboy
+ 6	Little Dragon
  6	LissA
  6	Laxcity
  6	Kyle Dixon & Michael Stein
@@ -396,7 +398,6 @@
  5	Sainte
  5	Ryan Davis
  5	projektbau
- 5	Player Dave
  5	Paris Paloma
  5	Nordic Pulse Ensemble
  5	Nordic Pulse
@@ -404,7 +405,6 @@
  5	Minecraft
  5	METRO MEW
  5	meganeko
- 5	Little Dragon
  5	Lily Allen
  5	Lapalux
  5	Kota Banks
@@ -507,6 +507,7 @@
  4	John Tejada
  4	Jaron
  4	James Ivy
+ 4	Jai Wolf
  4	ILĀ
  4	HUS
  4	gyrofield
@@ -547,6 +548,7 @@
  3	||||||||||||||||||||
  3	Zeds Dead
  3	Zebbler Encanti Experience
+ 3	Yukimi
  3	YOASOBI
  3	Yeah Yeah Yeahs
  3	Yaron Herman
@@ -695,7 +697,6 @@
  3	Jesper Ryom
  3	Jamiroquai
  3	Jake Chudnow
- 3	Jai Wolf
  3	Jahrund
  3	Jacques Greene
  3	Jacal
@@ -813,7 +814,6 @@
  2	Zammuto
  2	yunè pinku
  2	YULLOLA
- 2	Yukimi
  2	Youandewan
  2	yanaginagi
  2	YAKUSHIMARU Etsuko
@@ -1213,6 +1213,7 @@
  2	fyoum
  2	Funkin Matt
  2	From Ashes to New
+ 2	Frizk
  2	Frequent
  2	Freddy Todd
  2	Frazer Ray
@@ -1246,6 +1247,7 @@
  2	EMSKI
  2	Emi Grace
  2	Else
+ 2	Elohim
  2	Ellie Goulding
  2	Elizabeth Fraser
  2	Elisa Imperilee
@@ -1301,6 +1303,7 @@
  2	Corinne Bailey Rae
  2	CORBAL
  2	Conrad.
+ 2	Confidence Man
  2	Conducta
  2	Colin Benders
  2	cocabona
@@ -3009,6 +3012,7 @@
  1	JUICEB☮X
  1	Juice WRLD
  1	Juche
+ 1	JT
  1	JPL
  1	JP Cooper
  1	Jozzy
@@ -3355,7 +3359,6 @@
  1	frown line
  1	Frost
  1	FROMTHEHEART
- 1	Frizk
  1	Fried Dough
  1	Freya Staer
  1	Freedom Fighters
@@ -3491,7 +3494,6 @@
  1	Elyn
  1	ELWD
  1	Elskavon
- 1	Elohim
  1	Elodin
  1	elmo
  1	Elmar
@@ -3721,7 +3723,6 @@
  1	Corporate
  1	Coolgirl
  1	Conro
- 1	Confidence Man
  1	ConcernedApe
  1	Computer Kill
  1	Compound
