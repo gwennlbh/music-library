@@ -1,4 +1,4 @@
-11433	
+11462	
 97	deadmau5
 95	Mr. Bill
 75	Radiohead
@@ -13,7 +13,7 @@
 43	Reid Willis
 43	Porter Robinson
 42	C418
-40	Throwing Snow
+41	Throwing Snow
 39	Varsity Star
 38	Tom Misch
 36	cleopatrick
@@ -45,11 +45,11 @@
 26	Flume
 26	Daft Punk
 26	Clark
+26	Brecon
 26	Aphex Twin
 25	Yunomi
 25	Pretty Girl
 25	French 79
-25	Brecon
 25	BAYNK
 24	Tom VR
 24	DROELOE
@@ -115,6 +115,7 @@
 16	Stubborn Heart
 16	Stessie
 16	Milkoi
+16	Lorde
 16	Geoxor
 16	Four Tet
 16	edapollo
@@ -130,7 +131,6 @@
 15	Sungazer
 15	San Holo
 15	Magdalena Bay
-15	Lorde
 15	Lena Raine
 15	Extrawelt
 15	Eminem
@@ -157,6 +157,7 @@
 13	Stimming
 13	Slowly Rolling Camera
 13	Skrillex
+13	Senbeï
 13	Ron Flatter
 13	Népal
 13	Non Square
@@ -167,6 +168,7 @@
 13	Jane Remover
 13	Geotic
 13	Floex
+13	Digitalism
 13	C2C
 13	Bloc Party
 13	Arthur Hnatek
@@ -174,22 +176,21 @@
 13	Aimer
 12	Yosi Horikawa
 12	Woulg
+12	wes mills
+12	Tsu Nami
 12	the olllam
 12	South Arcade
-12	Senbeï
 12	S1RENA
 12	RÜFÜS DU SOL
 12	Panda Eyes
 12	Mat Zo
 12	Haywyre
-12	Digitalism
 12	clipping.
 12	Cinnamon Chasers
 12	Baril
 12	Athletic Progression
 12	Andrew Huang
 11	yeule
-11	wes mills
 11	The Grogans
 11	Solomun
 11	RY X
@@ -204,6 +205,7 @@
 11	Janus Rasmussen
 11	HoneyComeBear
 11	GHOST DATA
+11	fox capture plan
 11	ford.
 11	demotapes
 11	Christian Löffler
@@ -213,17 +215,16 @@
 11	Amon Tobin
 11	Ambassadeurs
 10	Tycho
-10	Tsu Nami
 10	Telefon Tel Aviv
 10	Never Get Used To People
 10	Marley Carroll
 10	Kindrid
+10	Kidnap
 10	il:lo
 10	Gui Boratto
 10	Gigamesh
 10	fusq
 10	Fred again..
-10	fox capture plan
 10	Feist
 10	Ewen-lbh
 10	eliderp
@@ -253,7 +254,6 @@
  9	ONE OK ROCK
  9	Mr. J. Medeiros
  9	LOOK MUM NO COMPUTER
- 9	Kidnap
  9	Just Jack
  9	juniorodeo
  9	James Holden
@@ -322,6 +322,7 @@
  7	Nils Hoffmann
  7	Niklas Paschburg
  7	Misc.Inc
+ 7	MIKA
  7	Mac Miller
  7	kmoe
  7	Joe Ford
@@ -346,6 +347,7 @@
  6	WRLD
  6	Wintergatan
  6	Whethan
+ 6	Thylacine
  6	Tennyson
  6	Teminite
  6	Tame Impala
@@ -376,6 +378,7 @@
  6	FJAAK
  6	Everything Is Recorded
  6	Elderbrook
+ 6	Disco Lines
  6	Cö Shu Nie
  6	Boucle Infinie
  6	Blue Wednesday
@@ -390,7 +393,6 @@
  5	Virtual Riot
  5	tsubi club
  5	tricot
- 5	Thylacine
  5	The Silhouettes Project
  5	The Micronaut
  5	Synkro
@@ -419,6 +421,7 @@
  5	John Summit
  5	Jerry Folk
  5	Jamie xx
+ 5	Jai Wolf
  5	Jacana People
  5	IHF
  5	IDLES
@@ -426,7 +429,7 @@
  5	Fejká
  5	Epic Mountain
  5	Emma Louise
- 5	Disco Lines
+ 5	Danger
  5	CRUSH3d
  5	Cid Rim
  5	Casey MQ
@@ -521,7 +524,6 @@
  4	Jaron
  4	Jamiroquai
  4	James Ivy
- 4	Jai Wolf
  4	ILĀ
  4	HUS
  4	gyrofield
@@ -537,7 +539,6 @@
  4	Dominik Eulberg
  4	DEADLIFE
  4	Daveed Diggs
- 4	Danger
  4	Daktyl
  4	Colyn
  4	Coals
@@ -669,7 +670,6 @@
  3	Miscellaneous
  3	Miraa May
  3	Minnesota
- 3	MIKA
  3	Memphis LK
  3	Mees Dierdorp
  3	Max Richter
@@ -796,6 +796,7 @@
  3	azula
  3	Avicii
  3	AURORA
+ 3	AtHeart
  3	Art School Girlfriend
  3	Arlo
  3	Antenna Girl
@@ -1350,6 +1351,7 @@
  2	Channy Leaneagh
  2	Central Cee
  2	Celldweller
+ 2	Cat Dealers
  2	Casey Barnes
  2	Caroline Polachek
  2	Carmine Lauri
@@ -1794,6 +1796,7 @@
  1	The Common Ground Ensemble
  1	The Cinematic Orchestra
  1	The Chick Corea New Trio
+ 1	THE CHARM PARK
  1	The Chalkeaters
  1	The Chain Gang Of 1974
  1	The Cataracs
@@ -2248,6 +2251,7 @@
  1	Private Agenda
  1	Prismo
  1	Prins Thomas
+ 1	Princess Superstar
  1	Preston.
  1	Prequell
  1	premo
@@ -2376,6 +2380,7 @@
  1	Oppidan
  1	Opiuo
  1	Opensoundorchestra
+ 1	Opaline
  1	Ooyy
  1	onumi
  1	Onra
@@ -3320,6 +3325,7 @@
  1	Gregor Schwellenbach
  1	Greg Wakeman
  1	Greentea Peng
+ 1	Green Ring
  1	Grant Lazlo
  1	Grand Soleil
  1	Grand Pavilion
@@ -3531,6 +3537,7 @@
  1	Emo Bot 9000
  1	Emma-Jean Thackray
  1	Emily Yacina
+ 1	Emily Magpie
  1	Emile Haynie
  1	Emil Rottmayer
  1	Emerson Leif
@@ -3711,6 +3718,7 @@
  1	Darius
  1	Dario Lessing
  1	DARGZ
+ 1	Daragh Fleming
  1	Dapayk solo
  1	Danyka Nadeau
  1	Danny Ras
@@ -3863,7 +3871,6 @@
  1	Cautious Clay
  1	Caterina Barbieri
  1	Cate Downey
- 1	Cat Dealers
  1	Casually Here
  1	Casiio
  1	cashiotta
@@ -4088,6 +4095,7 @@
  1	Automatic
  1	Autechre
  1	AUST
+ 1	Augustus Ghost
  1	Audioslave
  1	Audego
  1	Atticus Rush
