@@ -4,6 +4,7 @@ $stdout
 A. G. Cook
 AK
 ALOTT
+ATRIP
 ATTLAS
 Adam Neely
 Adriatique
@@ -12,6 +13,7 @@ Aimer
 Aiobahn
 Aleksandir
 Alex Banks
+Alex G
 Alexa Melo
 Alexander Panos
 AllttA
@@ -30,6 +32,7 @@ Arthur Hnatek
 Arthur Hnatek Trio
 Athletic Progression
 Atoms For Peace
+Atura
 Azaleh
 BAYNK
 BICEP
@@ -41,6 +44,7 @@ Barker
 Barry Can't Swim
 Baths
 Beacon
+Bearcubs
 Ben Lukas Boysen
 Big Thief
 Billie Eilish
@@ -160,6 +164,7 @@ Howling
 Hudson Lee
 Hughes Giboulay
 IC3PEAK
+IDLES
 IHF
 ILLIT
 IMANU
@@ -168,7 +173,9 @@ Iglooghost
 Immortal Onion
 Indian Wells
 Inwards
+Jacana People
 Jai Paul
+Jai Wolf
 Jake Chudnow
 James Holden
 Jamie xx
@@ -191,6 +198,7 @@ KLOUD
 KOAN Sound
 Kaskade
 Kelpe
+Kessoncoda
 Kettel
 Kiasmos
 Kidnap
@@ -263,6 +271,7 @@ No Mana
 No Spirit
 Non Square
 Nordic Pulse
+Nowfeel
 Nujabes
 Népal
 ODESZA
@@ -277,6 +286,7 @@ Panda Eyes
 Pantha Du Prince
 Parcels
 Paris Paloma
+Pearly Drops
 Perturbator
 Petit Biscuit
 Phoenix
@@ -315,15 +325,18 @@ SWIM
 Sainté
 Sampha
 San Holo
+Sandhouse
 SawanoHiroyuki[nZk]
 Sayuri
 Senbeï
 Serani Poji
 SevenDoors
+Shire T
 Sideluv
 Siriusmo
 Slowly Rolling Camera
 Snail's House
+Sneaker Pimps
 Soleeman
 Solomun
 Sound of Fractures
@@ -341,6 +354,7 @@ Sungazer
 Supernaive
 Swardy
 Swimming Paul
+Switch Angel
 Synkro
 Synthion
 Sysdemes
@@ -404,6 +418,7 @@ Zermatt
 Zes
 [Post-foetus]
 alt-J
+beabadoobee
 bôa
 clammbon
 cleopatrick
@@ -432,6 +447,7 @@ nimino
 notsure
 pluko
 predawka
+projektbau
 ryscu
 sir Was
 the olllam
