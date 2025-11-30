@@ -29,6 +29,11 @@ from rich.table import Table
 from download_cover_arts_of_playlist import download_artworks
 from update_artist_counts import update_artist_counts
 
+
+def git_add(path: Path | str):
+    run(["git", "add", str(path)], capture_output=True)
+
+
 MAX_UPDATE_AGE = timedelta(hours=4)
 
 here = Path(__file__).parent
@@ -37,7 +42,9 @@ tokens = json.loads((here / "secrets.json").read_text())
 
 if "last_run" in tokens:
     if datetime.fromtimestamp(tokens["last_run"]) + MAX_UPDATE_AGE > datetime.now():
-        print(f"⋆𐙚₊˚⊹♡ Backup ran recently (less than {MAX_UPDATE_AGE} ago), skipping ⋆౨ৎ˚⟡˖ ࣪")
+        print(
+            f"⋆𐙚₊˚⊹♡ Backup ran recently (less than {MAX_UPDATE_AGE} ago), skipping ⋆౨ৎ˚⟡˖ ࣪"
+        )
         sys.exit(0)
 
 tokens["last_run"] = datetime.now().timestamp()
@@ -54,22 +61,34 @@ if not gitignore.exists() or "\nsecrets.json\n" not in gitignore.read_text():
 
 
 # Initial setup
+print("Initializing spotify client")
 spotify = Spotify(
     auth_manager=SpotifyOAuth(
-        scope=["user-follow-modify", "user-library-read", "user-library-modify", "user-follow-read", "playlist-modify-public", "playlist-modify-private", "user-read-playback-state"],
+        scope=[
+            "user-follow-modify",
+            "user-library-read",
+            "user-library-modify",
+            "user-follow-read",
+            "playlist-modify-public",
+            "playlist-modify-private",
+            "user-read-playback-state",
+        ],
         client_id=tokens["id"],
         client_secret=tokens["secret"],
-        redirect_uri="http://localhost:8080",
+        redirect_uri="http://127.0.0.1:8080",
         cache_handler=MemoryCacheHandler(),
     )
 )
 
+print("Getting access token")
 tokens["access_token"] = spotify.auth_manager.get_access_token(as_dict=False)
 tokens["scopes"] = spotify.auth_manager.scope
 (here / "secrets.json").write_text(json.dumps(tokens), encoding="utf8")
 
 
 def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
+    print(f"Syncing {target}")
+
     # Fix quoting
     def fix_quoting(tracks):
         return {re.sub(r'"([^"]+)"', r"“\1”", track) for track in tracks}
@@ -128,10 +147,11 @@ def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
     # Write back library
     target.write_text("\n".join([header] + tracks), encoding="utf8")
 
-    run(["git", "add", target], capture_output=True)
+    git_add(target)
 
 
 # Get playlists defined on Spotify by user
+print("Syncing playlists")
 playlists_resp = spotify.current_user_playlists()
 playlists = playlists_resp["items"]
 while playlists_resp["next"]:
@@ -149,10 +169,12 @@ autocreate_playlists = set(
 
 
 # Get tracks from API
+print("Syncing liked tracks")
 results = spotify.current_user_saved_tracks()
 
 sync_tsv_file(results, here / "library.tsv")
 
+print("Syncing playlists")
 for playlist_definition_file in here.glob("**/autofill.yaml"):
     definition = yaml.safe_load(playlist_definition_file.read_text())
     if not definition.get("from", "").startswith("https://open.spotify.com/playlist/"):
@@ -178,7 +200,7 @@ for playlist_definition_file in here.glob("**/autofill.yaml"):
 
     if playlist_definition_file.parent.stem == "niceartworks":
         download_artworks(definition["from"], here / "niceartworks")
-        run(["git", "add", "niceartworks/"])
+        git_add(here / "niceartworks")
 
 
 # Create playlists we have to create
@@ -194,11 +216,12 @@ for spotifyurl in autocreate_playlists:
         Path(here, name, "autofill.yaml").write_text(
             f"from: {spotifyurl}", encoding="utf8"
         )
-        run(["git", "add", str(Path(here, name))], capture_output=True)
+        git_add(here / name)
     except Exception as e:
         print(f"\tCouldn't create playlist: {e}")
 
 # Get all followed artists
+print("Syncing followed artists")
 get_all = False
 results = spotify.current_user_followed_artists(limit=50)
 artists = set(
@@ -216,11 +239,13 @@ while get_all and results["artists"]["next"]:
 Path("followed_artists.txt").write_text(
     "\n".join(sorted(a for a in artists)), encoding="utf8"
 )
+git_add("followed_artists.txt")
 
-run(["git", "add", "followed_artists.txt"], capture_output=True)
-
+print("Syncing liked counts")
 update_artist_counts()
-run(["git", "add", "counts.tsv"], capture_output=True)
+git_add("counts.tsv")
+
+git_add(__file__)
 
 # Git add commit and push
 print("⋆𐙚₊˚⊹♡ Beaming up to github ⋆౨ৎ˚⟡˖ ࣪")
