@@ -1,4 +1,4 @@
-11744	
+11750	
 97	Mr. Bill
 97	deadmau5
 76	Radiohead
@@ -52,6 +52,7 @@
 25	French 79
 25	BAYNK
 24	Tom VR
+24	Grandbrothers
 24	DROELOE
 23	ヨルシカ
 23	Stephan Bodzin
@@ -70,7 +71,6 @@
 22	CloudNone
 21	Uppermost
 21	Mild Minds
-21	Grandbrothers
 21	Alex Banks
 20	Uilou
 20	Tourist
@@ -544,9 +544,11 @@
  4	gyrofield
  4	Grimes
  4	GEN.KLOUD
+ 4	G Jones
  4	Fiona Sally Miller
  4	Everyone You Know
  4	Eric Prydz
+ 4	Eprom
  4	Dylan Brady
  4	DRAMA
  4	DOT5
@@ -754,7 +756,6 @@
  3	George FitzGerald
  3	Gavin Turek
  3	gabby start
- 3	G Jones
  3	Fūji
  3	Frere
  3	Fractures
@@ -765,7 +766,6 @@
  3	EZIA
  3	Ethan Bortnick
  3	Esseks
- 3	Eprom
  3	ena mori
  3	Emmit Fenn
  3	Emilia Ali
@@ -3713,6 +3713,7 @@
  1	Donmoyer
  1	Dominique
  1	Dominic Fike
+ 1	Domenique Dumont
  1	Dolphin Machine
  1	Dolor
  1	Doja Cat
