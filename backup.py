@@ -91,7 +91,7 @@ def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
 
     # Fix quoting
     def fix_quoting(tracks):
-        return {re.sub(r'"([^"]+)"', r"“\1”", track) for track in tracks}
+        return {re.sub(r'"([^"]+)"', r"“\1”", track).replace('" ', "” ").replace(' "', " “").replace('"', "“") for track in tracks}
 
     if not target.exists():
         print(f"⋆𐙚₊˚⊹♡ Creating [bold][magenta]{target}[reset] ⋆౨ৎ˚⟡˖ ࣪")
