@@ -62,6 +62,7 @@ Bubble Love
 Burial
 C2C
 C418
+CRUSH3d
 CRi
 Cameo Blush
 Casey MQ
@@ -121,6 +122,7 @@ Everything Is Recorded
 Ewen-lbh
 Extrawelt
 FJAAK
+FKA twigs
 False Noise
 Feed Me
 Feist
@@ -138,8 +140,10 @@ Frank Wiedemann
 Fred again..
 Freeze corleone
 French 79
+Froman
 Frost Children
 Funi
+G Jones
 GHOST DATA
 Geotic
 Geoxor
@@ -213,6 +217,7 @@ Kubbi
 Kyle Dixon & Michael Stein
 LAAKE
 LOOK MUM NO COMPUTER
+Lamp
 Lane 8
 Lapalux
 Laxcity
@@ -370,6 +375,7 @@ Tennyson
 The Dø
 The Flashbulb
 The Grogans
+The Messenger Birds
 The Micronaut
 The Smile
 Thom Yorke
@@ -446,6 +452,7 @@ juniorodeo
 kmoe
 meganeko
 múm
+nano
 nimino
 notsure
 pluko
