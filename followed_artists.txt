@@ -1,6 +1,7 @@
 $stdout
 100 gecs
 20syl
+8485
 A. G. Cook
 AK
 ALOTT
@@ -16,11 +17,14 @@ Alex Banks
 Alex G
 Alexa Melo
 Alexander Panos
+Alfa Mist
+Alison Wonderland
 AllttA
 Aloboi
 Ambassadeurs
 Ametsub
 Amon Tobin
+Amtrac
 Anamanaguchi
 Andrew Huang
 Android52
@@ -96,6 +100,7 @@ Danger
 Dark Sky
 David Maxim Micic
 Daydreamer
+Dead Calm
 Digitalism
 Dior
 Direct
@@ -116,6 +121,7 @@ Elektrochemie
 Elle Cordova
 Eminem
 Endless Dive
+Eprom
 Ethan Bortnick
 Eugene Godsoe
 Everything Is Recorded
@@ -126,6 +132,7 @@ FKA twigs
 False Noise
 Feed Me
 Feist
+Fejká
 Few Nolder
 Fine-Sir-1584660650
 Flawed Mangoes
@@ -158,6 +165,7 @@ Groundislava
 Gui Boratto
 HAAi
 HVOB
+Harry Hayes
 Hayden James
 Haywyre
 Hiatus Kaiyote
@@ -184,6 +192,7 @@ Jai Wolf
 Jake Chudnow
 James Holden
 Jamie xx
+Jamiroquai
 Jan Blomqvist
 Jane Remover
 Janus Rasmussen
@@ -197,6 +206,7 @@ Jon Hopkins
 Jordan Rakei
 Josh Cohen
 Joshy
+Jukaa
 Jura7Park
 Just Jack
 KLOUD
@@ -212,12 +222,14 @@ Kiid katze
 Kinokoteikoku
 Klangkarussell
 Knapsack
+Kofi Stone
 Kokonoku
 Kota Banks
 Kubbi
 Kyle Dixon & Michael Stein
 LAAKE
 LOOK MUM NO COMPUTER
+Lamorn
 Lamp
 Lane 8
 Lapalux
@@ -256,6 +268,7 @@ Max Cooper
 Mazde
 Mees Dierdorp
 Merrin Karras
+Metric
 Microtrauma
 Mid-Air Thief
 Mild Minds
@@ -368,15 +381,18 @@ Switch Angel
 Synkro
 Synthion
 Sysdemes
+TEED
 TORIENA
 TV Girl
 Tame Impala
 Telefon Tel Aviv
 Teminite
 Tennyson
+The Caracal Project
 The Dø
 The Flashbulb
 The Grogans
+The Hellp
 The Messenger Birds
 The Micronaut
 The Smile
@@ -392,6 +408,7 @@ Tom VR
 Tomggg
 Tourist
 Tricky
+Tristam
 Tsu Nami
 Tsundere Twintails
 Tutara Peak
@@ -435,6 +452,7 @@ clammbon
 cleopatrick
 clipping.
 cute girls doing cute things
+daine
 dark cat
 deadmau5
 demotapes
@@ -451,6 +469,7 @@ il:lo
 ill.gates
 jizue
 juniorodeo
+just lil
 kmoe
 meganeko
 múm
@@ -461,6 +480,7 @@ pluko
 predawka
 projektbau
 ryscu
+salute
 sir Was
 the olllam
 the peggies
@@ -468,6 +488,7 @@ trentemøller
 tricot
 tsubi club
 underscores
+venturing
 vimae
 voisart
 webcage
