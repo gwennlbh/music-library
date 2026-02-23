@@ -1,4 +1,4 @@
-12526	
+12550	
 103	Mr. Bill
 100	deadmau5
 85	Snail's House
@@ -7,7 +7,7 @@
 70	Max Cooper
 56	Sublab
 53	No Mana
-47	Porter Robinson
+48	Porter Robinson
 47	GoGo Penguin
 46	Reid Willis
 45	trentemøller
@@ -420,6 +420,7 @@
  5	Yaron Herman Trio
  5	XIRA
  5	Voyage
+ 5	Virtual Self
  5	Virtual Riot
  5	tsubi club
  5	Tristam
@@ -457,6 +458,7 @@
  5	Jukaa
  5	John Summit
  5	Jerry Folk
+ 5	James Ivy
  5	Jacana People
  5	IHF
  5	IDLES
@@ -496,7 +498,6 @@
  4	Vylet Pony
  4	Voicians
  4	Vitalic
- 4	Virtual Self
  4	Vindata
  4	Villager
  4	Village
@@ -550,6 +551,7 @@
  4	MGMT
  4	MELVV
  4	Martina Topley-Bird
+ 4	LUV HRTS
  4	Lucid Keys
  4	leon chang
  4	League of Legends
@@ -566,7 +568,6 @@
  4	Jonathan Snipes
  4	John Tejada
  4	Jaron
- 4	James Ivy
  4	ILĀ
  4	HUS
  4	gyrofield
@@ -601,6 +602,7 @@
  4	Antonin Volson
  4	Alpha Wann
  4	ALOTT
+ 4	After Wes
  4	Aedan
  4	Adriatique
  4	[Post-foetus]
@@ -733,7 +735,6 @@
  3	Mad Zach
  3	M.A.N.D.Y.
  3	M83
- 3	LUV HRTS
  3	Luther
  3	Loukeman
  3	Loreen
@@ -873,7 +874,6 @@
  3	Alydian
  3	Alora Farenweh
  3	airshade
- 3	After Wes
  3	Ado
  3	Acopia
  3	Aaron Parks
@@ -974,6 +974,7 @@
  2	Suki Waterhouse
  2	Subtronics
  2	Subtact
+ 2	Stresshead
  2	Strawberry Girls
  2	Stephen Walking
  2	Stella Explorer
@@ -995,6 +996,7 @@
  2	Sofia Kourtesis
  2	SOFA
  2	Soda Island
+ 2	Snakehips
  2	smle
  2	Slyleaf
  2	SLUMBERJACK
@@ -1021,6 +1023,7 @@
  2	Sevish
  2	Seth Hills
  2	Serebii
+ 2	sennoh
  2	Sebastian Mullaert
  2	Scro
  2	Scratch Bandits Crew
@@ -1056,6 +1059,7 @@
  2	Ralph Heidel
  2	Rahel
  2	Rafik
+ 2	Rad Cat
  2	RAC
  2	Raashan Ahmad
  2	R. Missing
@@ -1218,6 +1222,7 @@
  2	La Fine Equipe
  2	L'Indécis
  2	Kyary Pamyu Pamyu
+ 2	Kumo 99
  2	Kronol
  2	Koven
  2	Koreless
@@ -1313,6 +1318,7 @@
  2	Huminal
  2	Hotel Pools
  2	Hope Sandoval
+ 2	holybones
  2	Hologramme
  2	High Priest
  2	Hidden Orchestra
@@ -1420,6 +1426,7 @@
  2	DJ Fresh
  2	DJ Danny
  2	DJ Counselling
+ 2	DJ ADHD
  2	DIRTY GLASSEZ
  2	Dirk Brossé
  2	Dinner Party
@@ -1564,6 +1571,7 @@
  2	Adieu Aru
  2	Addison Rae
  2	Acid Pauli
+ 2	Absolutely
  2	Above & Beyond
  2	AAAMYYY
  2	$uicideboy$
@@ -1573,6 +1581,7 @@
  2	7calibur
  2	4lienetic
  2	2touch
+ 2	1tbsp
  1	김진산
  1	黒鉄たま (CV: 秋奈)
  1	鹿乃子のこ (CV.潘めぐみ)
@@ -1917,6 +1926,7 @@
  1	Thomas Bangalter
  1	Thomas Adagio
  1	Thoma
+ 1	Things Made of Noise
  1	Theodore Shapiro
  1	Them & I
  1	The Widdler
@@ -2015,11 +2025,13 @@
  1	Taiki Nulight
  1	TABAL
  1	t.A.T.u.
+ 1	T. Harding
  1	T-Pain
  1	T3NZU
  1	t0ni
  1	Sátyr
  1	Szjerdene
+ 1	Syzy
  1	Syrup
  1	Synthatic
  1	Syncretia
@@ -2065,7 +2077,6 @@
  1	Stuck Together
  1	Strobes
  1	STRLGHT
- 1	Stresshead
  1	Strehlow
  1	Streaming Music Studios
  1	Strath
@@ -2151,7 +2162,6 @@
  1	Snow Strippers
  1	Snooze
  1	SneakyFreak
- 1	Snakehips
  1	Snackbox
  1	Smoakland
  1	Smigonaut
@@ -2251,7 +2261,6 @@
  1	sensse
  1	Sensitizer
  1	Sensient
- 1	sennoh
  1	Selah Sol
  1	Sekko
  1	Seiko Oomori
@@ -2434,7 +2443,6 @@
  1	Rainbow Conspiracy
  1	Raimu
  1	Rae Morris
- 1	Rad Cat
  1	Rachel K Collier
  1	Rabea Massaad
  1	R/D
@@ -3210,7 +3218,6 @@
  1	Kungs
  1	Kunaru
  1	Kuna Maze
- 1	Kumo 99
  1	Kuma
  1	KROY
  1	Krooked Kings
@@ -3239,6 +3246,7 @@
  1	Klô Pelgag
  1	KLP
  1	kLL sMTH
+ 1	KLAXX
  1	KJ Sawka
  1	kitty ray
  1	Kite
@@ -3485,6 +3493,7 @@
  1	IS U IS U
  1	Ironmouse
  1	Irfane
+ 1	Ireland Rhea
  1	ionnalee
  1	Inüit
  1	Interplanetary Criminal
@@ -3538,7 +3547,6 @@
  1	Honeyglaze
  1	Honey I'm Home
  1	Honey B Larochelle
- 1	holybones
  1	Holly Waxwing
  1	Holly North
  1	Holly
@@ -3558,6 +3566,7 @@
  1	High Contrast
  1	Hidden Face
  1	Hicky & Kalo
+ 1	hi.jens
  1	HI-LO
  1	HEZEN
  1	heylucas
@@ -3920,6 +3929,7 @@
  1	Eerf Evil
  1	Eefje de Visser
  1	EDOGA-SULLIVAN
+ 1	Eddie Caine
  1	Ed Harrison
  1	Echoes
  1	Echo Romeo
@@ -3931,6 +3941,7 @@
  1	Dynoro
  1	dyln
  1	dye
+ 1	Dwyer
  1	Durante
  1	Duke Dumont
  1	Duke & Jones
@@ -4000,7 +4011,6 @@
  1	DJ ELO
  1	Dj Cutman
  1	DJ Carpenter
- 1	DJ ADHD
  1	Disphing
  1	Dismantle
  1	Disfigure
@@ -4220,6 +4230,7 @@
  1	Chelou
  1	CHEEKS
  1	Chediak
+ 1	Check Leopard
  1	Chase.:R
  1	Chartreuse
  1	Charlotte Haining
@@ -4654,6 +4665,7 @@
  1	AINO
  1	Aiming for Enrike
  1	Aili
+ 1	aidn.
  1	Aho Ssan
  1	Aging Aeroplanes
  1	Agents Of Time
@@ -4683,7 +4695,6 @@
  1	acloudyskye
  1	Ace Hashimoto
  1	ABSRDST
- 1	Absolutely
  1	Abel Balder
  1	Abe
  1	Abakus
@@ -4722,5 +4733,4 @@
  1	2XM
  1	2smokeyy
  1	2nd Exit
- 1	1tbsp
  1	1f1n1ty
