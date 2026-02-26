@@ -95,7 +95,7 @@ def sync_tsv_file(results: dict[Literal["items"], list], target: Path):
 
     if not target.exists():
         print(f"⋆𐙚₊˚⊹♡ Creating [bold][magenta]{target}[reset] ⋆౨ৎ˚⟡˖ ࣪")
-        target.write_text("Artist\tTitle\n", encoding="utf8")
+        target.write_text("Artist\tTitle\tMore info\n", encoding="utf8")
 
     # Get whole library
     lib = list(target.read_text("utf8").splitlines())
