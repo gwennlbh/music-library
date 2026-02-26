@@ -1,5 +1,5 @@
 # /// script
-# requires-python = ">=3.12"
+# requires-python = ">=3.14"
 # dependencies = [
 #     "rich",
 #     "spotipy",
@@ -7,6 +7,7 @@
 #     "beautifulsoup4",
 #     "docopt",
 #     "python-dotenv",
+#     "tqdm",
 # ]
 # ///
 
@@ -19,6 +20,7 @@ Artist    Title
 
 #!/usr/bin/env python
 from sys import argv, exit
+from tqdm import tqdm
 from pathlib import Path
 from subprocess import run
 import requests
@@ -63,11 +65,15 @@ def tag_track(title: str, artists: set[str], file: Path) -> bool:
     return True
 
 
-def download(track: tuple[str, str]) -> bool:
+def download(track: tuple[str, str] | tuple[str, str, str]) -> bool:
     """
     Returns True if the download succeeded False otherwise
     """
-    artist, title = track
+    if len(track) == 3:
+        artist, title, yt_link = track
+    else:
+        yt_link = ""
+        artist, title = track
     # Use a MD5 hash to prevent youtube-dl from choking on weird file names.
     hash = md5(bytes(artist + title, "utf-8")).hexdigest()
 
@@ -77,12 +83,13 @@ def download(track: tuple[str, str]) -> bool:
             run(
                 [
                     "yt-dlp",
+                    "--remote-components", "ejs:github",
                     "-x",
                     "--audio-format",
                     "mp3",
                     "--output",
                     str(library_file.parent / f"{hash}%(id)s.mp3"),
-                    f"ytsearch15:{artist} {title}",
+                    yt_link or f"ytsearch15:{artist} {title}",
                     "--max-downloads=1",
                     "--ignore-errors",
                     "--age-limit=20",  # to prevent download errors due to agewall
@@ -114,8 +121,10 @@ def download(track: tuple[str, str]) -> bool:
 
 
 def main():
-    for track in library:
-        if len(track) != 2:
+    to_download: list[tuple] = []
+    print("Computing tracks to download list")
+    for track in tqdm(library):
+        if len(track) not in (2, 3):
             print(f"{track} format is incorrect")
             continue
         already_downloaded = False
@@ -130,7 +139,12 @@ def main():
             #     break
 
         if not already_downloaded:
-            download(track)
+            to_download.append(track)
+
+    print(f"Downloading {len(to_download)} tracks")
+
+    for track in to_download:
+        download(track)
 
 
 def duration_from_youtube(id: str) -> float:
