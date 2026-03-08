@@ -1,4 +1,4 @@
-12731	
+12740	
 103	Mr. Bill
 100	deadmau5
 85	Snail's House
@@ -69,6 +69,7 @@
 23	Kiasmos
 23	Jan Blomqvist
 23	CloudNone
+23	Alex Banks
 22	Wednesday
 22	Tinlicker
 22	Sysdemes
@@ -76,7 +77,6 @@
 22	Lilly Legit
 22	Inwards
 22	Catching Flies
-22	Alex Banks
 21	Uppermost
 21	Uilou
 21	Tourist
@@ -87,6 +87,7 @@
 20	Nils Frahm
 20	Glass Museum
 20	Frost Children
+20	Flawed Mangoes
 20	Ekcle
 20	David Maxim Micic
 20	Chrome Sparks
@@ -95,7 +96,6 @@
 19	Plini
 19	Mammal Hands
 19	Floating Points
-19	Flawed Mangoes
 19	Echo Map
 19	Direct
 19	clammbon
@@ -143,17 +143,18 @@
 15	Magdalena Bay
 15	Little Simz
 15	Lena Raine
+15	Kaskade
 15	IMANU
 15	HAAi
 15	Extrawelt
 15	Eminem
 14	yeule
 14	South Arcade
+14	nimino
 14	Mat Zo
 14	Luke Abbott
 14	Kubbi
 14	KOAN Sound
-14	Kaskade
 14	Jane Remover
 14	ibi
 14	Haywyre
@@ -177,7 +178,6 @@
 13	Ron Flatter
 13	Népal
 13	Non Square
-13	nimino
 13	Mazde
 13	Lusine
 13	Louf
@@ -244,6 +244,7 @@
 10	Gui Boratto
 10	Gigamesh
 10	Frizk
+10	Feed Me
 10	Ewen-lbh
 10	edIT
 10	EDDIE
@@ -279,7 +280,6 @@
  9	Iglooghost
  9	Frank Wiedemann
  9	Foehn Trio
- 9	Feed Me
  9	Disasterpeace
  9	Cameo Blush
  9	Ametsub
@@ -418,6 +418,7 @@
  6	Blue Wednesday
  6	Bi Disc
  6	Barker
+ 6	AURORA
  6	Au5
  6	Alison Wonderland
  6	Alex G
@@ -484,7 +485,6 @@
  5	Bibio
  5	beabadoobee
  5	Avishai Cohen
- 5	AURORA
  5	Atura
  5	Arthur Hnatek Trio
  5	Anamanaguchi
@@ -562,6 +562,7 @@
  4	Mont Duamel
  4	MINNIE
  4	MGMT
+ 4	Metric
  4	MELVV
  4	Martina Topley-Bird
  4	LUV HRTS
@@ -745,7 +746,6 @@
  3	Miscellaneous
  3	Miraa May
  3	Minnesota
- 3	Metric
  3	Mees Dierdorp
  3	meat computer
  3	Max Richter
@@ -3197,6 +3197,7 @@
  1	Leon Vynehall
  1	Leo Wood
  1	Leo Stannard
+ 1	Leo Leone
  1	Leo Janeiro
  1	Lensko
  1	Leith Sye Towers
@@ -3879,6 +3880,7 @@
  1	Fabrizio Rat
  1	Fabrice Moreau
  1	Ezéchiel Pailhès
+ 1	EZI
  1	Ezequiel Arias
  1	Eynka
  1	Exyl
