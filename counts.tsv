@@ -1,11 +1,11 @@
-12995	
+13018	
 103	Mr. Bill
 100	deadmau5
 85	Snail's House
 76	Radiohead
 70	Rival Consoles
 70	Max Cooper
-56	Sublab
+57	Sublab
 53	No Mana
 50	underscores
 48	trentemøller
@@ -51,6 +51,7 @@
 26	Loyle Carner
 26	Jon Hopkins
 26	Indian Wells
+26	French 79
 26	Daft Punk
 26	BAYNK
 25	Yunomi
@@ -58,7 +59,6 @@
 25	Moe Shop
 25	Maribou State
 25	Hiatus Kaiyote
-25	French 79
 24	Grandbrothers
 24	DROELOE
 24	A. G. Cook
@@ -94,24 +94,26 @@
 20	Chrome Sparks
 20	CharlestheFirst
 20	Android52
+20	AK
 19	Plini
+19	Petit Biscuit
 19	Mammal Hands
+19	Freeze corleone
 19	Floating Points
 19	Echo Map
 19	Direct
 19	Culprate
 19	clammbon
-19	AK
 18	Underbelly
 18	Twenty One Pilots
 18	Ross from Friends
-18	Petit Biscuit
+18	PinkPantheress
 18	Nujabes
 18	Geoxor
-18	Freeze corleone
 17	Tennyson
 17	Skrillex
 17	Parcels
+17	Milkoi
 17	Little Simz
 17	Four Tet
 17	FKA twigs
@@ -122,12 +124,12 @@
 17	BICEP
 17	alt-J
 16	中村佳穂
+16	tsubi club
 16	Thom Yorke
 16	The Smile
 16	Swardy
 16	Stubborn Heart
 16	Stessie
-16	Milkoi
 16	Lorde
 16	HAAi
 16	edapollo
@@ -138,7 +140,6 @@
 16	Apparat
 15	Yussef Dayes
 15	Weval
-15	tsubi club
 15	Tom Hodge
 15	the peggies
 15	Sungazer
@@ -181,7 +182,6 @@
 13	Senbeï
 13	S1RENA
 13	Ron Flatter
-13	PinkPantheress
 13	Népal
 13	Non Square
 13	Mazde
@@ -254,6 +254,7 @@
 10	Ewen-lbh
 10	edIT
 10	EDDIE
+10	Ecco2k
 10	Duskus
 10	daine
 10	cute girls doing cute things
@@ -288,7 +289,6 @@
  9	Harry Hayes
  9	Frank Wiedemann
  9	Foehn Trio
- 9	Ecco2k
  9	Disasterpeace
  9	Cameo Blush
  9	ATRIP
@@ -319,6 +319,7 @@
  8	Kristjan Järvi
  8	Kelpe
  8	John McSherry
+ 8	Joe Ford
  8	Joachim Pastor
  8	Jim-E Stack
  8	Jai Wolf
@@ -340,6 +341,7 @@
  8	CloZee
  8	Cityfires
  8	Boss Axis
+ 8	Bladee
  8	Ben Böhmer
  8	Aleksandir
  7	Wavedash
@@ -362,7 +364,6 @@
  7	Lamp
  7	La Roux
  7	just lil
- 7	Joe Ford
  7	jizue
  7	Jesse Mac Cormack
  7	Jeremy Blake
@@ -375,7 +376,6 @@
  7	Elderbrook
  7	bôa
  7	Blue Wednesday
- 7	Bladee
  7	Bearcubs
  7	Barry Can't Swim
  7	Atoms For Peace
@@ -436,6 +436,7 @@
  6	Alex G
  6	8485
  5	Zedd
+ 5	Yves
  5	Yaron Herman Trio
  5	XIRA
  5	Voyage
@@ -512,7 +513,6 @@
  4	Øneheart
  4	Étienne de Crécy
  4	ZIG MENTALITY
- 4	Yves
  4	Yukimi
  4	Yasumu
  4	XXXTENTACION
@@ -890,6 +890,7 @@
  3	Bernache
  3	Bayonne
  3	Bassi Fox
+ 3	Basement Jaxx
  3	Baauer
  3	azula
  3	Avicii
@@ -1570,7 +1571,6 @@
  2	Bcalm
  2	Baxter Dury
  2	Bassvictim
- 2	Basement Jaxx
  2	barking continues
  2	Barclay Crenshaw
  2	Banks
@@ -1692,6 +1692,7 @@
  1	ZØMB
  1	ZYZZCVNT
  1	ZWE1HVNDXR
+ 1	Zuukou mayzie
  1	Zushi&Vanko
  1	ZUN
  1	Zozo
@@ -1760,6 +1761,7 @@
  1	Yaeji
  1	Yaeger
  1	YAANO
+ 1	y.a.n.
  1	Y U QT
  1	xxtristanxo
  1	Xploshi
@@ -3284,6 +3286,7 @@
  1	L'atune
  1	Köttslig
  1	Kölsch
+ 1	Kylie Minogue
  1	Kyle Pearce
  1	Kyle McEvoy
  1	Kyle Dixon
@@ -3487,6 +3490,7 @@
  1	JoeB
  1	Joe Killington
  1	Joe Hisaishi
+ 1	Joe Goddard
  1	Joe Beard
  1	Joe Armon-Jones
  1	Jodi 44
@@ -3507,6 +3511,7 @@
  1	Jetta
  1	Jessica Winter
  1	Jessica Kion
+ 1	Jesse Zuretti
  1	Jesse Kendal
  1	Jess Glynne
  1	Jerome Isma-Ae
@@ -4838,6 +4843,7 @@
  1	3zeon
  1	3STRANGE
  1	2XM
+ 1	2XKO
  1	2smokeyy
  1	2nd Exit
  1	1f1n1ty
