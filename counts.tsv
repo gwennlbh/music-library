@@ -1,4 +1,4 @@
-13132	
+13161	
 103	Mr. Bill
 100	deadmau5
 85	Snail's House
@@ -30,8 +30,8 @@
 34	Baths
 33	Purity Ring
 33	Massive Attack
+33	Clark
 33	Boards of Canada
-32	Clark
 31	Flume
 30	The Flashbulb
 30	Lane 8
@@ -85,6 +85,7 @@
 21	Glass Museum
 21	Frost Children
 20	Robot Koch
+20	Plini
 20	Overmono
 20	Ocean Alley
 20	Nils Frahm
@@ -96,7 +97,6 @@
 20	CharlestheFirst
 20	Android52
 20	AK
-19	Plini
 19	Petit Biscuit
 19	Mammal Hands
 19	Freeze corleone
@@ -110,6 +110,7 @@
 18	Ross from Friends
 18	Nujabes
 18	Geoxor
+18	DVRST
 17	Tsu Nami
 17	Tennyson
 17	Skrillex
@@ -120,7 +121,6 @@
 17	Four Tet
 17	FKA twigs
 17	Endless Dive
-17	DVRST
 17	DJ_Dave
 17	Bonobo
 17	BICEP
@@ -155,18 +155,20 @@
 15	IMANU
 15	Extrawelt
 15	Eminem
+15	DJ Seinfeld
 14	yeule
 14	wes mills
 14	South Arcade
+14	S1RENA
 14	nimino
 14	Namasenda
 14	Mat Zo
 14	Luke Abbott
 14	Kubbi
 14	KOAN Sound
+14	Jai Paul
 14	ibi
 14	Haywyre
-14	DJ Seinfeld
 14	Digitalism
 14	Dark Sky
 14	Bakermat
@@ -182,7 +184,6 @@
 13	Stimming
 13	Slowly Rolling Camera
 13	Senbeï
-13	S1RENA
 13	Ron Flatter
 13	Népal
 13	Non Square
@@ -244,6 +245,7 @@
 11	Amon Tobin
 11	Ambassadeurs
 10	Swimming Paul
+10	Sound of Fractures
 10	SBTRKT
 10	Never Get Used To People
 10	Marley Carroll
@@ -270,7 +272,6 @@
  9	webcage
  9	Vaetxh
  9	Stereoclip
- 9	Sound of Fractures
  9	Sneaker Pimps
  9	RetroVision
  9	Prague Radio Symphony Orchestra
@@ -291,6 +292,7 @@
  9	Harry Hayes
  9	Frank Wiedemann
  9	Foehn Trio
+ 9	DjRUM
  9	Disasterpeace
  9	Danny Brown
  9	Cameo Blush
@@ -334,7 +336,6 @@
  8	Gold Panda
  8	False Noise
  8	Dorian Concept
- 8	DjRUM
  8	Disco Lines
  8	Dior
  8	dark cat
@@ -372,6 +373,7 @@
  7	Jeremy Blake
  7	Hudson Lee
  7	Golden Features
+ 7	gabby start
  7	FŒHN
  7	Fox Stevenson
  7	Fine-Sir-1584660650
@@ -405,6 +407,7 @@
  6	Portico Quartet
  6	Pearly Drops
  6	Paris Paloma
+ 6	Ordley
  6	Ocoeur
  6	Nowfeel
  6	No Spirit
@@ -417,12 +420,10 @@
  6	Kessoncoda
  6	Kendrick Lamar
  6	Jamie xx
- 6	Jai Paul
  6	ill.gates
  6	Hatsune Miku
  6	glittr
  6	George Clanton
- 6	gabby start
  6	Funi
  6	Fleuves
  6	FJAAK
@@ -439,6 +440,7 @@
  6	Alison Wonderland
  6	Alexander Panos
  6	Alex G
+ 6	After Wes
  6	8485
  5	Zedd
  5	Yves
@@ -464,7 +466,6 @@
  5	Sainte
  5	Ryan Davis
  5	Qrion
- 5	Ordley
  5	Obsimo
  5	Nordic Pulse Ensemble
  5	Nordic Pulse
@@ -513,7 +514,6 @@
  5	ALOTT
  5	Alfa Mist
  5	Alexa Melo
- 5	After Wes
  5	Aether
  5	Adriatique
  4	電音部
@@ -528,6 +528,7 @@
  4	What So Not
  4	Vylet Pony
  4	Voicians
+ 4	Vitesse X
  4	Vitalic
  4	Vindata
  4	Villager
@@ -669,7 +670,6 @@
  3	weird inside
  3	Waterflame
  3	vowl.
- 3	Vitesse X
  3	Vilja Larjosto
  3	Viktoria Liv
  3	Vijay Iyer Trio
@@ -830,6 +830,7 @@
  3	Hudson Mohawke
  3	Horace Andy
  3	Hiromi
+ 3	Hayley Williams
  3	HAYLA
  3	HAELIUM
  3	Habstrakt
@@ -1066,6 +1067,7 @@
  2	Sevish
  2	Seth Hills
  2	Serebii
+ 2	Sensu
  2	sennoh
  2	Sebastian Mullaert
  2	Scro
@@ -1167,6 +1169,7 @@
  2	New Road
  2	Netik
  2	Nelly Furtado
+ 2	Neggy Gemmy
  2	Natsunose
  2	Nas
  2	Møme
@@ -1375,7 +1378,6 @@
  2	Helsloot
  2	heartaake
  2	Headie One
- 2	Hayley Williams
  2	Hayla
  2	HARU NEMURI
  2	Harrison
@@ -1425,6 +1427,7 @@
  2	Fi Sullivan
  2	Fhin
  2	Few Nolder
+ 2	Ferdous
  2	FENIM0RE
  2	femtanyl
  2	Felsmann + Tiley
@@ -1904,6 +1907,7 @@
  1	U-zhaan
  1	Tzar
  1	Typesun
+ 1	TYM
  1	Tyler Myerberg
  1	Tyler
  1	Ty
@@ -2341,7 +2345,6 @@
  1	Serentium
  1	seph
  1	seonxi
- 1	Sensu
  1	sensse
  1	Sensitizer
  1	Sensient
@@ -2828,7 +2831,6 @@
  1	Neon Vectors
  1	Neon Bones
  1	NekoSnicker
- 1	Neggy Gemmy
  1	NEFFEX
  1	Nedja
  1	Neat Beats
@@ -3099,6 +3101,7 @@
  1	MAGUIRE
  1	Magnus Deus
  1	Magnificence
+ 1	Magi Merlin
  1	mafti
  1	Maezi666
  1	Mael
@@ -3133,6 +3136,7 @@
  1	Låpsley
  1	LYSTRO
  1	Lyrah
+ 1	Lyra Pramuk
  1	LYNY
  1	Lyncs
  1	Lyn Lapid
@@ -3612,6 +3616,7 @@
  1	Ireland Rhea
  1	ionnalee
  1	Inüit
+ 1	Invex
  1	Interplanetary Criminal
  1	Internet Girl
  1	INTERCOM
@@ -3639,6 +3644,7 @@
  1	Iglew
  1	if found
  1	Idleboi
+ 1	ideasforconversations
  1	ID Labs
  1	Ichiro Yamaguchi
  1	Ice Spice
@@ -3929,7 +3935,6 @@
  1	FEYNMAN
  1	Fever Ray
  1	Fetty Wap
- 1	Ferdous
  1	Ferdinand Dreyssig
  1	FEMTOGO
  1	Felty
@@ -4622,6 +4627,7 @@
  1	Babebee
  1	Babatunde Adebimpe
  1	Baalti
+ 1	B.o.B
  1	B-Real
  1	Azuzu
  1	Azuria Sky
