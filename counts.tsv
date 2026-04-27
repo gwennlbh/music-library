@@ -1,4 +1,4 @@
-13182	
+13202	
 103	Mr. Bill
 100	deadmau5
 85	Snail's House
@@ -13,7 +13,7 @@
 47	GoGo Penguin
 46	Reid Willis
 45	Rone
-42	Throwing Snow
+43	Throwing Snow
 42	CRi
 42	C418
 39	Varsity Star
@@ -35,10 +35,10 @@
 31	Flume
 30	The Flashbulb
 30	Lane 8
+30	Billie Eilish
 30	20syl
 29	Rob Clouth
 29	Brecon
-29	Billie Eilish
 28	Cavetown
 28	Azaleh
 27	Ólafur Arnalds
@@ -166,7 +166,9 @@
 14	Luke Abbott
 14	Kubbi
 14	KOAN Sound
+14	Janus Rasmussen
 14	Jai Paul
+14	il:lo
 14	ibi
 14	Haywyre
 14	Digitalism
@@ -193,8 +195,7 @@
 13	Louf
 13	Knapsack
 13	Kindrid
-13	Janus Rasmussen
-13	il:lo
+13	GHOST DATA
 13	Geotic
 13	ford.
 13	Floex
@@ -209,13 +210,13 @@
 12	the olllam
 12	Stasys
 12	RÜFÜS DU SOL
+12	Polynation
 12	Panda Eyes
 12	nano
 12	kmoe
 12	Jordan Rakei
 12	Jamiroquai
 12	ILLIT
-12	GHOST DATA
 12	Feist
 12	clipping.
 12	ATTLAS
@@ -227,7 +228,6 @@
 11	Solomun
 11	RY X
 11	predawka
-11	Polynation
 11	Perturbator
 11	Little People
 11	Klangkarussell
@@ -235,6 +235,7 @@
 11	Josh Cohen
 11	HVOB
 11	HoneyComeBear
+11	Gigamesh
 11	fusq
 11	fox capture plan
 11	eliderp
@@ -244,14 +245,16 @@
 11	Ben Lukas Boysen
 11	Amon Tobin
 11	Ambassadeurs
+11	Aloboi
 10	Swimming Paul
 10	Sound of Fractures
 10	SBTRKT
+10	RetroVision
 10	Never Get Used To People
 10	Marley Carroll
 10	juniorodeo
+10	Harry Hayes
 10	Gui Boratto
-10	Gigamesh
 10	Frizk
 10	Feed Me
 10	Ewen-lbh
@@ -266,14 +269,12 @@
 10	Bubble Love
 10	Brad Mehldau
 10	Blumen
-10	Aloboi
  9	美波
  9	Zyra
  9	webcage
  9	Vaetxh
  9	Stereoclip
  9	Sneaker Pimps
- 9	RetroVision
  9	Prague Radio Symphony Orchestra
  9	Point Point
  9	pluko
@@ -289,7 +290,6 @@
  9	Just Jack
  9	James Holden
  9	Iglooghost
- 9	Harry Hayes
  9	Frank Wiedemann
  9	Foehn Trio
  9	DjRUM
@@ -306,6 +306,7 @@
  8	Victor Ruiz
  8	Vegyn
  8	Tyler Duncan
+ 8	Tricky
  8	Thylacine
  8	The Micronaut
  8	The Dø
@@ -351,7 +352,6 @@
  7	Virtual Riot
  7	TV Girl
  7	Tsundere Twintails
- 7	Tricky
  7	The Messenger Birds
  7	Teminite
  7	Tame Impala
@@ -386,6 +386,7 @@
  7	Atoms For Peace
  7	AllttA
  7	After Wes
+ 7	8485
  7	2charm
  6	宇宙ネコ子
  6	キャロル&チューズデイ(Vo.Nai Br.XX&Celeina Ann)
@@ -413,6 +414,7 @@
  6	Ocoeur
  6	Nowfeel
  6	No Spirit
+ 6	Metric
  6	Memphis LK
  6	Marc Romboy
  6	Little Dragon
@@ -439,10 +441,10 @@
  6	beabadoobee
  6	Barker
  6	Au5
+ 6	Atura
  6	Alison Wonderland
  6	Alexander Panos
  6	Alex G
- 6	8485
  5	Zedd
  5	Yves
  5	Yaron Herman Trio
@@ -474,7 +476,6 @@
  5	Mord Fustang
  5	Minecraft
  5	METRO MEW
- 5	Metric
  5	meganeko
  5	LUV HRTS
  5	Lily Allen
@@ -507,7 +508,6 @@
  5	Bibio
  5	Bby Eco
  5	Avishai Cohen
- 5	Atura
  5	Arthur Hnatek Trio
  5	Anamanaguchi
  5	Amtrac
@@ -858,6 +858,7 @@
  3	ena mori
  3	Emmit Fenn
  3	Emilia Ali
+ 3	Elohim
  3	Elley Duhé
  3	Eliza Doolittle
  3	Elektrochemie
@@ -994,6 +995,7 @@
  2	Tim Schaufert
  2	Thy Slaughter
  2	Thomas Barrandon
+ 2	Thomas Adagio
  2	Theo Young
  2	The Surrealist
  2	the sound chalk makes
@@ -1450,7 +1452,6 @@
  2	EMSKI
  2	EMBRZ
  2	Else
- 2	Elohim
  2	Ellie Goulding
  2	Elizabeth Fraser
  2	Elisa Imperilee
@@ -2008,7 +2009,6 @@
  1	Thomas Ragsdale
  1	Thomas Bergersen
  1	Thomas Bangalter
- 1	Thomas Adagio
  1	Thoma
  1	Things Made of Noise
  1	Theodore Shapiro
@@ -3050,6 +3050,7 @@
  1	Martin Hayes
  1	Martin Garrix
  1	Marta Vega
+ 1	Marta
  1	marsquake
  1	Marsh
  1	Mars
@@ -3245,6 +3246,7 @@
  1	Lil Uzi Vert
  1	Lil Peep
  1	Life on Planets
+ 1	Life is Hard
  1	Lido
  1	LICK
  1	LibraLibra
@@ -4654,6 +4656,7 @@
  1	Automatic
  1	Autechre
  1	AUST
+ 1	AURAL UMBRA
  1	Augustus Ghost
  1	Audioslave
  1	Audego
@@ -4683,6 +4686,7 @@
  1	Asdek
  1	Asaya
  1	Asagaya Romantics
+ 1	Asa 808
  1	ARY
  1	Arvo Pärt
  1	Artyom Manukyan
