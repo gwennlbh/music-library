@@ -1,10 +1,10 @@
-13407	
+13433	
 103	Mr. Bill
 100	deadmau5
-85	Snail's House
+86	Snail's House
+78	Max Cooper
 76	Radiohead
 70	Rival Consoles
-70	Max Cooper
 58	No Mana
 57	Sublab
 54	underscores
@@ -103,6 +103,7 @@
 19	Freeze corleone
 19	Floating Points
 19	Echo Map
+19	DJ_Dave
 19	Direct
 19	Culprate
 19	clammbon
@@ -110,17 +111,16 @@
 18	Twenty One Pilots
 18	Ross from Friends
 18	Nujabes
+18	Little Simz
 18	Jane Remover
 18	Geoxor
 18	DVRST
-18	DJ_Dave
 17	Tsu Nami
 17	Tennyson
 17	Skrillex
 17	Parcels
 17	Milkoi
 17	Mid-Air Thief
-17	Little Simz
 17	Four Tet
 17	FKA twigs
 17	Endless Dive
@@ -187,6 +187,7 @@
 13	Synthion
 13	Switch Angel
 13	Stimming
+13	Stasys
 13	Slowly Rolling Camera
 13	Senbeï
 13	Ron Flatter
@@ -210,11 +211,11 @@
 12	Yosi Horikawa
 12	Woulg
 12	the olllam
-12	Stasys
 12	RÜFÜS DU SOL
 12	Polynation
 12	Panda Eyes
 12	nano
+12	Kidnap
 12	Jordan Rakei
 12	Jamiroquai
 12	ILLIT
@@ -232,7 +233,6 @@
 11	Perturbator
 11	Little People
 11	Klangkarussell
-11	Kidnap
 11	Josh Cohen
 11	HVOB
 11	HoneyComeBear
@@ -364,6 +364,7 @@
  7	Squarepusher
  7	sora
  7	Robotaki
+ 7	projektbau
  7	Phoenix
  7	Pearly Drops
  7	OVERWERK
@@ -407,6 +408,7 @@
  6	Tipper
  6	TheFatRat
  6	The Hellp
+ 6	Synkro
  6	Syberlilly
  6	Siriusmo
  6	Sideluv
@@ -415,7 +417,6 @@
  6	Rita J
  6	Reol
  6	quickly
- 6	projektbau
  6	Portico Quartet
  6	Paris Paloma
  6	Ordley
@@ -469,7 +470,6 @@
  5	Tinashe
  5	The Silhouettes Project
  5	The Caracal Project
- 5	Synkro
  5	Soleeman
  5	Skysia
  5	Skepta
@@ -629,6 +629,7 @@
  4	jamesjamesjames
  4	Jahrund
  4	Jacques Greene
+ 4	Irène Drésel
  4	informal.
  4	ILĀ
  4	HUS
@@ -840,7 +841,6 @@
  3	J. Cole
  3	Ital Tek
  3	Isla Den
- 3	Irène Drésel
  3	Interpol
  3	Infected Mushroom
  3	In Love With a Ghost
@@ -1003,6 +1003,7 @@
  2	Trevor Alan Gomes
  2	ToyTree
  2	Tora
+ 2	Tom Jarmey
  2	Tom Frane
  2	Tom Finster
  2	Tom Ashbrook
@@ -1046,6 +1047,7 @@
  2	Space Dimension Controller
  2	SOTA
  2	Sorza
+ 2	Sorcery
  2	sophro
  2	Sophie Hutchings
  2	SOPHIE
@@ -1115,6 +1117,7 @@
  2	Rinzen
  2	Rico Nasty
  2	Richard Caddock
+ 2	Rhino Betatron
  2	Reset Robot
  2	Repiet
  2	ReoNa
@@ -1334,6 +1337,7 @@
  2	Julianna Barwick
  2	Julia Church
  2	Jules Buckley
+ 2	JT
  2	Jreg
  2	Joshy
  2	Joshua de la Victoria
@@ -1628,6 +1632,7 @@
  2	Ark Patrol
  2	Aries
  2	Arctic Lake
+ 2	applecutter01
  2	aon
  2	anubhab
  2	Anthony Jackson
@@ -1710,6 +1715,7 @@
  1	ロクデナシ
  1	ハチワレ(CV:田中 誠人)
  1	カニ研究会
+ 1	ぺてら
  1	はしメロ
  1	にしな
  1	ちゅーたん(CV:早見沙織)
@@ -1717,6 +1723,7 @@
  1	しゃろう
  1	しがない高校生
  1	いとうかなこ
+ 1	あずきねこp
  1	△▃△▓
  1	Хадн дадн
  1	Хаджириза Эзизов
@@ -1965,6 +1972,7 @@
  1	Trill Bans
  1	Trikk
  1	Trigg & Gusset
+ 1	Trifory
  1	Trifect
  1	Trian Kayhatu
  1	Trey Mirror
@@ -2002,7 +2010,6 @@
  1	Tomas Barfod
  1	Tom Wilson
  1	Tom Odell
- 1	Tom Jarmey
  1	tom huna
  1	Tom Doolie
  1	Tokyo Prose
@@ -2252,7 +2259,6 @@
  1	Soudiere
  1	Sorse
  1	Sorsari
- 1	Sorcery
  1	Sorana
  1	Sophie Powers
  1	sophie meiers
@@ -2321,6 +2327,7 @@
  1	Skepsiz
  1	Skeleten
  1	SJT
+ 1	Sizo Del Givry
  1	Sixten
  1	Sitting Duck
  1	Sirah
@@ -2538,7 +2545,6 @@
  1	Richard Davis
  1	Rhys Lewis
  1	Rhode
- 1	Rhino Betatron
  1	RFM Beats
  1	Rezz
  1	Rezident
@@ -3539,7 +3545,6 @@
  1	Juice WRLD
  1	Juche
  1	JubyPhonic
- 1	JT
  1	JPL
  1	JP Cooper
  1	Jozzy
@@ -3586,6 +3591,7 @@
  1	Joce Mienniel
  1	JLV
  1	JKuch
+ 1	jjean
  1	jives
  1	Jitwam
  1	Jimi Nxir
@@ -4787,7 +4793,6 @@
  1	AQUASINE
  1	April
  1	Applescal
- 1	applecutter01
  1	Apophis
  1	Aphonic
  1	Ape School
