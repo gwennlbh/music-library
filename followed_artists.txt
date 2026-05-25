@@ -1,15 +1,18 @@
 $stdout
 100 gecs
 20syl
+2charm
 8485
 A. G. Cook
 AK
 ALOTT
 ATRIP
 ATTLAS
+AURORA
 Adam Neely
 Adriatique
 Aedan
+After Wes
 Aimer
 Aiobahn
 Aleksandir
@@ -36,6 +39,7 @@ Arlo
 Arthur Hnatek
 Arthur Hnatek Trio
 Athletic Progression
+Atlantik
 Atoms For Peace
 Atura
 Azaleh
@@ -48,12 +52,14 @@ Baril
 Barker
 Barry Can't Swim
 Baths
+Bby Eco
 Beacon
 Bearcubs
 Ben Lukas Boysen
 Bi Disc
 Big Thief
 Billie Eilish
+Bladee
 Bloc Party
 Blue Wednesday
 Blumen
@@ -86,6 +92,7 @@ Clark
 CloZee
 CloudNone
 Coals
+Conrad.
 Coolgirl
 Cosmicosmo
 Cubicolor
@@ -99,6 +106,7 @@ DROELOE
 DVRST
 Daft Punk
 Danger
+Danny Brown
 Dark Sky
 David Maxim Micic
 Daydreamer
@@ -115,6 +123,7 @@ Dorian Concept
 Drxxpy
 Duskus
 EDDIE
+Ecco2k
 Echo Map
 Ekcle
 Elderbrook
@@ -149,11 +158,13 @@ Frank Wiedemann
 Fred again..
 Freeze corleone
 French 79
+Frizk
 Froman
 Frost Children
 Funi
 G Jones
 GHOST DATA
+George Clanton
 Geotic
 Geoxor
 Gigamesh
@@ -217,6 +228,7 @@ KOAN Sound
 Kaskade
 Kelpe
 Kendrick Lamar
+Kero Kero Bonito
 Kessoncoda
 Kettel
 Kiasmos
@@ -288,9 +300,12 @@ Mr. Bill
 Mr. J. Medeiros
 Mura Masa
 NTO
+Namasenda
 Nathan Fake
 Never Get Used To People
+New Astronomy
 NewJeans
+Night Tapes
 Niklas Paschburg
 Nils Frahm
 Nils Hoffmann
@@ -308,6 +323,7 @@ Obsimo
 Ocean Alley
 Ochre
 Ocoeur
+Of The Trees
 Oklou
 Overmono
 Pan-Pot
@@ -332,6 +348,7 @@ Porter Robinson
 Postamble
 Pretty Girl
 Purity Ring
+Qrion
 RY X
 Radiohead
 Rage Against The Machine
@@ -365,6 +382,8 @@ SevenDoors
 Shire T
 Sideluv
 Siriusmo
+Skrillex
+Skysia
 Slayyyter
 Slowly Rolling Camera
 Snail's House
@@ -378,6 +397,7 @@ Stasys
 Stephan Bodzin
 Stereoclip
 Stessie
+Steve Lacy
 Stimming
 Sto
 Stubborn Heart
@@ -387,6 +407,7 @@ Supernaive
 Swardy
 Swimming Paul
 Switch Angel
+Syberlilly
 Synkro
 Synthion
 Sysdemes
@@ -412,6 +433,7 @@ Tiffany Day
 Tigran Hamasyan
 Tim Hecker
 Tinlicker
+Tipper
 Tom Hodge
 Tom Misch
 Tom VR
@@ -436,6 +458,8 @@ Varsity Star
 Vegyn
 Vessels
 Victor Ruiz
+Vindata
+Virtual Riot
 Virtual Self
 Voyage
 WRLD
@@ -451,6 +475,7 @@ Yosi Horikawa
 Yppah
 Yunomi
 Yussef Dayes
+Yves
 Yvette Young
 Zaire
 Zedd
@@ -460,6 +485,7 @@ Zes
 alt-J
 applecutter01
 beabadoobee
+brakence
 bôa
 clammbon
 cleopatrick
@@ -472,10 +498,13 @@ demotapes
 edIT
 edapollo
 eliderp
+fawn burke
 ford.
 fox capture plan
 fusq
 gabby start
+glittr
+hemlocke springs
 i_o
 ibi
 il:lo
@@ -483,7 +512,9 @@ ill.gates
 jizue
 juniorodeo
 just lil
+kimj
 kmoe
+meat computer
 meganeko
 múm
 nano
@@ -496,6 +527,7 @@ projektbau
 ryscu
 salute
 sir Was
+sora
 the olllam
 the peggies
 trentemøller
@@ -507,6 +539,7 @@ vimae
 voisart
 webcage
 wes mills
+xaev
 yeule
 zaire.
 Ásgeir

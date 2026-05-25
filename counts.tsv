@@ -1,4 +1,4 @@
-13623	
+13650	
 103	Mr. Bill
 100	deadmau5
 86	Snail's House
@@ -38,6 +38,7 @@
 30	Lane 8
 30	20syl
 29	Rob Clouth
+29	CloudNone
 29	Brecon
 28	Cavetown
 28	Azaleh
@@ -59,15 +60,14 @@
 25	Moe Shop
 25	Maribou State
 25	Hiatus Kaiyote
+24	Sysdemes
 24	Grandbrothers
 24	DROELOE
-24	CloudNone
 24	Catching Flies
 24	Alex Banks
 24	A. G. Cook
 23	ヨルシカ
 23	Tourist
-23	Sysdemes
 23	Stephan Bodzin
 23	PinkPantheress
 23	Ochre
@@ -130,12 +130,14 @@
 17	Beacon
 17	alt-J
 16	中村佳穂
+16	Yussef Dayes
 16	tsubi club
 16	Thom Yorke
 16	The Smile
 16	Swardy
 16	Stubborn Heart
 16	Stessie
+16	San Holo
 16	Moderat
 16	Lorde
 16	HAAi
@@ -144,12 +146,10 @@
 16	Bloc Party
 16	Bad Computer
 16	Apparat
-15	Yussef Dayes
 15	Weval
 15	Tom Hodge
 15	the peggies
 15	Sungazer
-15	San Holo
 15	Sampha
 15	Magdalena Bay
 15	Lena Raine
@@ -410,6 +410,7 @@
  6	WRLD
  6	Wintergatan
  6	Whethan
+ 6	Voyage
  6	Tipper
  6	TheFatRat
  6	The Hellp
@@ -433,6 +434,7 @@
  6	Marc Romboy
  6	Little Dragon
  6	LissA
+ 6	Lamorn
  6	Kyle Dixon & Michael Stein
  6	Kx5
  6	Kessoncoda
@@ -466,7 +468,6 @@
  5	Yves
  5	Yaron Herman Trio
  5	XIRA
- 5	Voyage
  5	Virtual Self
  5	Vindata
  5	venturing
@@ -500,11 +501,11 @@
  5	LUV HRTS
  5	Lily Allen
  5	Lapalux
- 5	Lamorn
  5	Kota Banks
  5	Kofi Stone
  5	KLOUD
  5	Kiid katze
+ 5	Kasbo
  5	Jukaa
  5	John Summit
  5	Jerry Folk
@@ -624,7 +625,6 @@
  4	Kero Kero Bonito
  4	Kenya Grace
  4	Kelly Lee Owens
- 4	Kasbo
  4	Kareful
  4	Kanye West
  4	Kaeto
@@ -645,6 +645,7 @@
  4	ghost.
  4	GEN.KLOUD
  4	Fractures
+ 4	Former Hero
  4	Fiona Sally Miller
  4	EZIA
  4	Eyezic
@@ -697,6 +698,7 @@
  3	Vilja Larjosto
  3	Viktoria Liv
  3	Vijay Iyer Trio
+ 3	Veela
  3	Vasudeva
  3	Varg²™
  3	Valhalla
@@ -814,6 +816,7 @@
  3	London Elektricity
  3	Linkin Park
  3	limedisx.
+ 3	Lights
  3	Lifeformed
  3	Lianne La Havas
  3	Lensko
@@ -877,7 +880,6 @@
  3	Gavin Turek
  3	Fūji
  3	Frere
- 3	Former Hero
  3	Forester
  3	Flux Pavilion
  3	FlowerBoyDeMii
@@ -1000,7 +1002,6 @@
  2	Vera Blue
  2	Venjent
  2	Venetian Snares
- 2	Veela
  2	Vaundy
  2	Valeria Litvakov
  2	Vajra
@@ -1176,6 +1177,7 @@
  2	P3PPER
  2	Owsey
  2	Owl City
+ 2	OVSKY
  2	Osirus Jack
  2	Oscar Jerome
  2	Oscar Farrell
@@ -1251,6 +1253,7 @@
  2	Mietze Conte
  2	MIDNIGHT PHUNK
  2	Midnight Dance Party
+ 2	Mick Mazoo
  2	Michael Kiwanuka
  2	Mfinity
  2	MF DOOM
@@ -1301,7 +1304,6 @@
  2	Limonène
  2	Lily Ward
  2	Lil Hank
- 2	Lights
  2	Leslie
  2	Les Siècles
  2	Lemon Demon
@@ -1852,6 +1854,7 @@
  1	Xploding Plastix
  1	XOR Gate
  1	xfchiba
+ 1	Xavi
  1	Xant.
  1	Xades
  1	WYNNE
@@ -2321,6 +2324,7 @@
  1	Solomon Fesshaye
  1	Solicit
  1	softy
+ 1	Sofie Winterson
  1	Sofiane Pamart
  1	SOFI
  1	Sofasound
@@ -2425,6 +2429,7 @@
  1	Sex Week
  1	Sewerslvt
  1	Seventh Noise
+ 1	Seven Lions
  1	Seth Schwarz
  1	Sergio Díaz De Rojas
  1	Serge Pavkin
@@ -2795,7 +2800,6 @@
  1	Oxart
  1	Owl Vision
  1	Owane
- 1	OVSKY
  1	overscorn
  1	Outkast
  1	Out Run
@@ -2879,6 +2883,7 @@
  1	Nori
  1	Nordfold
  1	Noordpool Orchestra
+ 1	Noomi
  1	None Like Joshua
  1	nomico
  1	Nokotan
@@ -2895,6 +2900,7 @@
  1	No_4mat
  1	NNAMDÏ
  1	Niven
+ 1	Nitepunk
  1	Nirvana
  1	NIO
  1	Niko B
@@ -3076,7 +3082,6 @@
  1	Migrant
  1	midnight
  1	Midland
- 1	Mick Mazoo
  1	Michhall
  1	MICHELLE
  1	Michele Nobler
@@ -3131,6 +3136,7 @@
  1	MATTON
  1	Mattilo
  1	Matthew Herbert
+ 1	Matt Van
  1	matt mcwaters
  1	Mathilde Chevrel
  1	Mateus Asato
@@ -3385,6 +3391,7 @@
  1	Leo Janeiro
  1	Leith Sye Towers
  1	LEILAH
+ 1	Leela Rosa
  1	LeeHi
  1	LeDorean
  1	Leaving Laurel
@@ -3680,6 +3687,7 @@
  1	Jay Rock
  1	Jay Prince
  1	Jay Fite
+ 1	Jay Cosmic
  1	JAWNY
  1	Javeon
  1	Jason Ross
@@ -3969,6 +3977,7 @@
  1	Gas
  1	Gary Go
  1	Garrett Lodge
+ 1	Gareth Emery
  1	GANZ
  1	GameChops
  1	Galshi Revolution
@@ -4315,6 +4324,7 @@
  1	Desmond Cheese
  1	Desmond
  1	DESH
+ 1	DESERT STAR
  1	Derek Martin
  1	Der Dritte Raum
  1	Departure
@@ -4871,6 +4881,7 @@
  1	Anonymouz
  1	Anomie Belle
  1	Anodyne
+ 1	Annabel
  1	Anna Yvette
  1	Anna Meredith
  1	Anna Lunoe
