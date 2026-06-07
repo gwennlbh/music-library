@@ -1,4 +1,4 @@
-13728	
+13752	
 103	Mr. Bill
 100	deadmau5
 89	Snail's House
@@ -67,6 +67,7 @@
 24	Alex Banks
 24	A. G. Cook
 23	ヨルシカ
+23	Tsu Nami
 23	Tourist
 23	Stephan Bodzin
 23	PinkPantheress
@@ -77,13 +78,13 @@
 23	Fred again..
 23	CharlestheFirst
 22	Wednesday
-22	Tsu Nami
 22	Tinlicker
 22	Namasenda
 22	Mild Minds
 22	Lilly Legit
 22	Inwards
 22	Glass Museum
+22	Bladee
 21	Uppermost
 21	Uilou
 21	Rodriguez Jr.
@@ -100,7 +101,6 @@
 20	DJ_Dave
 20	David Maxim Micic
 20	Chrome Sparks
-20	Bladee
 20	Android52
 20	AK
 19	Petit Biscuit
@@ -360,6 +360,7 @@
  8	Arlo
  8	Aleksandir
  8	Akuratyde
+ 8	After Wes
  7	xaev
  7	Virtual Riot
  7	TV Girl
@@ -401,7 +402,6 @@
  7	Atura
  7	Atoms For Peace
  7	AllttA
- 7	After Wes
  7	8485
  7	2charm
  6	宇宙ネコ子
@@ -435,6 +435,7 @@
  6	No Spirit
  6	Night Tapes
  6	METRO MEW
+ 6	meat computer
  6	Marc Romboy
  6	Little Dragon
  6	LissA
@@ -499,7 +500,6 @@
  5	Mord Fustang
  5	Minecraft
  5	meganeko
- 5	meat computer
  5	Marek Hemmann
  5	LUV HRTS
  5	Lily Allen
@@ -558,7 +558,9 @@
  4	Vitalic
  4	Villager
  4	Village
+ 4	Veela
  4	Vanessa Wagner
+ 4	umru
  4	Trans Voices
  4	Totally Enormous Extinct Dinosaurs
  4	Tony Anderson
@@ -701,11 +703,9 @@
  3	Vilja Larjosto
  3	Viktoria Liv
  3	Vijay Iyer Trio
- 3	Veela
  3	Vasudeva
  3	Varg²™
  3	Valhalla
- 3	umru
  3	TWO LANES
  3	Tujiko Noriko
  3	tsvaci
@@ -739,6 +739,7 @@
  3	Shiloh Dynasty
  3	Seb Wildblood
  3	Sarah Rebecca
+ 3	saoirse dream
  3	Samuel Organ
  3	Sammy Virji
  3	sakanaction
@@ -763,6 +764,7 @@
  3	Re-Logic
  3	Ravenna Golden
  3	Rauschhaus
+ 3	Rad Cat
  3	Rachie
  3	Pyramid
  3	PYLOT
@@ -901,6 +903,7 @@
  3	Elektrochemie
  3	Effie
  3	Eera
+ 3	ear
  3	DíSA
  3	Dr. Dre
  3	Douvelle19
@@ -924,6 +927,7 @@
  3	cln
  3	chloe moriondo
  3	Chet Faker
+ 3	CHEEKS
  3	Charlotte Plank
  3	Canblaster
  3	camoufly
@@ -938,6 +942,7 @@
  3	Björk
  3	Birocratic
  3	Bipolar Sunshine
+ 3	bh
  3	Bertie Scott
  3	Bernache
  3	Bayonne
@@ -1129,7 +1134,6 @@
  2	Scarlet House
  2	Savannah Jo Lack
  2	SAULT
- 2	saoirse dream
  2	SadBoyProlific
  2	Sabrina Carpenter
  2	Sabrepulse
@@ -1158,7 +1162,6 @@
  2	Ralph Heidel
  2	Rahel
  2	Rafik
- 2	Rad Cat
  2	RAC
  2	Raashan Ahmad
  2	R. Missing
@@ -1268,6 +1271,7 @@
  2	Mfinity
  2	MF DOOM
  2	Metropole Orkest
+ 2	Metronomy
  2	Memorex Memories
  2	mell-ø
  2	meesh
@@ -1527,7 +1531,6 @@
  2	Ebi Soda
  2	Eastghost
  2	Eartheater
- 2	ear
  2	Eagle Eyed Tiger
  2	dóttir.x
  2	Dyson
@@ -1639,7 +1642,6 @@
  2	Biicla
  2	Bien
  2	BIA
- 2	bh
  2	bgirl
  2	Benyayer
  2	Benjamin Faugloire
@@ -1762,6 +1764,7 @@
  1	ぺてら
  1	はしメロ
  1	にしな
+ 1	なかむらみなみ
  1	ちゅーたん(CV:早見沙織)
  1	たかはしほのか
  1	しゃろう
@@ -1771,6 +1774,7 @@
  1	△▃△▓
  1	Хадн дадн
  1	Хаджириза Эзизов
+ 1	урал гайсин
  1	Лисса
  1	Лиза Садриева
  1	КРИСПИ
@@ -1936,10 +1940,12 @@
  1	VOID ENERGY
  1	void angel
  1	VodomiroV
+ 1	VNXIOUS
  1	VLMV
  1	Vladimir Lalić
  1	Vlada Vesna
  1	vivid undress
+ 1	vitruxs
  1	Vital
  1	VISLA
  1	Virgin Miri
@@ -2024,6 +2030,7 @@
  1	Trey Mirror
  1	Trey Frey
  1	Trent Reznor and Atticus Ross
+ 1	TREKKIE TRAX CREW
  1	TREGS
  1	Travis Scott
  1	Transviolet
@@ -2943,6 +2950,7 @@
  1	Nia Archives
  1	Nhato
  1	NF
+ 1	nextdimensional
  1	Nevve
  1	Never Spring
  1	Never
@@ -3113,7 +3121,6 @@
  1	MGB
  1	MFS
  1	MEUTE
- 1	Metronomy
  1	Metrik
  1	Metaroom
  1	messwave
@@ -3162,6 +3169,7 @@
  1	Mat Hours
  1	MASS OF THE FERMENTING DREGS
  1	Mason Talbot
+ 1	Masayoshi Iimori
  1	mary in the junkyard
  1	Mary Corso
  1	Marvin Hey
@@ -3786,6 +3794,7 @@
  1	INAU
  1	in the blue shirt
  1	Imprintafter
+ 1	Immoral Support
  1	imase
  1	Iman Omari
  1	Imaginary Friend
@@ -4444,6 +4453,7 @@
  1	Cuushe
  1	Cut Copy
  1	Curtis Harding
+ 1	Current 93
  1	Cults
  1	Cult Shφtta
  1	Cult Of Luna
@@ -4550,7 +4560,6 @@
  1	Chesuqi
  1	Cherish
  1	Chelou
- 1	CHEEKS
  1	Chediak
  1	Check Leopard
  1	Chase.:R
@@ -5081,5 +5090,6 @@
  1	2XM
  1	2XKO
  1	2smokeyy
+ 1	2SCOOPS
  1	2nd Exit
  1	1f1n1ty
