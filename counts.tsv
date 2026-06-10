@@ -1,4 +1,4 @@
-13799	
+13805	
 103	Mr. Bill
 100	deadmau5
 89	Snail's House
@@ -36,9 +36,9 @@
 31	Flume
 30	The Flashbulb
 30	Lane 8
+30	CloudNone
 30	20syl
 29	Rob Clouth
-29	CloudNone
 29	Brecon
 28	Cavetown
 28	Azaleh
@@ -138,6 +138,7 @@
 16	Stubborn Heart
 16	Stessie
 16	San Holo
+16	Sampha
 16	Moderat
 16	Lorde
 16	HAAi
@@ -150,7 +151,6 @@
 15	Tom Hodge
 15	the peggies
 15	Sungazer
-15	Sampha
 15	Mat Zo
 15	Magdalena Bay
 15	Lena Raine
@@ -213,6 +213,7 @@
 12	Yosi Horikawa
 12	Woulg
 12	the olllam
+12	SBTRKT
 12	RÜFÜS DU SOL
 12	Polynation
 12	Panda Eyes
@@ -232,7 +233,6 @@
 11	Squarepusher
 11	Solomun
 11	Slayyyter
-11	SBTRKT
 11	RY X
 11	predawka
 11	Perturbator
@@ -417,6 +417,7 @@
  6	Wintergatan
  6	Whethan
  6	Voyage
+ 6	venturing
  6	Tipper
  6	TheFatRat
  6	The Hellp
@@ -476,7 +477,6 @@
  5	XIRA
  5	Virtual Self
  5	Vindata
- 5	venturing
  5	Tristam
  5	tricot
  5	Tobu
@@ -1290,6 +1290,7 @@
  2	Maysev
  2	Max Day
  2	Maverick Sabre
+ 2	Matt Van
  2	Matt Lange
  2	Matt Fax
  2	Massane
@@ -2855,6 +2856,7 @@
  1	ORION
  1	Orbital
  1	Opiuo
+ 1	Operelly
  1	OPENSTATE_
  1	Opensoundorchestra
  1	Opaline
@@ -3175,7 +3177,6 @@
  1	MATTON
  1	Mattilo
  1	Matthew Herbert
- 1	Matt Van
  1	matt mcwaters
  1	Mathilde Chevrel
  1	Mateus Asato
