@@ -1,4 +1,5 @@
 $stdout
+'•. ¸¸ .•´¯data cluster ¯'•. ¸¸ .•´
 100 gecs
 20syl
 2charm
@@ -78,6 +79,7 @@ CRUSH3d
 CRi
 Cameo Blush
 Casey MQ
+Casual Affairs
 Catching Flies
 Cavetown
 CharlestheFirst
@@ -125,6 +127,7 @@ Duskus
 EDDIE
 Ecco2k
 Echo Map
+Eera
 Ekcle
 Elderbrook
 Electrocado
@@ -199,6 +202,7 @@ Immortal Onion
 Indian Wells
 Inwards
 Irène Drésel
+Ishmael Ensemble
 Jacana People
 Jai Paul
 Jai Wolf
@@ -225,6 +229,7 @@ Jura7Park
 Just Jack
 KLOUD
 KOAN Sound
+Kasbo
 Kaskade
 Kelpe
 Kendrick Lamar
@@ -262,6 +267,7 @@ Loco Dice
 Lorde
 Lorn
 Louf
+Loukeman
 Loyle Carner
 Lucia Loot
 Luke Abbott
@@ -317,6 +323,7 @@ Nordic Pulse
 Nowfeel
 Nujabes
 Népal
+O'Flynn
 ODESZA
 ONE OK ROCK
 Obsimo
@@ -325,6 +332,7 @@ Ochre
 Ocoeur
 Of The Trees
 Oklou
+Ordley
 Overmono
 Pan-Pot
 Panam Panic
@@ -332,6 +340,7 @@ Panda Eyes
 Pantha Du Prince
 Parcels
 Paris Paloma
+Passion Pit
 Pearly Drops
 Perturbator
 Petit Biscuit
@@ -365,6 +374,7 @@ Ron Flatter
 Rone
 Ross from Friends
 Ryan Davis
+Ryan Leahan
 RÜFÜS DU SOL
 Röyksopp
 S1RENA
@@ -495,6 +505,7 @@ daine
 dark cat
 deadmau5
 demotapes
+ear
 edIT
 edapollo
 eliderp
@@ -525,6 +536,7 @@ pluko
 predawka
 projektbau
 ryscu
+s8jfou
 salute
 sir Was
 sora
