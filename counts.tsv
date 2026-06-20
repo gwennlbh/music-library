@@ -1,4 +1,4 @@
-13949	
+13975	
 103	Mr. Bill
 100	deadmau5
 89	Snail's House
@@ -143,6 +143,7 @@
 16	Sampha
 16	Moderat
 16	Louf
+16	Knapsack
 16	Kaskade
 16	HAAi
 16	edapollo
@@ -198,7 +199,6 @@
 13	Non Square
 13	Mazde
 13	Lusine
-13	Knapsack
 13	kmoe
 13	Kindrid
 13	juniorodeo
@@ -249,6 +249,7 @@
 11	HoneyComeBear
 11	Gui Boratto
 11	Gigamesh
+11	gabby start
 11	fusq
 11	fox capture plan
 11	eliderp
@@ -293,6 +294,7 @@
  9	Point Point
  9	Plaid
  9	Phoenix
+ 9	Pearly Drops
  9	Panam Panic
  9	ONE OK ROCK
  9	Nils Hoffmann
@@ -331,7 +333,6 @@
  8	Sainté
  8	projektbau
  8	Popof
- 8	Pearly Drops
  8	nicamoq
  8	Microtrauma
  8	Michael Shimmin
@@ -353,7 +354,6 @@
  8	Groundislava
  8	Golden Vessel
  8	Gold Panda
- 8	gabby start
  8	False Noise
  8	ear
  8	Dorian Concept
@@ -594,6 +594,7 @@
  4	Sharks
  4	Serph
  4	Secede
+ 4	Scro
  4	SawanoHiroyuki[nZk]
  4	saoirse dream
  4	Sam Garrett
@@ -751,7 +752,6 @@
  3	Shlohmo
  3	Shiloh Dynasty
  3	Seb Wildblood
- 3	Scro
  3	Sarah Rebecca
  3	Samuel Organ
  3	Sammy Virji
@@ -904,6 +904,7 @@
  3	George FitzGerald
  3	Gavin Turek
  3	Fūji
+ 3	fyoum
  3	Furui Riho
  3	Frere
  3	Forester
@@ -1311,6 +1312,7 @@
  2	Massane
  2	Masego
  2	María Escarmiento
+ 2	marshall4
  2	Mark Guiliana
  2	Marco Demark
  2	Marcioz
@@ -1492,7 +1494,6 @@
  2	Gazo
  2	gardenstate
  2	Ganja White Night
- 2	fyoum
  2	Future
  2	Funkin Matt
  2	Ftlframe
@@ -1523,6 +1524,7 @@
  2	Feiertag
  2	Fcukers
  2	fakemink
+ 2	Fairys
  2	Fabrik
  2	F.O.O.L
  2	Ezra Collective
@@ -1630,6 +1632,7 @@
  2	Chapelier Fou
  2	Channy Leaneagh
  2	Chanel Beads
+ 2	CFCF
  2	Central Cee
  2	Celldweller
  2	Cece Natalie
@@ -1649,6 +1652,7 @@
  2	BRONSON
  2	Britney Spears
  2	brillion.
+ 2	Brewster Durbin
  2	Breakbot
  2	Braken
  2	Braids
@@ -2026,6 +2030,7 @@
  1	TYM
  1	Tyler Myerberg
  1	Ty
+ 1	twr
  1	Two Steps from Hell
  1	Two People
  1	Two Door Cinema Club
@@ -2099,6 +2104,7 @@
  1	Toby Fox
  1	Tobias Jesso Jr.
  1	Toasty
+ 1	To Oscar
  1	Tiësto
  1	Tinzo
  1	Tiny Leaves
@@ -2251,6 +2257,7 @@
  1	SyKo
  1	sxth sns
  1	Swy3r
+ 1	swoof
  1	Swing
  1	SWEETGUM
  1	Sweet William
@@ -2264,6 +2271,7 @@
  1	Suzanne Vega
  1	SusTrapperazzi
  1	Sushi Killer
+ 1	Suroki
  1	surfbored.
  1	Surf Trash
  1	Surf Mesa
@@ -2927,6 +2935,7 @@
  1	Nuver
  1	Nutrition
  1	nuphory
+ 1	nuclear catbomb
  1	Nubya Garcia
  1	Nu Aspect
  1	Noé
@@ -2964,6 +2973,7 @@
  1	Niven
  1	Nitepunk
  1	Nirvana
+ 1	Niomi
  1	NIO
  1	Niko B
  1	nightlight
@@ -3040,6 +3050,7 @@
  1	Mx3
  1	Mux Mool
  1	Muse
+ 1	Musa
  1	Murtagh
  1	Murdock
  1	Munan
@@ -3220,7 +3231,6 @@
  1	Marta Vega
  1	Marta
  1	marsquake
- 1	marshall4
  1	Marsh
  1	Mars
  1	MARS
@@ -3335,6 +3345,7 @@
  1	LUNR
  1	lunne.
  1	Lunar Latitude
+ 1	lunaa
  1	LUNA
  1	Lumie
  1	Lumi Athena
@@ -3835,6 +3846,7 @@
  1	INCA
  1	INAU
  1	in the blue shirt
+ 1	imyzuli
  1	Imprintafter
  1	Immoral Support
  1	imase
@@ -3954,6 +3966,7 @@
  1	Hamdi
  1	hallow
  1	Hallie Coggins
+ 1	halfTrue
  1	Half Moon Run
  1	Hako Yamazaki
  1	Hainbach
@@ -4179,7 +4192,6 @@
  1	Fakear
  1	FAKE TYPE.
  1	Faithless
- 1	Fairys
  1	Fahjah
  1	Fadi Mohem
  1	Fader Lima
@@ -4247,6 +4259,7 @@
  1	ELWD
  1	Elskavon
  1	Eloquin
+ 1	ELOI
  1	Elodin
  1	elmo
  1	Elmar
@@ -4557,6 +4570,7 @@
  1	Cleo Sol
  1	Clementine Douglas
  1	Cleffy
+ 1	clearlew
  1	clear eyes
  1	Cldr
  1	Clark Rainbow
@@ -4619,7 +4633,6 @@
  1	Champion
  1	Champagne Drip
  1	Chambre Noire
- 1	CFCF
  1	Cella
  1	cell m8
  1	Celestino
@@ -4705,7 +4718,6 @@
  1	Bricksquash
  1	Brick + Mortar
  1	Briana Marela
- 1	Brewster Durbin
  1	Brendon Moeller
  1	Brekky Boy
  1	Breanne Düren
@@ -5114,6 +5126,7 @@
  1	A Girl Named Sue
  1	[bsd.u]
  1	[.que]
+ 1	(un)familiar.
  1	&ME
  1	$stdout
  1	3421
