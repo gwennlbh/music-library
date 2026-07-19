@@ -62,7 +62,15 @@ def download_artwork(query, save_into):
             image_file.write(image_response.content)
 
 def download_artworks(playlist_url, save_into):
-    tracks = [t["track"] for t in spotify.playlist_tracks(playlist_url)["items"]]
+    response = spotify.playlist_tracks(playlist_url)["items"]
+    tracks = [ i["track"] for i in response ]
+    
+    offset = 0
+    while len(response) >= 50:
+        offset += 1
+        response = spotify.playlist_tracks(playlist_url, offset=offset)["items"]
+        tracks += response
+        
     for track in tracks:
         album = track["album"]["name"]
         artist = track["album"]["artists"][0]["name"]
