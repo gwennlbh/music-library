@@ -69,7 +69,7 @@ def download_artworks(playlist_url, save_into):
     while len(response) >= 50:
         offset += 1
         response = spotify.playlist_tracks(playlist_url, offset=offset)["items"]
-        tracks += response
+        tracks += [ i["track"] for i in response ]
         
     for track in tracks:
         album = track["album"]["name"]
