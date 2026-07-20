@@ -29,22 +29,20 @@ def download_artwork(query, save_into):
         print(f"Skipping {save_as}, which is already downloaded")
         return
     print(f"Downloading: {query} (slugified to {save_as.with_suffix('').stem})", end=" ")
-    start_chrome("https://bendodson.com/projects/itunes-artwork-finder/", headless=True)
+    start_chrome("https://bendodson.com/projects/apple-music-artwork-finder/", headless=True)
     link = None
     try:
-        entity_selector = S("#entity").web_element
-        select(entity_selector, "Album")
         write(query.replace(">", " ").replace("<", " ").replace("(", " ").replace(")", " "), into=S("#query").web_element)
         click("Get the artwork")
 
-        wait_until(lambda: not Text("Searching...").exists())
+        wait_until(lambda: not Text("Searching Apple Music albums...").exists())
 
-        if Text("No results found.").exists():
+        if Text("No albums found.").exists():
             kill_browser()
             print(f"[red][bold] not found on iTunes")
             return
 
-        link = find_all(S("#results a"))[1].web_element.get_attribute("href") # first link is going to be to standard res. image of first result, second one (what we want) is high-res of first result.
+        link = find_all(S("#results a"))[2].web_element.get_attribute("href") # first 2 links are going to be to standard res. images of first result, second one (what we want) is high-res of first result.
     except Exception:
         print()
     finally:
