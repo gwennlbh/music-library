@@ -63,20 +63,18 @@ def download_artwork(query, save_into):
 
 def download_artworks(playlist_url, save_into):
     response = spotify.playlist_tracks(playlist_url)["items"]
-    tracks = [ i["track"] for i in response ]
+    to_track = lambda i: ( i["track"]["album"]["artists"][0]["name"], i["track"]["album"]["name"] )
+    tracks: set[tuple[str, str]] = { to_track(i) for i in response }
     
     offset = 0
     while len(response) >= 50:
         offset += 1
         response = spotify.playlist_tracks(playlist_url, offset=offset)["items"]
-        tracks += [ i["track"] for i in response ]
+        tracks |= { to_track(i) for i in response }
 
-    print("Will download cover arts for:", [ f"{t["album"]["name"]} by {t["album"]["artists"][0]["name"]}" for t in tracks ] )
+    print("Will download cover arts for:", tracks )
         
-    for track in tracks:
-        album = track["album"]["name"]
-        artist = track["album"]["artists"][0]["name"]
-
+    for (artist, album) in tracks:
         try:
             download_artwork(f"{artist} {album}", save_into)
         except Exception as e:
