@@ -1,5 +1,6 @@
 $stdout
 '•. ¸¸ .•´¯data cluster ¯'•. ¸¸ .•´
+1-800 GIRLS
 100 gecs
 20syl
 2charm
@@ -55,6 +56,7 @@ Bakermat
 Baril
 Barker
 Barry Can't Swim
+Bassvictim
 Baths
 Bby Eco
 Beacon
@@ -159,6 +161,7 @@ Fleuves
 Floating Points
 Floex
 Flume
+Foals
 Foehn Trio
 Four Tet
 Fox Stevenson
@@ -209,6 +212,7 @@ Inwards
 Irène Drésel
 Ishmael Ensemble
 Jacana People
+Jacques Greene
 Jai Paul
 Jai Wolf
 Jake Chudnow
@@ -222,6 +226,7 @@ Janus Rasmussen
 Jasper Tygner
 Jeremy Blake
 Jerry Folk
+Jeshi
 Jim-E Stack
 Joe Ford
 Johannes Heil
@@ -419,6 +424,7 @@ Stimming
 Sto
 Stubborn Heart
 Sublab
+Subtronics
 Sungazer
 Supernaive
 Swardy
@@ -517,12 +523,15 @@ edIT
 edapollo
 eliderp
 fawn burke
+flipturn
 ford.
 fox capture plan
 fusq
 gabby start
 glittr
+han.irl <3
 hemlocke springs
+horsegiirL
 i_o
 ibi
 il:lo
