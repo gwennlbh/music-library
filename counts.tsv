@@ -1,11 +1,11 @@
-14806	
+14826	
 105	deadmau5
 103	Mr. Bill
 90	Snail's House
 79	Max Cooper
 76	Radiohead
 70	Rival Consoles
-58	Sublab
+59	Sublab
 58	No Mana
 56	underscores
 55	Porter Robinson
@@ -34,8 +34,8 @@
 33	Purity Ring
 33	Massive Attack
 32	Lane 8
+32	CloudNone
 31	Flume
-31	CloudNone
 30	The Flashbulb
 30	20syl
 29	Rob Clouth
@@ -56,6 +56,7 @@
 26	Loyle Carner
 26	Jon Hopkins
 26	Indian Wells
+26	Grandbrothers
 26	French 79
 26	Daft Punk
 26	BAYNK
@@ -64,7 +65,6 @@
 25	Moe Shop
 25	Maribou State
 25	Hiatus Kaiyote
-25	Grandbrothers
 25	Alex Banks
 24	Sysdemes
 24	DROELOE
@@ -96,6 +96,7 @@
 21	Rodriguez Jr.
 21	meat computer
 21	Flawed Mangoes
+21	Chrome Sparks
 21	AK
 20	Tennyson
 20	Robot Koch
@@ -105,8 +106,8 @@
 20	Lorde
 20	Jane Remover
 20	Ekcle
+20	Direct
 20	David Maxim Micic
-20	Chrome Sparks
 20	AURORA
 20	Android52
 19	Ross from Friends
@@ -115,7 +116,6 @@
 19	Floating Points
 19	Echo Map
 19	DJ Seinfeld
-19	Direct
 19	Culprate
 19	clammbon
 19	Bad Computer
@@ -131,6 +131,7 @@
 18	Geoxor
 18	Four Tet
 18	DVRST
+18	Bonobo
 17	Yussef Dayes
 17	Parcels
 17	Mid-Air Thief
@@ -138,7 +139,6 @@
 17	HAAi
 17	FKA twigs
 17	Endless Dive
-17	Bonobo
 17	BICEP
 17	Beacon
 17	alt-J
@@ -155,6 +155,7 @@
 16	Moderat
 16	Louf
 16	Knapsack
+16	il:lo
 16	Foals
 16	edapollo
 16	Cubicolor
@@ -170,7 +171,6 @@
 15	Mat Zo
 15	Magdalena Bay
 15	Lena Raine
-15	il:lo
 15	Extrawelt
 15	Eminem
 15	Aoki Takamasa
@@ -194,6 +194,7 @@
 14	Digitalism
 14	demotapes
 14	Dark Sky
+14	daine
 14	Bakermat
 14	Arthur Hnatek
 14	Aiobahn
@@ -241,9 +242,9 @@
 12	Gui Boratto
 12	gabby start
 12	fox capture plan
-12	daine
 12	clipping.
 12	brakence
+12	Ben Lukas Boysen
 12	Athletic Progression
 11	Tycho
 11	The Grogans
@@ -274,7 +275,6 @@
 11	Christian Löffler
 11	Bubble Love
 11	Booka Shade
-11	Ben Lukas Boysen
 11	Amon Tobin
 11	Ambassadeurs
 11	Aloboi
@@ -328,6 +328,7 @@
  9	Blue Wednesday
  9	ATRIP
  9	Atlantik
+ 9	Arlo
  9	Ametsub
  8	Ásgeir
  8	Yppah
@@ -368,6 +369,7 @@
  8	Golden Vessel
  8	Gold Panda
  8	False Noise
+ 8	Elderbrook
  8	ear
  8	Dorian Concept
  8	Disco Lines
@@ -380,7 +382,6 @@
  8	Boss Axis
  8	Ben Böhmer
  8	Atura
- 8	Arlo
  8	Aleksandir
  8	Akuratyde
  8	After Wes
@@ -419,10 +420,10 @@
  7	Fox Stevenson
  7	Fine-Sir-1584660650
  7	Eprom
- 7	Elderbrook
  7	Danny L Harle
  7	Cosette
  7	Bearcubs
+ 7	beansclub
  7	Bby Eco
  7	Barry Can't Swim
  7	Barker
@@ -496,7 +497,6 @@
  6	BOP
  6	Black Eyed Peas
  6	Bi Disc
- 6	beansclub
  6	beabadoobee
  6	Au5
  6	Alison Wonderland
@@ -1109,6 +1109,7 @@
  2	Vajra
  2	Vaarwell
  2	UTO
+ 2	User2222
  2	upusen
  2	Unfound
  2	Ujico*
@@ -1846,6 +1847,7 @@
  2	Amy Millan
  2	Amos Roddy
  2	Amixem
+ 2	amil raja
  2	alyzea
  2	Alvvays
  2	Aluna
@@ -2152,7 +2154,6 @@
  1	Vacant
  1	Vaance
  1	User-177606669
- 1	User2222
  1	Urbangarde
  1	Urban Cone
  1	Unusual Cosmic Process
@@ -3122,6 +3123,7 @@
  1	Nuver
  1	Nutrition
  1	nuphory
+ 1	null/fx
  1	nuclear catbomb
  1	Nubya Garcia
  1	Nu Aspect
@@ -3202,6 +3204,7 @@
  1	NekoSnicker
  1	NEFFEX
  1	Nedja
+ 1	Nedaj
  1	Neat Beats
  1	Neal Slateford
  1	Neak
@@ -3734,6 +3737,7 @@
  1	Kwengface
  1	Kwake Bass
  1	Kuspe
+ 1	kurt aka
  1	KuroUsa(WhiteFlame)
  1	Kuraine
  1	Kungs
@@ -3832,6 +3836,7 @@
  1	Kenshi Yonezu
  1	Keni Sakuda
  1	Ken Carson
+ 1	Keir Gibson
  1	Kehina
  1	Keenan Mathias
  1	KE-YEN
@@ -5292,7 +5297,6 @@
  1	AMNES
  1	amne
  1	Amine Farsi
- 1	amil raja
  1	amies
  1	Amelia Jones
  1	Ambynt
@@ -5343,6 +5347,7 @@
  1	Alessandro Cortini
  1	Alesda!
  1	Alegria
+ 1	aldn
  1	Alcemist
  1	Alastor
  1	Alana Markel
