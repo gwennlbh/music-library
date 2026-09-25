@@ -4,6 +4,7 @@ $stdout
 100 gecs
 20syl
 2charm
+33 Below
 8485
 A. G. Cook
 AK
@@ -47,6 +48,7 @@ Athletic Progression
 Atlantik
 Atoms For Peace
 Atura
+Au5
 Austin Coven
 Azaleh
 BAYNK
@@ -70,6 +72,7 @@ Bladee
 Bloc Party
 Blue Wednesday
 Blumen
+Blusher
 Boards of Canada
 Bonobo
 Booka Shade
@@ -152,6 +155,7 @@ Extrawelt
 FJAAK
 FKA twigs
 False Noise
+Father Of Peace
 Feed Me
 Feist
 Fejká
@@ -224,6 +228,7 @@ Jamiroquai
 Jan Blomqvist
 Jane Remover
 Janus Rasmussen
+Jaron Steele
 Jasper Tygner
 Jeremy Blake
 Jerry Folk
@@ -236,6 +241,7 @@ Jon Hopkins
 Jordan Rakei
 Josh Cohen
 Joshy
+Juelz
 Jukaa
 Jura7Park
 Just Jack
@@ -285,6 +291,7 @@ Lucia Loot
 Luke Abbott
 Lusine
 M.A.N.D.Y.
+MARiMARi
 METRO MEW
 MIKA
 Mac Miller
@@ -415,6 +422,7 @@ Snail's House
 Sneaker Pimps
 Soleeman
 Solomun
+Sophia Stel
 Sound of Fractures
 South Arcade
 Squarepusher
@@ -446,8 +454,10 @@ Tame Impala
 Telefon Tel Aviv
 Teminite
 Tennyson
+The Bird
 The Caracal Project
 The Dø
+The Femcels
 The Flashbulb
 The Grogans
 The Hellp
@@ -466,6 +476,7 @@ Tom Hodge
 Tom Misch
 Tom VR
 Tomggg
+Tommy Fleece
 Tourist
 Tricky
 Tristam
@@ -510,10 +521,13 @@ Zedd
 Zermatt
 Zes
 [Post-foetus]
+aftrr!
+aidn.
 alt-J
 applecutter01
 beabadoobee
 beansclub
+biblemami
 brakence
 bôa
 clammbon
@@ -574,6 +588,7 @@ tricot
 tsubi club
 underscores
 venturing
+vi0let
 vimae
 voisart
 webcage
@@ -588,4 +603,5 @@ zaire.
 ヨルシカ
 中村佳穂
 宇宙ネコ子
+水中スピカ
 美波
