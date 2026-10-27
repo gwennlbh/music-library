@@ -4,6 +4,7 @@ $stdout
 100 gecs
 20syl
 2charm
+2hollis
 33 Below
 8485
 A. G. Cook
@@ -147,6 +148,7 @@ Elle Cordova
 Eminem
 Endless Dive
 Eprom
+Erika de Casier
 Ethan Bortnick
 Eugene Godsoe
 Everything Is Recorded
@@ -169,6 +171,7 @@ Flume
 Foals
 Foehn Trio
 Four Tet
+Fox Haynes
 Fox Stevenson
 Frank Wiedemann
 Fred again..
@@ -190,6 +193,7 @@ Gold Panda
 Golden Features
 Golden Vessel
 Grandbrothers
+Greentea Peng
 Groundislava
 Gui Boratto
 HAAi
@@ -252,6 +256,7 @@ Kaskade
 Kelpe
 Kendrick Lamar
 Kero Kero Bonito
+Kesha
 Kessoncoda
 Kettel
 Kiasmos
@@ -316,6 +321,7 @@ Merrin Karras
 Metric
 Microtrauma
 Mid-Air Thief
+Mietze Conte
 Mild Minds
 Milkoi
 Miora
@@ -325,6 +331,7 @@ Moe Shop
 Mr. Bill
 Mr. J. Medeiros
 Mura Masa
+Muse
 NTO
 Namasenda
 Nathan Fake
@@ -341,6 +348,7 @@ No Spirit
 Non Square
 Nordic Pulse
 Nowfeel
+Nuage
 Nujabes
 Népal
 O'Flynn
@@ -379,6 +387,7 @@ Pretty Girl
 Ptite Soeur
 Purity Ring
 Qrion
+Quadeca
 RY X
 Radiohead
 Rage Against The Machine
@@ -405,6 +414,7 @@ Sainté
 Sampha
 San Holo
 Sandhouse
+Saska
 SawanoHiroyuki[nZk]
 Sayuri
 Senbeï
@@ -517,6 +527,7 @@ Yunomi
 Yussef Dayes
 Yves
 Yvette Young
+ZIG MENTALITY
 Zaire
 Zedd
 Zermatt
@@ -528,6 +539,7 @@ alt-J
 applecutter01
 beabadoobee
 beansclub
+bh
 biblemami
 brakence
 bôa
@@ -573,11 +585,13 @@ notsure
 pluko
 predawka
 projektbau
+rad cat
 rebound girl
 ryscu
 s8jfou
 salute
 saoirse dream
+satine
 sir Was
 sora
 the olllam
@@ -594,6 +608,7 @@ vimae
 voisart
 webcage
 wes mills
+wilo wilde
 xaev
 yeule
 zaire.
